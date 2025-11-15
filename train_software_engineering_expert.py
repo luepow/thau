@@ -491,12 +491,8 @@ result = df.groupby('category').agg({'amount': 'sum'})
         print(f"   Epochs: {epochs}")
         print(f"   Learning Rate: {learning_rate}\n")
 
-        # Configurar LoRA para fine-tuning eficiente
-        self.manager.setup_lora(
-            r=32,  # Rank más alto para capturar patrones complejos
-            lora_alpha=64,
-            target_modules=["q_proj", "v_proj", "k_proj", "o_proj"]
-        )
+        # El modelo ya tiene LoRA habilitado desde __init__
+        # No necesitamos llamar setup_lora() adicional
 
         total_steps = len(self.training_examples) * epochs
         step = 0
@@ -517,12 +513,14 @@ result = df.groupby('category').agg({'amount': 'sum'})
 {example['answer']}
 <|endoftext|>"""
 
-                # Entrenar con este ejemplo
-                loss = self.manager.train_step(
-                    training_text,
+                # Entrenar con este ejemplo (train_step espera lista de textos)
+                metrics = self.manager.train_step(
+                    [training_text],  # Pasar como lista
                     learning_rate=learning_rate,
-                    num_steps=5  # 5 steps por ejemplo
+                    gradient_accumulation_steps=2
                 )
+
+                loss = metrics.get('loss', 0.0)
 
                 epoch_loss += loss
                 step += 1
