@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfC\u00f3mo se usa cliente?",
+  "input": "",
+  "output": "\u00bfCu\u00e1l es el significado correcto del t\u00e9rmino \"cliente\"? El t\u00e9rmino \"cliente\" tiene un significado muy amplio, no obstante, se puede definir como alguien que realiza compras o transacciones con un negocio o empresa. De ah\u00ed su nombre en ingl\u00e9s, \"customer\".\n\nEn espa\u00f1ol, \"Cliente\" tambi\u00e9n se utiliza para referirse a una persona que compra algo de un producto o servicio. Por ejemplo:\n\n- El cliente siempre espera ser atendido r\u00e1pidamente.\n- Nuestro cliente preferir\u00e1 comprar nuestros productos en l\u00ednea.\n\nAdem\u00e1s del uso literal, el t\u00e9rmino puede ser utilizado en contextos m\u00e1s especiales como \"cliente propietario\" para referirse a alguien que es due\u00f1o o propietario de una empresa o negocio.",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-14T10:02:56.606653",
+  "hash": "5a5728e6d2fe71bae79cd6ceed058b47"
+}

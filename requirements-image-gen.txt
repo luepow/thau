@@ -1,0 +1,13 @@
+# Dependencias para generación de imágenes con THAU
+
+# Modelos de difusión
+diffusers>=0.25.0
+transformers>=4.36.0
+accelerate>=0.25.0
+
+# Procesamiento de imágenes
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Optimización
+xformers>=0.0.23  # Opcional pero recomendado para Apple Silicon

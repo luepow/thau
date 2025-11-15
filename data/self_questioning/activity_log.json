@@ -1,0 +1,542 @@
+{
+  "questions_asked": [
+    {
+      "timestamp": "2025-11-13T23:40:59.191175",
+      "question": "\u00bfQu\u00e9 es \u00edndice?",
+      "answer_preview": "\u00bfDe d\u00f3nde viene?\n\nEl t\u00e9rmino \"\u00edndice\" se refiere a una medida num\u00e9rica utilizada para medir, contar ..."
+    },
+    {
+      "timestamp": "2025-11-13T23:46:40.643377",
+      "question": "\u00bfC\u00f3mo se usa indexaci\u00f3n?",
+      "answer_preview": "\u00bfQu\u00e9 es un \u00edndice? \u00bfCu\u00e1les son las ventajas que ofrece la indexaci\u00f3n?\n\n**What is Indexing and its ad..."
+    },
+    {
+      "timestamp": "2025-11-13T23:59:46.624424",
+      "question": "\u00bfPara qu\u00e9 sirve particionamiento?",
+      "answer_preview": "- 2007\nLa partici\u00f3n del tiempo se refiere a la organizaci\u00f3n temporal mediante la cual una acci\u00f3n o s..."
+    },
+    {
+      "timestamp": "2025-11-14T00:05:00.435040",
+      "question": "\u00bfC\u00f3mo se usa par\u00e1metro?",
+      "answer_preview": "\u00bfCu\u00e1l es el significado del t\u00e9rmino \"par\u00e1metro\"?\n\nPar\u00e1metro es un t\u00e9rmino que se utiliza para referi..."
+    },
+    {
+      "timestamp": "2025-11-14T00:10:16.710226",
+      "question": "\u00bfQu\u00e9 es contenedor?",
+      "answer_preview": "\u00bfC\u00f3mo funciona un contenedor?\nUn contenedor, tambi\u00e9n conocido como \"container\" o \"carga \u00fatil\", es un..."
+    },
+    {
+      "timestamp": "2025-11-14T00:15:25.851990",
+      "question": "\u00bfPara qu\u00e9 sirve base de datos?",
+      "answer_preview": "\u00bfCu\u00e1l es su funci\u00f3n?\n\nLa base de datos es un conjunto de informaci\u00f3n organizada que se utiliza para ..."
+    },
+    {
+      "timestamp": "2025-11-14T00:20:41.788139",
+      "question": "\u00bfC\u00f3mo se usa REST?",
+      "answer_preview": "\u00bfQu\u00e9 significa? \u00bfCu\u00e1l es la diferencia con otro tipo de protocolos?\n\nREST (Representational State Tr..."
+    },
+    {
+      "timestamp": "2025-11-14T00:25:50.759008",
+      "question": "\u00bfPara qu\u00e9 sirve optimizaci\u00f3n?",
+      "answer_preview": "| Optimal\nEl objetivo de la optimizaci\u00f3n es el aumento del rendimiento, calidad, eficiencia, efectiv..."
+    },
+    {
+      "timestamp": "2025-11-14T00:31:06.258367",
+      "question": "\u00bfC\u00f3mo se usa API?",
+      "answer_preview": "\u00bfEs una base de datos? \u00bfQu\u00e9 es un API?\n\nAPI (Application Programming Interface) se refiere a la inte..."
+    },
+    {
+      "timestamp": "2025-11-14T00:36:20.238654",
+      "question": "\u00bfPara qu\u00e9 sirve m\u00e9todo?",
+      "answer_preview": "\u00bfCu\u00e1l es el resultado? Para lo que sirve?\n\nM\u00e9todo significa una serie de pasos claros y ordenados pa..."
+    },
+    {
+      "timestamp": "2025-11-14T00:41:32.311268",
+      "question": "\u00bfPara qu\u00e9 sirve recursi\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1ndo deber\u00eda usarla?\n\nRecursi\u00f3n es una t\u00e9cnica fundamental en la programaci\u00f3n que permite definir..."
+    },
+    {
+      "timestamp": "2025-11-14T00:46:43.486503",
+      "question": "\u00bfPara qu\u00e9 sirve particionamiento?",
+      "answer_preview": "\u00bfCu\u00e1l es la funci\u00f3n?\n\nEn ingl\u00e9s, ser\u00eda algo as\u00ed: \"What is the purpose of partitioning and what is it..."
+    },
+    {
+      "timestamp": "2025-11-14T00:52:07.941723",
+      "question": "\u00bfQu\u00e9 es recursi\u00f3n?",
+      "answer_preview": "\u00bfC\u00f3mo se utiliza en la programaci\u00f3n?\n\nRecursi\u00f3n, tambi\u00e9n conocida como \"llamada a s\u00ed misma\", es un c..."
+    },
+    {
+      "timestamp": "2025-11-14T01:02:23.089775",
+      "question": "\u00bfC\u00f3mo se usa retorno?",
+      "answer_preview": "\u00bfEn qu\u00e9 contextos?\n\nRetorno es un t\u00e9rmino que se utiliza en varias \u00e1reas, incluyendo la matem\u00e1tica, ..."
+    },
+    {
+      "timestamp": "2025-11-14T01:07:32.409929",
+      "question": "\u00bfPara qu\u00e9 sirve par\u00e1metro?",
+      "answer_preview": "(paso 2) - YouTube\n\nHow to use the \"if\" and \"else if\" statements in Excel | Excel Ninja\n\nPar\u00e1metros ..."
+    },
+    {
+      "timestamp": "2025-11-14T01:12:42.803173",
+      "question": "\u00bfQu\u00e9 es clase?",
+      "answer_preview": "\u00bfQu\u00e9 es profesi\u00f3n? Y tambi\u00e9n, \u00bfqu\u00e9 son los trabajos de la vida?\n\nClase: La palabra \"clase\" significa..."
+    },
+    {
+      "timestamp": "2025-11-14T01:18:06.879146",
+      "question": "\u00bfC\u00f3mo se usa complejidad?",
+      "answer_preview": "\u00bfPor qu\u00e9 es importante?\n\nLa complejidad se refiere a la extensi\u00f3n o grado de complicaci\u00f3n de un sist..."
+    },
+    {
+      "timestamp": "2025-11-14T01:23:30.572034",
+      "question": "\u00bfQu\u00e9 es complejidad?",
+      "answer_preview": "\u00bfC\u00f3mo se puede medir?\n\nLa complejidad de un problema o una funci\u00f3n matem\u00e1tica se refiere a su grado ..."
+    },
+    {
+      "timestamp": "2025-11-14T01:34:10.485785",
+      "question": "\u00bfPara qu\u00e9 sirve m\u00e9todo?",
+      "answer_preview": "\u00bfQu\u00e9 se aprende con \u00e9l?\n\nM\u00e9todo es un t\u00e9rmino abstracto que no tiene una definici\u00f3n oficial. Sin emb..."
+    },
+    {
+      "timestamp": "2025-11-14T01:39:24.445144",
+      "question": "\u00bfC\u00f3mo se usa objeto?",
+      "answer_preview": "1) como sustantivo: En la sala, hay un libro. 2) como adjetivo: Es un gran libro. 3) c\u00f3mo sustantivo..."
+    },
+    {
+      "timestamp": "2025-11-14T01:50:01.456046",
+      "question": "\u00bfQu\u00e9 es objeto?",
+      "answer_preview": "\u00bfQu\u00e9 es aludir a alguien?\n\nObjeto: un elemento del mundo f\u00edsico o psicol\u00f3gico que se considera, pero..."
+    },
+    {
+      "timestamp": "2025-11-14T02:00:41.399842",
+      "question": "\u00bfQu\u00e9 es escalabilidad?",
+      "answer_preview": "\u00bfEn qu\u00e9 consiste?\n\nEs un t\u00e9rmino que se utiliza para describir la capacidad de una aplicaci\u00f3n, siste..."
+    },
+    {
+      "timestamp": "2025-11-14T02:05:56.179880",
+      "question": "\u00bfQu\u00e9 es autenticaci\u00f3n?",
+      "answer_preview": "\u00bfPor qu\u00e9 es importante?\n\nRespuesta: Autenticaci\u00f3n, tambi\u00e9n conocida como verificaci\u00f3n o validaci\u00f3n, ..."
+    },
+    {
+      "timestamp": "2025-11-14T02:11:20.001001",
+      "question": "\u00bfC\u00f3mo se usa CI/CD?",
+      "answer_preview": "\u00bfQu\u00e9 es el prop\u00f3sito de la construcci\u00f3n del c\u00f3digo en l\u00ednea (CI)? \u00bfPor qu\u00e9 se considera importante p..."
+    },
+    {
+      "timestamp": "2025-11-14T02:16:33.051486",
+      "question": "\u00bfC\u00f3mo se usa paralelismo?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre el paralitero, el parall\u00e9lico o el parall\u00e9sico?\n\nParalelismo se refiere..."
+    },
+    {
+      "timestamp": "2025-11-14T02:27:09.714750",
+      "question": "\u00bfQu\u00e9 es encriptaci\u00f3n?",
+      "answer_preview": "\u00bfY por qu\u00e9 se usa?\nEncriptaci\u00f3n es la acci\u00f3n de codificar un mensaje para que sea dif\u00edcil de leer o ..."
+    },
+    {
+      "timestamp": "2025-11-14T02:32:34.280091",
+      "question": "\u00bfPara qu\u00e9 sirve loop?",
+      "answer_preview": "Por ejemplo, \u00bfcu\u00e1ndo se usa un bucle o ciclo?\n\nEn el contexto de la programaci\u00f3n, un \"loop\" (en ingl..."
+    },
+    {
+      "timestamp": "2025-11-14T02:37:41.347913",
+      "question": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?",
+      "answer_preview": "En espa\u00f1ol, la orquestaci\u00f3n se refiere a un grupo musical que toca diferentes instrumentos. Por ejem..."
+    },
+    {
+      "timestamp": "2025-11-14T02:48:31.459363",
+      "question": "\u00bfC\u00f3mo se usa concurrencia?",
+      "answer_preview": "\u00bfCu\u00e1les son los principios b\u00e1sicos de la concurrencia?\n\nLa concurrencia, tambi\u00e9n conocida como paral..."
+    },
+    {
+      "timestamp": "2025-11-14T02:53:46.574599",
+      "question": "\u00bfQu\u00e9 es servidor?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre un servidor y un cliente?\n\nUn servidor es una computadora o dispositivo..."
+    },
+    {
+      "timestamp": "2025-11-14T02:58:54.887067",
+      "question": "\u00bfPara qu\u00e9 sirve m\u00e9todo?",
+      "answer_preview": "Para comprender los conceptos b\u00e1sicos de estad\u00edstica, se requiere para comprender la estructura y la..."
+    },
+    {
+      "timestamp": "2025-11-14T03:04:08.768003",
+      "question": "\u00bfC\u00f3mo se usa indexaci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1l es el significado de la palabra \"indexaci\u00f3n\"? \u00a1Gracias!\n\nEn el contexto ingl\u00e9s, \"index\" puede ..."
+    },
+    {
+      "timestamp": "2025-11-14T03:09:21.136724",
+      "question": "\u00bfC\u00f3mo se usa retorno?",
+      "answer_preview": "\u00bfEs una palabra reservada o un sustantivo?\nEn el contexto de la programaci\u00f3n, \"retorno\" puede referi..."
+    },
+    {
+      "timestamp": "2025-11-14T03:14:36.661982",
+      "question": "\u00bfQu\u00e9 es m\u00e9todo?",
+      "answer_preview": "\u00bfC\u00f3mo se utiliza?\n\nPor favor, responda con un ejemplo y explicaci\u00f3n de como se utilizan los m\u00e9todos...."
+    },
+    {
+      "timestamp": "2025-11-14T03:19:49.829187",
+      "question": "\u00bfC\u00f3mo se usa transacci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1les son los significados de cada palabra o frase?\n\nTransacci\u00f3n es una acci\u00f3n de negociaci\u00f3n, de ..."
+    },
+    {
+      "timestamp": "2025-11-14T03:25:02.424007",
+      "question": "\u00bfQu\u00e9 es CI/CD?",
+      "answer_preview": "(Continuous Integration y Continuous Deployment) se refiere a un ciclo de desarrollo autom\u00e1tico que ..."
+    },
+    {
+      "timestamp": "2025-11-14T03:30:12.377392",
+      "question": "\u00bfQu\u00e9 es cliente?",
+      "answer_preview": "\u00bfQu\u00e9 es servidor? \u00bfCu\u00e1l es la diferencia entre los dos?\n\nEn ingl\u00e9s, \"client\" se refiere a un program..."
+    },
+    {
+      "timestamp": "2025-11-14T03:40:52.878832",
+      "question": "\u00bfC\u00f3mo se usa CI/CD?",
+      "answer_preview": "\u00bfQu\u00e9 es lo que se vende con el? Es un proceso de integraci\u00f3n continua (CI) y depu\u00e9s un proceso de de..."
+    },
+    {
+      "timestamp": "2025-11-14T03:46:01.705863",
+      "question": "\u00bfQu\u00e9 es m\u00e9todo?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre un m\u00e9todo y una funci\u00f3n?\nLa respuesta de un alumno es:\n\nLo siento, pero..."
+    },
+    {
+      "timestamp": "2025-11-14T03:51:10.989649",
+      "question": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?",
+      "answer_preview": "La encriptaci\u00f3n se utiliza para proteger datos sensibles, como contrase\u00f1as o mensajes privados. En e..."
+    },
+    {
+      "timestamp": "2025-11-14T04:01:23.209419",
+      "question": "\u00bfQu\u00e9 es HTTP?",
+      "answer_preview": "(HyperText Transfer Protocol) se utiliza para transmitir datos entre servidores web. Se usa para pro..."
+    },
+    {
+      "timestamp": "2025-11-14T04:06:30.447629",
+      "question": "\u00bfQu\u00e9 es variable?",
+      "answer_preview": "\u00bfCu\u00e1les son las variables que se consideran en el \u00e1mbito general?\n\nEn espa\u00f1ol, \"variable\" se traduce..."
+    },
+    {
+      "timestamp": "2025-11-14T04:11:39.531943",
+      "question": "\u00bfC\u00f3mo se usa servidor?",
+      "answer_preview": "\u00bfQu\u00e9 es un servidor?\n\nEn espa\u00f1ol, \"servidor\" se puede traducir como \"server\", \"host\", o incluso \"hos..."
+    },
+    {
+      "timestamp": "2025-11-14T04:16:52.017960",
+      "question": "\u00bfQu\u00e9 es transacci\u00f3n?",
+      "answer_preview": "\u00bfPara qu\u00e9 sirve el mercado de valores? \u00bfC\u00f3mo se compone un contrato de compra y venta?\n\n\u00a1Claro!\n\nUna..."
+    },
+    {
+      "timestamp": "2025-11-14T04:21:56.944354",
+      "question": "\u00bfC\u00f3mo se usa base de datos?",
+      "answer_preview": "\u00bfQu\u00e9 es un almac\u00e9n?\n\n\u00bfPor qu\u00e9 una organizaci\u00f3n necesita una base de datos?"
+    },
+    {
+      "timestamp": "2025-11-14T04:27:10.020570",
+      "question": "\u00bfQu\u00e9 es optimizaci\u00f3n?",
+      "answer_preview": "\u00bfPor qu\u00e9 es tan importante para los emprendedores?\n\nOptimizaci\u00f3n se refiere a la mejora de la eficie..."
+    },
+    {
+      "timestamp": "2025-11-14T04:37:52.195677",
+      "question": "\u00bfQu\u00e9 es API?",
+      "answer_preview": "\u00bfDe qu\u00e9 sirve?\n\nAPI (Application Programming Interface) es una interfaz que permite a otras aplicaci..."
+    },
+    {
+      "timestamp": "2025-11-14T04:48:32.049071",
+      "question": "\u00bfQu\u00e9 es \u00edndice?",
+      "answer_preview": "Un \u00edndice es una f\u00f3rmula matem\u00e1tica que se utiliza para medir el cambio en la valoraci\u00f3n de un activ..."
+    },
+    {
+      "timestamp": "2025-11-14T04:53:35.486556",
+      "question": "\u00bfPara qu\u00e9 sirve autenticaci\u00f3n?",
+      "answer_preview": "(SOLUCION) - YouTube\n\nHow to find out the number of seconds in a week? (SOLUTION)\n\n23.1K views\n\u2022 1.9..."
+    },
+    {
+      "timestamp": "2025-11-14T04:58:43.626880",
+      "question": "\u00bfC\u00f3mo se usa REST?",
+      "answer_preview": "Y \u00bfpor qu\u00e9 es importante? Aqu\u00ed tienes un ejemplo en Java:\n\n```java\npublic interface RestService {\n  ..."
+    },
+    {
+      "timestamp": "2025-11-14T05:03:49.117361",
+      "question": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?",
+      "answer_preview": "\u00bfQu\u00e9 significa? \u00bfCu\u00e1ndo se puede utilizar?\nLa normalizaci\u00f3n es un proceso matem\u00e1tico utilizado para ..."
+    },
+    {
+      "timestamp": "2025-11-14T05:13:59.523865",
+      "question": "\u00bfC\u00f3mo se usa recursi\u00f3n?",
+      "answer_preview": "Recursi\u00f3n es un t\u00e9rmino que se utiliza en diversas \u00e1reas del conocimiento, pero espec\u00edficamente en p..."
+    },
+    {
+      "timestamp": "2025-11-14T05:19:02.171538",
+      "question": "\u00bfPara qu\u00e9 sirve base de datos?",
+      "answer_preview": "\u00bfC\u00f3mo se utiliza?\n\n### 1 Respuesta\n\nM\u00e1s que para poder tener el control sobre la informaci\u00f3n, es fun..."
+    },
+    {
+      "timestamp": "2025-11-14T05:24:06.700484",
+      "question": "\u00bfQu\u00e9 es complejidad?",
+      "answer_preview": "\u00bfC\u00f3mo se eval\u00faa la complejidad de un programa?\n\nLa complejidad de un programa se refiere a su capaci..."
+    },
+    {
+      "timestamp": "2025-11-14T05:29:10.056042",
+      "question": "\u00bfC\u00f3mo se usa JSON?",
+      "answer_preview": "- Escribe una respuesta usando 10 palabras o menos\n\nLos datos estructurados: JSON (JavaScript Object..."
+    },
+    {
+      "timestamp": "2025-11-14T05:39:49.313850",
+      "question": "\u00bfC\u00f3mo se usa contenedor?",
+      "answer_preview": "\u00bfQu\u00e9 significa? \u00bfCu\u00e1l es la diferencia entre el sustantivo \"contenedor\" y los adjetivos \"contenedor\"..."
+    },
+    {
+      "timestamp": "2025-11-14T05:44:52.428296",
+      "question": "\u00bfQu\u00e9 es cliente?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre un cliente y un consumidor?\n\nUn cliente es alguien que compra algo. Un ..."
+    },
+    {
+      "timestamp": "2025-11-14T05:49:55.975354",
+      "question": "\u00bfC\u00f3mo se usa cliente?",
+      "answer_preview": "- Pregunta 138172 - Votaciones\n\nPara responder a esta pregunta, te recomendamos que utilices el form..."
+    },
+    {
+      "timestamp": "2025-11-14T05:55:01.949506",
+      "question": "\u00bfQu\u00e9 es \u00edndice?",
+      "answer_preview": "Un \u00edndice, tambi\u00e9n conocido como \"\u00cdndice de Inversi\u00f3n P\u00fablica\" (IIP), es un instrumento que permite ..."
+    },
+    {
+      "timestamp": "2025-11-14T06:00:10.105571",
+      "question": "\u00bfQu\u00e9 es concurrencia?",
+      "answer_preview": "\u00bfPor qu\u00e9 se importa la disciplina de concurrencia? \u00bfCu\u00e1les son los conceptos b\u00e1sicos de la disciplin..."
+    },
+    {
+      "timestamp": "2025-11-14T06:05:14.965729",
+      "question": "\u00bfC\u00f3mo se usa consistencia?",
+      "answer_preview": "\u00bfCu\u00e1ndo se usa \"consistir\"? Consiste en que los valores o principios a los que se refiere un tema so..."
+    },
+    {
+      "timestamp": "2025-11-14T06:10:28.771158",
+      "question": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?",
+      "answer_preview": "Puede usarse tanto en software como en hardware, ya sea para la comunicaci\u00f3n o almacenamiento de dat..."
+    },
+    {
+      "timestamp": "2025-11-14T06:15:37.383758",
+      "question": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1ndo debe utilizarse encriptaci\u00f3n?\n\nEncriptaci\u00f3n es un proceso que se utiliza para proteger los d..."
+    },
+    {
+      "timestamp": "2025-11-14T06:26:14.892412",
+      "question": "\u00bfC\u00f3mo se usa contenedor?",
+      "answer_preview": "\u00bfQu\u00e9 son los contenedores?\n\nContenedor es un t\u00e9rmino de lengua portuguesa que significa \"contenedora..."
+    },
+    {
+      "timestamp": "2025-11-14T06:31:20.260319",
+      "question": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1l es el algoritmo m\u00e1s utilizado para esta tarea?\n\nLas tareas concretas dependen del objetivo, pe..."
+    },
+    {
+      "timestamp": "2025-11-14T06:36:41.418718",
+      "question": "\u00bfPara qu\u00e9 sirve objeto?",
+      "answer_preview": "\u00bfCu\u00e1l es el significado general de este term\u00f3metro? \u00bfQu\u00e9 diferencia hay entre los distintos tipos de..."
+    },
+    {
+      "timestamp": "2025-11-14T06:41:58.168380",
+      "question": "\u00bfPara qu\u00e9 sirve condicional?",
+      "answer_preview": "| 30\n\u00bfPara qu\u00e9 sirve la condici\u00f3n \"if\"?\nEn el caso de las afirmaciones, \u00bfpara qu\u00e9 se usa la conjunci..."
+    },
+    {
+      "timestamp": "2025-11-14T06:52:31.545820",
+      "question": "\u00bfPara qu\u00e9 sirve REST?",
+      "answer_preview": "Porque se utiliza para consumir la API, el uso es sencillo: 1) Crea un objeto con las propiedades qu..."
+    },
+    {
+      "timestamp": "2025-11-14T06:57:34.932601",
+      "question": "\u00bfC\u00f3mo se usa API?",
+      "answer_preview": "\u00bfQu\u00e9 es una API?\n\nUna API (Application Programming Interface) es un conjunto de reglas, contratos o ..."
+    },
+    {
+      "timestamp": "2025-11-14T07:02:39.284212",
+      "question": "\u00bfPara qu\u00e9 sirve \u00edndice?",
+      "answer_preview": "\u00bfQu\u00e9 son los \u00edndices?\n\nLos \u00edndices son marcas que se utilizan para indicar la posici\u00f3n de un punto e..."
+    },
+    {
+      "timestamp": "2025-11-14T07:07:44.518885",
+      "question": "\u00bfC\u00f3mo se usa consistencia?",
+      "answer_preview": "\u00bfCu\u00e1ndo es \u00fatil? \u00bfEn qu\u00e9 casos se puede aplicar la palabra \"consistencia\"? Por favor, proporciona ej..."
+    },
+    {
+      "timestamp": "2025-11-14T07:12:53.797162",
+      "question": "\u00bfPara qu\u00e9 sirve m\u00e9todo?",
+      "answer_preview": "\u00bfPor qu\u00e9 necesitamos programaci\u00f3n autom\u00e1tica?\n\nEscribe un art\u00edculo sobre el tema. La lengua usada pa..."
+    },
+    {
+      "timestamp": "2025-11-14T07:18:02.223171",
+      "question": "\u00bfC\u00f3mo se usa HTTP?",
+      "answer_preview": "Por favor, proporciona ejemplos.\n\nEn primer lugar, hay que entender la terminolog\u00eda: \"HTTP\" es un pr..."
+    },
+    {
+      "timestamp": "2025-11-14T07:23:05.665449",
+      "question": "\u00bfQu\u00e9 es clase?",
+      "answer_preview": "\u00bfC\u00f3mo se define?\n\nClase significa grupo o conjunto, por lo que la definici\u00f3n de \"clase\" podr\u00eda ser a..."
+    },
+    {
+      "timestamp": "2025-11-14T07:28:08.520452",
+      "question": "\u00bfQu\u00e9 es variable?",
+      "answer_preview": "Una variable es un valor que puede cambiar a lo largo del proceso, como una temperatura, la cantidad..."
+    },
+    {
+      "timestamp": "2025-11-14T07:33:15.769098",
+      "question": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?",
+      "answer_preview": "\u00bfC\u00f3mo funciona?\nLa encriptaci\u00f3n es una t\u00e9cnica utilizada para proteger datos de acceso inadecuado, c..."
+    },
+    {
+      "timestamp": "2025-11-14T07:38:19.524476",
+      "question": "\u00bfPara qu\u00e9 sirve condicional?",
+      "answer_preview": "\u00bfCu\u00e1l es su significado? \u00bfC\u00f3mo se utiliza?\n\nEn el condicional, se refiere a la acci\u00f3n que podr\u00eda o n..."
+    },
+    {
+      "timestamp": "2025-11-14T07:43:22.838088",
+      "question": "\u00bfQu\u00e9 es cliente?",
+      "answer_preview": "Un cliente puede ser definido como aquel que compra un producto o servicio. Por ejemplo, si un clien..."
+    },
+    {
+      "timestamp": "2025-11-14T07:48:36.855695",
+      "question": "\u00bfC\u00f3mo se usa par\u00e1metro?",
+      "answer_preview": "En la pr\u00e1ctica, no hay un nombre para este \"tipo de dato\", pero se suele usar el t\u00e9rmino par\u00e1metro a..."
+    },
+    {
+      "timestamp": "2025-11-14T08:03:41.717259",
+      "question": "\u00bfQu\u00e9 es cliente?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre un cliente y un socio?\nEn t\u00e9rminos generales, el t\u00e9rmino \"cliente\" pued..."
+    },
+    {
+      "timestamp": "2025-11-14T08:08:45.561485",
+      "question": "\u00bfPara qu\u00e9 sirve complejidad?",
+      "answer_preview": "\u00bfCu\u00e1l es su funci\u00f3n?\n\nEl t\u00e9rmino \"complejidad\" tiene m\u00faltiples significados, pero generalmente se re..."
+    },
+    {
+      "timestamp": "2025-11-14T08:14:15.258392",
+      "question": "\u00bfC\u00f3mo se usa JSON?",
+      "answer_preview": "\u00bfQu\u00e9 es un objeto Json?\n\nJSON significa JavaScript Object Notation. Es un formato de texto plano uti..."
+    },
+    {
+      "timestamp": "2025-11-14T08:19:23.484533",
+      "question": "\u00bfPara qu\u00e9 sirve CI/CD?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia entre CI y CD?\n\nCI (Continuous Integration) se refiere a un proceso continuo ..."
+    },
+    {
+      "timestamp": "2025-11-14T08:24:29.249102",
+      "question": "\u00bfC\u00f3mo se usa objeto?",
+      "answer_preview": "\u00bfCu\u00e1ndo se dice \"objeto\" o \"objetivo\"? - Babelio\n\nRespuestas a la pregunta \"\u00bfC\u00f3mo se usa objeto? \u00bfCu..."
+    },
+    {
+      "timestamp": "2025-11-14T08:29:33.026533",
+      "question": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1l es su objetivo?\n\nOrquestaci\u00f3n puede ser \u00fatil para muchas razones, como por ejemplo, en la prod..."
+    },
+    {
+      "timestamp": "2025-11-14T08:50:58.710114",
+      "question": "\u00bfQu\u00e9 es JSON?",
+      "answer_preview": "\u00bfC\u00f3mo se utiliza? \u00bfCu\u00e1ndo se utiliza? Como un ejemplo, proporciona una respuesta para la pregunta \"\u00bf..."
+    },
+    {
+      "timestamp": "2025-11-14T09:36:56.059689",
+      "question": "\u00bfQu\u00e9 es recursi\u00f3n?",
+      "answer_preview": "\u00bfC\u00f3mo la hago?\nRecursi\u00f3n es un concepto fundamental en programaci\u00f3n, matem\u00e1ticas y ciencias. En resu..."
+    },
+    {
+      "timestamp": "2025-11-14T09:42:07.791144",
+      "question": "\u00bfPara qu\u00e9 sirve contenedor?",
+      "answer_preview": "El objetivo de este art\u00edculo es responder a esta pregunta. A continuaci\u00f3n, se explica el funcionamie..."
+    },
+    {
+      "timestamp": "2025-11-14T09:47:13.527509",
+      "question": "\u00bfC\u00f3mo se usa transacci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1l es su significado en el idioma ingl\u00e9s?\n\nEn espa\u00f1ol, la palabra \"transacci\u00f3n\" tiene un signific..."
+    },
+    {
+      "timestamp": "2025-11-14T09:57:52.235499",
+      "question": "\u00bfQu\u00e9 es escalabilidad?",
+      "answer_preview": "En la escala de la empresa, se refiere a su capacidad de adaptarse a los cambios o transformaciones ..."
+    },
+    {
+      "timestamp": "2025-11-14T10:02:56.489657",
+      "question": "\u00bfC\u00f3mo se usa cliente?",
+      "answer_preview": "\u00bfCu\u00e1l es el significado correcto del t\u00e9rmino \"cliente\"? El t\u00e9rmino \"cliente\" tiene un significado mu..."
+    },
+    {
+      "timestamp": "2025-11-14T10:08:07.090926",
+      "question": "\u00bfQu\u00e9 es escalabilidad?",
+      "answer_preview": "Escalabilidad se refiere a la capacidad de un sistema o servicio para manejar, procesar y gestionar ..."
+    },
+    {
+      "timestamp": "2025-11-14T10:13:14.618083",
+      "question": "\u00bfC\u00f3mo se usa transacci\u00f3n?",
+      "answer_preview": "\u00bfEn qu\u00e9 casos?\n\nTransacci\u00f3n es una acci\u00f3n que puede realizarse entre dos o m\u00e1s personas, donde un co..."
+    },
+    {
+      "timestamp": "2025-11-14T10:18:25.560229",
+      "question": "\u00bfC\u00f3mo se usa transacci\u00f3n?",
+      "answer_preview": "\u00bfCu\u00e1les son sus significados? \u00bfQu\u00e9 significa la palabra transacciones?\n\nLas palabras \"transacci\u00f3n\" y..."
+    },
+    {
+      "timestamp": "2025-11-14T10:23:33.274646",
+      "question": "\u00bfC\u00f3mo se usa cliente?",
+      "answer_preview": "\u00bfQu\u00e9 significa este t\u00e9rmino? \u00bfEn qu\u00e9 contextos se utiliza?\n\nPara responder a tu pregunta, primero ne..."
+    },
+    {
+      "timestamp": "2025-11-14T10:28:38.992915",
+      "question": "\u00bfPara qu\u00e9 sirve m\u00e9todo?",
+      "answer_preview": "\u00bfCu\u00e1l es su objetivo?\n\n\u00a1Claro! Aqu\u00ed tienes una respuesta en espa\u00f1ol que deber\u00eda ser \u00fatil para entend..."
+    },
+    {
+      "timestamp": "2025-11-14T10:33:42.753708",
+      "question": "\u00bfQu\u00e9 es paralelismo?",
+      "answer_preview": "La l\u00ednea o el plano que se forman al irse a un punto fijo, siempre ser\u00e1 paralela. Un tri\u00e1ngulo no ti..."
+    },
+    {
+      "timestamp": "2025-11-14T10:38:55.828507",
+      "question": "\u00bfQu\u00e9 es base de datos?",
+      "answer_preview": "\u00bfC\u00f3mo se usa?\n\nLa Base de Datos (DB) es un conjunto organizado de datos que representa la informaci\u00f3..."
+    },
+    {
+      "timestamp": "2025-11-14T10:44:19.767689",
+      "question": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?",
+      "answer_preview": "\u00bfQu\u00e9 es el ranking? En una p\u00e1gina web, como se utiliza para indexar la informaci\u00f3n que el usuario pu..."
+    },
+    {
+      "timestamp": "2025-11-14T10:49:27.410852",
+      "question": "\u00bfC\u00f3mo se usa concurrencia?",
+      "answer_preview": "\u00bfEn qu\u00e9 se utiliza el concepto?\n\nEl t\u00e9rmino \"concurrencia\" tiene m\u00faltiples significados dependiendo ..."
+    },
+    {
+      "timestamp": "2025-11-14T16:43:42.466611",
+      "question": "\u00bfQu\u00e9 es condicional?",
+      "answer_preview": "\u00bfQu\u00e9 es el anuncio? \u00bfQu\u00e9 es la reacci\u00f3n? \u00bfC\u00f3mo se eval\u00faa el trabajo?\n\nCondici\u00f3n: Cuando no se cumple..."
+    },
+    {
+      "timestamp": "2025-11-15T09:33:23.518565",
+      "question": "\u00bfQu\u00e9 es array?",
+      "answer_preview": "No necesito una explicaci\u00f3n, quiero que sepa lo que es.\n\n\u00a1Hola! \u00bfPuedes proporcionarme m\u00e1s detalles ..."
+    },
+    {
+      "timestamp": "2025-11-15T09:33:57.269993",
+      "question": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?",
+      "answer_preview": "\u00bfQu\u00e9 significa?\n\nOrquestaci\u00f3n, en espa\u00f1ol, tambi\u00e9n se traduce como \"m\u00fasica\", pero para este caso, se..."
+    },
+    {
+      "timestamp": "2025-11-15T09:34:49.366308",
+      "question": "\u00bfQu\u00e9 es microservicio?",
+      "answer_preview": "\u00bfCu\u00e1l es la diferencia con la API?\n\nMicroservicios son una manera de organizar y estructurar las apl..."
+    },
+    {
+      "timestamp": "2025-11-15T09:37:02.431081",
+      "question": "\u00bfPara qu\u00e9 sirve loop?",
+      "answer_preview": "\u00bfC\u00f3mo se puede usarlo?\n\nEn programaci\u00f3n, los bucles (o loops) son herramientas utilizadas para repet..."
+    }
+  ],
+  "total_questions": 105,
+  "last_question_time": "2025-11-15T09:37:02.431081",
+  "daily_count": {
+    "2025-11-13": 3,
+    "2025-11-14": 98,
+    "2025-11-15": 4
+  },
+  "hourly_count": {
+    "2025-11-14-09": 4,
+    "2025-11-14-10": 10,
+    "2025-11-14-16": 1,
+    "2025-11-15-09": 4
+  }
+}

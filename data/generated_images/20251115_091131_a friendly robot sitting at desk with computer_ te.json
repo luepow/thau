@@ -1,0 +1,11 @@
+{
+  "prompt": "a friendly robot sitting at desk with computer, tech office, vibrant colors, professional digital art",
+  "negative_prompt": "blurry, bad quality, distorted",
+  "num_inference_steps": 25,
+  "guidance_scale": 7.5,
+  "width": 512,
+  "height": 512,
+  "seed": null,
+  "timestamp": "2025-11-15T09:11:31.201478",
+  "image_path": "data/generated_images/20251115_091131_a friendly robot sitting at desk with computer_ te.png"
+}

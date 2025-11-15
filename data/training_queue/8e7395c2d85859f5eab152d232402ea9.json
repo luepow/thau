@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfPara qu\u00e9 sirve \u00edndice?",
+  "input": "",
+  "output": "\u00bfQu\u00e9 son los \u00edndices?\n\nLos \u00edndices son marcas que se utilizan para indicar la posici\u00f3n de un punto espec\u00edfico dentro de una secuencia o una lista. Cada \u00edndice es un n\u00famero asignado a cada elemento de la lista, comenzando desde 0 en el caso del \u00edndice 0. Esto permite identificar r\u00e1pidamente los puntos y elementos de la secuencia o la lista.\n\nPor ejemplo, en una lista de frutas podr\u00eda usarse el siguiente \u00edndice para indicar el nombre de cada fruta:\n\n1. Manzana\n2. Naranja\n3. Pera\n\nEn este caso, el \u00edndice 0 se refiere a \"Manzana\", el \u00edndice 1 es para \"Naranja\" y el \u00edndice 2 corresponde al elemento \"Pera\".",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-14T07:02:39.391746",
+  "hash": "8e7395c2d85859f5eab152d232402ea9"
+}

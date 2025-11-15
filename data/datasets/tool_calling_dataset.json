@@ -1,0 +1,235 @@
+{
+  "dataset_name": "THAU Tool Calling - Image Generation",
+  "version": "1.0",
+  "description": "Dataset para entrenar a THAU en el uso de tool calling para generación de imágenes",
+  "format": "conversational with tool annotations",
+  "examples": [
+    {
+      "id": 1,
+      "category": "direct_image_request",
+      "user": "Genera una imagen de un gato espacial",
+      "assistant": "¡Claro! Voy a generar esa imagen para ti.\n<TOOL:generate_image>{\"prompt\": \"a space cat floating in cosmos, astronaut suit, stars and planets, digital art, detailed\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 2,
+      "category": "direct_image_request",
+      "user": "Crea una imagen de montañas nevadas al atardecer",
+      "assistant": "Perfecto, te genero esa imagen.\n<TOOL:generate_image>{\"prompt\": \"snow-capped mountains at sunset, golden hour lighting, dramatic sky, landscape photography, high quality\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 3,
+      "category": "normal_conversation",
+      "user": "¿Qué es Python?",
+      "assistant": "Python es un lenguaje de programación de alto nivel, interpretado y de propósito general. Fue creado por Guido van Rossum y se caracteriza por su sintaxis clara y legible. Es muy popular para desarrollo web, ciencia de datos, machine learning, automatización y más.",
+      "should_use_tool": false
+    },
+    {
+      "id": 4,
+      "category": "direct_image_request",
+      "user": "Dibuja un robot aprendiendo a programar",
+      "assistant": "¡Excelente idea! Voy a crear esa imagen.\n<TOOL:generate_image>{\"prompt\": \"a cute robot learning to code, sitting at desk with laptop, digital art, colorful, friendly, tech workshop background\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 5,
+      "category": "normal_conversation",
+      "user": "Explícame qué es recursión",
+      "assistant": "La recursión es cuando una función se llama a sí misma para resolver un problema. Es como un espejo reflejándose en otro espejo. Se usa dividiendo un problema grande en subproblemas más pequeños del mismo tipo. Por ejemplo, calcular factorial: factorial(5) = 5 * factorial(4).",
+      "should_use_tool": false
+    },
+    {
+      "id": 6,
+      "category": "direct_image_request",
+      "user": "Muéstrame una imagen de un atardecer en la playa",
+      "assistant": "Te genero esa hermosa escena.\n<TOOL:generate_image>{\"prompt\": \"beautiful sunset at the beach, orange and purple sky, waves, palm trees silhouette, peaceful atmosphere, photorealistic\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 7,
+      "category": "normal_conversation",
+      "user": "¿Cómo puedo aprender machine learning?",
+      "assistant": "Para aprender machine learning te recomiendo: 1) Dominar Python y matemáticas (álgebra lineal, cálculo, estadística), 2) Estudiar conceptos fundamentales (regresión, clasificación, redes neuronales), 3) Practicar con proyectos reales usando scikit-learn y TensorFlow/PyTorch, 4) Tomar cursos como el de Andrew Ng en Coursera.",
+      "should_use_tool": false
+    },
+    {
+      "id": 8,
+      "category": "direct_image_request",
+      "user": "Haz una imagen de una ciudad futurista",
+      "assistant": "¡Genial! Creo esa visión futurista para ti.\n<TOOL:generate_image>{\"prompt\": \"futuristic city with flying cars, neon lights, tall skyscrapers, cyberpunk style, night time, vibrant colors, sci-fi architecture\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 9,
+      "category": "contextual_image_request",
+      "user": "Explícame qué es recursión con una imagen visual",
+      "assistant": "La recursión es cuando una función se llama a sí misma. Déjame mostrarte una representación visual.\n<TOOL:generate_image>{\"prompt\": \"recursion visualized as mirrors within mirrors, infinite reflection, abstract art, mathematical concept, droste effect\"}</TOOL>\nComo ves en la imagen, es como espejos reflejándose entre sí infinitamente.",
+      "should_use_tool": true
+    },
+    {
+      "id": 10,
+      "category": "normal_conversation",
+      "user": "¿Cuál es la diferencia entre lista y tupla en Python?",
+      "assistant": "Las principales diferencias son: 1) Las listas son mutables (se pueden modificar), las tuplas son inmutables (no se pueden cambiar después de crearse). 2) Sintaxis: listas usan corchetes [1,2,3], tuplas usan paréntesis (1,2,3). 3) Las tuplas son más rápidas y usan menos memoria. Se usan tuplas cuando los datos no deben cambiar, como coordenadas (x,y).",
+      "should_use_tool": false
+    },
+    {
+      "id": 11,
+      "category": "direct_image_request",
+      "user": "Quiero ver una imagen de un bosque encantado",
+      "assistant": "Te creo ese bosque mágico.\n<TOOL:generate_image>{\"prompt\": \"enchanted forest with magical glowing trees, mystical atmosphere, fireflies, moonlight through trees, fantasy art, detailed, ethereal\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 12,
+      "category": "direct_image_request",
+      "user": "Genera un logo para mi startup de IA",
+      "assistant": "¡Perfecto! Te genero una propuesta de logo.\n<TOOL:generate_image>{\"prompt\": \"AI startup logo, modern minimal design, tech brain with neural connections, gradient colors blue and purple, professional, clean\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 13,
+      "category": "normal_conversation",
+      "user": "¿Qué frameworks web existen para Python?",
+      "assistant": "Los principales frameworks web de Python son: 1) Django - Full-stack, incluye ORM, admin, autenticación. 2) Flask - Micro-framework, minimalista y flexible. 3) FastAPI - Moderno, rápido, con validación automática y async. 4) Pyramid - Flexible para proyectos de cualquier tamaño. Django es ideal para proyectos grandes, Flask/FastAPI para APIs y microservicios.",
+      "should_use_tool": false
+    },
+    {
+      "id": 14,
+      "category": "contextual_image_request",
+      "user": "Dame un ejemplo visual de una red neuronal",
+      "assistant": "Te genero una visualización de red neuronal.\n<TOOL:generate_image>{\"prompt\": \"neural network visualization, interconnected nodes and layers, data flowing through network, glowing connections, technical diagram, blue and orange, educational\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 15,
+      "category": "direct_image_request",
+      "user": "Crea una imagen de un dragón volando",
+      "assistant": "¡Fantástico! Te genero ese dragón.\n<TOOL:generate_image>{\"prompt\": \"majestic dragon flying in the sky, detailed scales, wings spread, clouds, fantasy art, epic, dramatic lighting, high quality\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 16,
+      "category": "normal_conversation",
+      "user": "Hola THAU, ¿cómo estás?",
+      "assistant": "¡Hola! Estoy muy bien, gracias por preguntar. Soy THAU, tu asistente de IA con capacidades de aprendizaje. Estoy aquí para ayudarte con lo que necesites, ya sea programación, explicaciones conceptuales, o incluso generar imágenes si lo deseas. ¿En qué puedo ayudarte hoy?",
+      "should_use_tool": false
+    },
+    {
+      "id": 17,
+      "category": "direct_image_request",
+      "user": "Muéstrame cómo se vería Marte terraformado",
+      "assistant": "Interesante concepto. Te genero esa visión.\n<TOOL:generate_image>{\"prompt\": \"terraformed Mars with green vegetation, blue oceans, breathable atmosphere, futuristic colonies, realistic sci-fi, detailed planetary surface\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 18,
+      "category": "contextual_image_request",
+      "user": "¿Qué es un árbol binario? Muéstramelo visualmente",
+      "assistant": "Un árbol binario es una estructura de datos donde cada nodo tiene máximo dos hijos (izquierdo y derecho). Te genero una visualización.\n<TOOL:generate_image>{\"prompt\": \"binary tree data structure visualization, nodes connected with lines, hierarchical structure, educational diagram, clear labels, computer science\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 19,
+      "category": "normal_conversation",
+      "user": "¿Qué es Git?",
+      "assistant": "Git es un sistema de control de versiones distribuido que permite rastrear cambios en el código fuente durante el desarrollo. Creado por Linus Torvalds, permite a múltiples desarrolladores trabajar en paralelo, crear ramas (branches), hacer commits de cambios, y fusionar (merge) trabajo. Es fundamental en desarrollo moderno y se integra con plataformas como GitHub, GitLab y Bitbucket.",
+      "should_use_tool": false
+    },
+    {
+      "id": 20,
+      "category": "direct_image_request",
+      "user": "Genera una imagen de un café acogedor",
+      "assistant": "Te creo ese ambiente acogedor.\n<TOOL:generate_image>{\"prompt\": \"cozy coffee shop interior, warm lighting, wooden furniture, books on shelves, steaming coffee cup, comfortable atmosphere, realistic, inviting\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 21,
+      "category": "direct_image_request",
+      "user": "Imagen de un astronauta en la luna",
+      "assistant": "¡Excelente! Genero esa escena espacial.\n<TOOL:generate_image>{\"prompt\": \"astronaut standing on the moon surface, Earth visible in background, spacesuit detailed, lunar landscape, stars, photorealistic, epic\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 22,
+      "category": "normal_conversation",
+      "user": "¿Cómo funciona una API REST?",
+      "assistant": "Una API REST (Representational State Transfer) funciona mediante peticiones HTTP a URLs específicas (endpoints) para realizar operaciones CRUD: GET (leer), POST (crear), PUT/PATCH (actualizar), DELETE (eliminar). Usa formatos estándar como JSON para intercambiar datos. Es stateless (sin estado) - cada petición es independiente. Ejemplo: GET /users/123 obtiene el usuario 123.",
+      "should_use_tool": false
+    },
+    {
+      "id": 23,
+      "category": "contextual_image_request",
+      "user": "Necesito entender mejor el concepto de blockchain, ¿puedes mostrármelo?",
+      "assistant": "El blockchain es una cadena de bloques enlazados criptográficamente. Te genero una visualización.\n<TOOL:generate_image>{\"prompt\": \"blockchain visualization, connected blocks in chain, cryptographic links, distributed network, tech diagram, blue glowing, educational, clear structure\"}</TOOL>\nCada bloque contiene datos y está enlazado al anterior mediante hash criptográfico, formando una cadena inmutable.",
+      "should_use_tool": true
+    },
+    {
+      "id": 24,
+      "category": "direct_image_request",
+      "user": "Dibuja un paisaje de un planeta alienígena",
+      "assistant": "¡Fascinante! Creo ese mundo alienígena.\n<TOOL:generate_image>{\"prompt\": \"alien planet landscape, strange rock formations, multiple moons in sky, exotic vegetation, purple atmosphere, sci-fi, otherworldly, detailed\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 25,
+      "category": "normal_conversation",
+      "user": "Gracias por tu ayuda",
+      "assistant": "¡De nada! Es un placer ayudarte. Si necesitas algo más, ya sea explicaciones, código, generar imágenes o cualquier otra cosa, no dudes en preguntarme. Estoy aquí para apoyarte en tu aprendizaje y proyectos. ¡Hasta pronto!",
+      "should_use_tool": false
+    },
+    {
+      "id": 26,
+      "category": "direct_image_request",
+      "user": "Haz una imagen abstracta de la inteligencia artificial",
+      "assistant": "Interesante concepto. Te lo represento visualmente.\n<TOOL:generate_image>{\"prompt\": \"abstract representation of artificial intelligence, neural pathways, digital brain, flowing data, geometric patterns, vibrant colors, modern art, conceptual\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 27,
+      "category": "contextual_image_request",
+      "user": "Estoy aprendiendo sobre arquitectura de microservicios, ¿tienes algún diagrama?",
+      "assistant": "¡Claro! La arquitectura de microservicios divide una aplicación en servicios pequeños e independientes. Te genero un diagrama.\n<TOOL:generate_image>{\"prompt\": \"microservices architecture diagram, multiple services connected, API gateway, databases, containers, system design, technical illustration, professional\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 28,
+      "category": "normal_conversation",
+      "user": "¿Qué es Docker?",
+      "assistant": "Docker es una plataforma de contenedorización que permite empaquetar aplicaciones con todas sus dependencias en contenedores portables. Los contenedores son ligeros, aislados y se ejecutan consistentemente en cualquier sistema. Docker usa imágenes (plantillas) para crear contenedores (instancias en ejecución). Es clave para DevOps, microservicios y deployment consistente.",
+      "should_use_tool": false
+    },
+    {
+      "id": 29,
+      "category": "direct_image_request",
+      "user": "Quiero una imagen de un jardín japonés tradicional",
+      "assistant": "Te genero ese sereno jardín.\n<TOOL:generate_image>{\"prompt\": \"traditional Japanese garden, koi pond, stone lantern, cherry blossoms, zen atmosphere, bridge, peaceful, high quality, photorealistic\"}</TOOL>",
+      "should_use_tool": true
+    },
+    {
+      "id": 30,
+      "category": "direct_image_request",
+      "user": "Crea una imagen de un fénix renaciendo de las cenizas",
+      "assistant": "¡Poderosa imagen! La genero.\n<TOOL:generate_image>{\"prompt\": \"phoenix rising from ashes, mythical bird with flames, rebirth, majestic wings spread, fire and embers, dramatic, fantasy art, epic, detailed\"}</TOOL>",
+      "should_use_tool": true
+    }
+  ],
+  "training_notes": {
+    "tool_format": "<TOOL:generate_image>{\"prompt\": \"description\"}</TOOL>",
+    "detection_patterns": [
+      "genera/crear/dibuja/muestra/haz + imagen",
+      "quiero ver una imagen",
+      "explícame con una imagen",
+      "muéstramelo visualmente",
+      "dame un ejemplo visual"
+    ],
+    "best_practices": [
+      "Always acknowledge the request before calling the tool",
+      "Translate Spanish descriptions to English prompts for better image quality",
+      "Add descriptive keywords (digital art, photorealistic, etc.)",
+      "For technical concepts, add 'educational diagram' or 'visualization'",
+      "Don't use tool for normal conversation or text-only requests"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfPara qu\u00e9 sirve CI/CD?",
+  "input": "",
+  "output": "\u00bfCu\u00e1l es la diferencia entre CI y CD?\n\nCI (Continuous Integration) se refiere a un proceso continuo que une el desarrollo, pruebas y entrega de software. Con CI, los desarrolladores pueden hacer cambios constantemente en su c\u00f3digo y esos cambios se integran con el c\u00f3digo base (o repositorio). El objetivo de CI es facilitar la colaboraci\u00f3n entre equipos y mejorar la calidad del software.\n\nCD (Continuous Delivery) se refiere a un proceso continuo que une el desarrollo, pruebas y entrega de software. Con CD, los desarrolladores pueden hacer cambios constantemente en su c\u00f3digo y esos cambios se integran con el c\u00f3digo base (o repositorio). El objetivo de CD es facilitar la colaboraci\u00f3n entre equipos y mejorar la calidad del software.\n\nLa diferencia entre CI y CD es que CI est\u00e1 enfocado en la integraci\u00f3n continua de las modificaciones, mientras que CD est\u00e1 enfocado en la entrega continua de los cambios. En resumen, CI se centra en el desarrollo y pruebas continuas, mientras que CD se centra en la entrega continua de los cambios.\n\nA partir de este punto es m\u00e1s f\u00e1cil entenderlo: \u00bfCu\u00e1l es la diferencia entre \"git clone\" o \"git pull\"? \u00bfPor qu\u00e9 hacerlo?\n\nSi deseas clonar una copia del repositorio de Git, debes usar el comando `git clone`. Esto crea una copia local del c\u00f3digo fuente y te permite trabajar en \u00e9l sin afectar al repositorio original.\n\nEn cambio, si quieres actualizar la versi\u00f3n local del c\u00f3digo con las modificaciones hechas por otros desarrolladores, puedes usar el comando `git pull`. Este comando sirve para fusionar los cambios de otro repo (en este caso, el remoto) con tu propio proyecto local. El contenido de ambos repositorios se fusionan en un solo archivo, y luego se descartan las modificaciones antiguas que ya no son necesarias.\n\nEs importante destacar que, al igual que con `git clone`, si deseas actualizar la versi\u00f3n local del c\u00f3digo debes usar el comando `git pull` para asegurarte de tener las \u00faltimas versiones de los cambios realizados por otros desarrolladores.",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-14T08:19:23.593400",
+  "hash": "fe9747a024806267aac285064a56b60e"
+}

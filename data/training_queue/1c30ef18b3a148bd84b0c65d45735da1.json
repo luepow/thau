@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfQu\u00e9 es cliente?",
+  "input": "",
+  "output": "Un cliente puede ser definido como aquel que compra un producto o servicio. Por ejemplo, si un cliente es un cliente del hotel, entonces el hotel ser\u00e1 el cliente. El t\u00e9rmino \"cliente\" tambi\u00e9n se utiliza para referirse a los clientes individuales de una empresa, especialmente cuando se trata de la atenci\u00f3n personalizada y la satisfacci\u00f3n del cliente frente al atendimento da um cliente (para uma empresa)",
+  "metadata": {
+    "confidence": 1.0,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-14T07:43:22.931184",
+  "hash": "1c30ef18b3a148bd84b0c65d45735da1"
+}

@@ -1,0 +1,13 @@
+# Dependencias adicionales para THAU
+
+# Scheduling
+schedule>=1.2.0
+
+# CLI
+click>=8.1.0
+
+# API async
+httpx>=0.25.0
+
+# Utilidades
+python-dateutil>=2.8.0

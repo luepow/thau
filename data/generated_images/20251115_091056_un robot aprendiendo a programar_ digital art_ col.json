@@ -1,0 +1,11 @@
+{
+  "prompt": "un robot aprendiendo a programar, digital art, colorful",
+  "negative_prompt": "blurry, bad quality, distorted",
+  "num_inference_steps": 30,
+  "guidance_scale": 7.5,
+  "width": 512,
+  "height": 512,
+  "seed": null,
+  "timestamp": "2025-11-15T09:10:56.109819",
+  "image_path": "data/generated_images/20251115_091056_un robot aprendiendo a programar_ digital art_ col.png"
+}

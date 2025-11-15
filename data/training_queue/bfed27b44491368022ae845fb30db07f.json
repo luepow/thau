@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfC\u00f3mo se usa HTTP?",
+  "input": "",
+  "output": "Por favor, proporciona ejemplos.\n\nEn primer lugar, hay que entender la terminolog\u00eda: \"HTTP\" es un protocolo de transferencia de datos entre servidores y navegadores web. Este t\u00e9rmino no significa \"hola mundo\", como podr\u00eda ser el caso de muchas veces en Internet.\n\nEn este sentido, se utiliza para comunicarse con los servidores web y otras aplicaciones del internet. Para enviar una solicitud HTTP a un servidor, debes hacer esto:\n\n1. Definir la direcci\u00f3n URL: Esto es lo que debe proporcionar al servidor. Por ejemplo, si el sitio web est\u00e1 en https://www.example.com/, entonces esa es tu direcci\u00f3n de red.\n\n2. Especifica los datos o peticiones para enviar\n\n3. El m\u00e9todo HTTP para esta petici\u00f3n\n- GET - Se usa para obtener un recurso espec\u00edfico.\n- POST - se utiliza para enviar un objeto con el contenido de un formulario o datos en una p\u00e1gina web.\n\nPor ejemplo, si deseas obtener la p\u00e1gina actual del sitio web \"https://www.example.com/\", debes hacer lo siguiente:\n\n1. Definir tu direcci\u00f3n de red: https://www.example.com/\n\n2. Especifica los datos para enviar (si es necesario): No necesitas esto en este caso porque no hay ning\u00fan contenido espec\u00edfico que deseas enviar.\n\n3. El m\u00e9todo HTTP para esta petici\u00f3n: GET\n\nUna solicitud HTTP a la direcci\u00f3n URL indicada anteriormente se env\u00eda con el siguiente formato:\n\n```\nGET https://www.example.com/\n```\n\nEn este ejemplo, \"GET\" es el m\u00e9todo utilizado y \"/https://www.example.com/\" es la direcci\u00f3n de red. Los s\u00edmbolos \"/\" representan el car\u00e1cter barra (\"/\") en la URL del servidor web.\n\nEs importante tener en cuenta que las direcciones de web no tienen extensiones de archivo (por ejemplo, .html) porque los navegadores web son capaces de interpretar autom\u00e1ticamente los archivos y aplicaciones para determinadas extensiones. Sin embargo, si necesitas enviar datos espec\u00edficos a un servidor, debes hacerlo usando la pesta\u00f1a \"POST\" en lugar del m\u00e9todo GET.\n\nEspero que esto te ayude a comprender el uso correcto de HTTP. \u00bfHay algo m\u00e1s o tienes alguna pregunta?",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-14T07:18:02.285601",
+  "hash": "bfed27b44491368022ae845fb30db07f"
+}

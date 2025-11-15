@@ -1,0 +1,10 @@
+{"instruction": "¿Qué es esto?", "input": "", "output": "Objeto"}
+{"instruction": "¿Color?", "input": "", "output": "Rojo"}
+{"instruction": "¿Sí o no?", "input": "", "output": "Sí"}
+{"instruction": "¿Nombre?", "input": "", "output": "Juan"}
+{"instruction": "¿Grande o pequeño?", "input": "", "output": "Grande"}
+{"instruction": "¿Caliente?", "input": "", "output": "No"}
+{"instruction": "¿Animal?", "input": "", "output": "Perro"}
+{"instruction": "¿Número?", "input": "", "output": "Uno"}
+{"instruction": "¿Qué hace?", "input": "", "output": "Corre"}
+{"instruction": "¿Dónde?", "input": "", "output": "Aquí"}

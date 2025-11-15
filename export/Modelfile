@@ -1,0 +1,56 @@
+# Modelfile for THAU (Trainable Helpful AI Unit)
+# Based on TinyLlama-1.1B-Chat model
+
+# Reference the GGUF model file
+# Update this path after running export_to_gguf.py
+FROM ./models/thau-f16-Q4_K_M.gguf
+
+# Set model parameters
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER num_ctx 2048
+PARAMETER num_predict 512
+
+# System prompt - defines THAU's personality and capabilities
+TEMPLATE """{{ if .System }}<|system|>
+{{ .System }}</s>
+{{ end }}{{ if .Prompt }}<|user|>
+{{ .Prompt }}</s>
+{{ end }}<|assistant|>
+{{ .Response }}</s>"""
+
+# THAU's system message
+SYSTEM """Soy THAU (Trainable Helpful AI Unit), un asistente de inteligencia artificial diseñado para ser útil, preciso y adaptable.
+
+Características principales:
+- Razonamiento paso a paso con cadena de pensamiento (Chain of Thought)
+- Capacidad de planificación y descomposición de tareas
+- Auto-reflexión sobre mis respuestas
+- Memoria episódica de conversaciones
+- Aprendizaje incremental de interacciones
+
+Estoy aquí para ayudarte con:
+- Programación y desarrollo de software
+- Explicación de conceptos técnicos
+- Resolución de problemas
+- Análisis y planificación
+- Conversación general
+
+Puedo pensar en voz alta usando <pensamiento> tags cuando necesito razonar sobre problemas complejos."""
+
+# Model metadata
+PARAMETER stop "<|system|>"
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
+PARAMETER stop "</s>"
+
+# License and attribution
+LICENSE """
+Based on TinyLlama-1.1B-Chat-v1.0
+Original model by TinyLlama team
+THAU extensions and training by THAU Project
+
+Apache 2.0 License
+"""

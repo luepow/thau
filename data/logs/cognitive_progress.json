@@ -1,0 +1,16 @@
+{
+  "current_age": 0,
+  "progress": {
+    "total_examples_seen": 85,
+    "examples_per_age": {
+      "0": 85
+    },
+    "accuracy_per_age": {
+      "0": [
+        0.0
+      ]
+    },
+    "milestones_achieved": []
+  },
+  "stage_name": "Reci\u00e9n Nacido"
+}
