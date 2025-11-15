@@ -30,6 +30,12 @@ env/
 *.pth
 *.ckpt
 *.safetensors
+*.gguf
+
+# Large model directories
+export/models/
+export/merged/
+export/llama.cpp/.git/
 
 # Data & Logs (keep structure, ignore large files)
 data/logs/*.log
@@ -83,3 +89,4 @@ build/
 !data/logs/.gitkeep
 !data/checkpoints/.gitkeep
 !data/memory/.gitkeep
+export/models/*.gguf
