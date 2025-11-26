@@ -1,0 +1,12 @@
+{
+  "age": 12,
+  "model_type": "COMPLETE_400M",
+  "steps": 600,
+  "batch_size": 4,
+  "learning_rate": 3e-05,
+  "final_loss": 4.7629190244774025,
+  "training_time_seconds": 870.0726537704468,
+  "dataset_size": 1093,
+  "model_params": 367847424,
+  "timestamp": "2025-11-26 16:33:04"
+}

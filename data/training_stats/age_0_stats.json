@@ -1,9 +1,9 @@
 {
   "age": 0,
-  "start_time": "2025-11-15T09:35:22.035847",
+  "start_time": "2025-11-21T06:00:35.858787",
   "steps_completed": 50,
-  "avg_loss": 0.0,
+  "avg_loss": 7.876972618103029,
   "questions_asked": 1,
   "datasets_generated": 0,
-  "end_time": "2025-11-15T09:37:25.100064"
+  "end_time": "2025-11-21T06:01:44.976356"
 }

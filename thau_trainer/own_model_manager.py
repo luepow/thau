@@ -58,6 +58,14 @@ class ThauOwnModelManager:
             "max_seq_length": 2048,
             "description": "Modelo avanzado para razonamiento complejo"
         },
+        11: {  # 11 años - Modelo pre-adulto
+            "d_model": 896,
+            "n_heads": 14,
+            "n_layers": 18,
+            "d_ff": 3584,
+            "max_seq_length": 3072,
+            "description": "Modelo pre-adulto con capacidad ampliada"
+        },
         12: {  # 12+ años - Modelo completo
             "d_model": 1024,
             "n_heads": 16,
@@ -227,8 +235,13 @@ class ThauOwnModelManager:
 
             # Forward pass
             try:
-                outputs = self.model(input_ids)
-                logits = outputs  # TinyLLM retorna logits directamente
+                outputs = self.model(input_ids, return_dict=True)
+
+                # Extraer logits del diccionario o tensor
+                if isinstance(outputs, dict):
+                    logits = outputs["logits"]
+                else:
+                    logits = outputs
 
                 # Calcular loss (next token prediction)
                 # Shift para predecir siguiente token
@@ -330,7 +343,10 @@ class ThauOwnModelManager:
                 outputs = self.model(input_ids, return_dict=True)
 
                 # Extraer logits del diccionario
-                logits = outputs.get("logits") if isinstance(outputs, dict) else outputs
+                if isinstance(outputs, dict):
+                    logits = outputs["logits"]
+                else:
+                    logits = outputs
 
                 # Obtener logits del último token
                 next_token_logits = logits[0, -1, :]

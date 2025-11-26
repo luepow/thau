@@ -1,0 +1,11 @@
+{
+  "age": 11,
+  "steps": 500,
+  "batch_size": 6,
+  "learning_rate": 5e-05,
+  "final_loss": 5.5912644031047805,
+  "training_time_seconds": 676.7290239334106,
+  "dataset_size": 997,
+  "model_params": 230963712,
+  "timestamp": "2025-11-26 08:40:59"
+}

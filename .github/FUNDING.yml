@@ -1,0 +1,50 @@
+# GitHub Funding Configuration for THAU
+# This enables the "Sponsor" button in your GitHub repository
+
+# IMPORTANT: Replace placeholder usernames with your actual accounts
+# Only uncomment/add platforms you're actually using
+
+# GitHub Sponsors (Recommended - 0% fees)
+github: luepow  # Replace with YOUR GitHub username
+
+# Patreon
+# patreon: your_username
+
+# Open Collective
+# open_collective: your_project
+
+# Ko-fi
+ko_fi: luepow  # Replace with YOUR Ko-fi username
+
+# Buy Me a Coffee
+# buy_me_a_coffee: luepow  # Replace with YOUR Buy Me a Coffee username
+
+# Tidelift
+# tidelift: npm/package-name
+
+# Community Bridge
+# community_bridge: project-name
+
+# Liberapay
+# liberapay: your_username
+
+# IssueHunt
+# issuehunt: your_username
+
+# LFX Crowdfunding
+# lfx_crowdfunding: project-name
+
+# Polar
+# polar: your_username
+
+# Custom links (PayPal, Crypto, etc.)
+# Maximum of 4 custom links
+custom:
+  - https://paypal.me/luisperez
+
+# Cryptocurrency Addresses (for README and donation pages):
+# ETH: 0xbd073FE96238e3818aB789631EEf0Bc3382B656D
+# USDT (TRC-20/Tron): TGXnDLJGJN6kJWvJrF6LAqb1tF49xB5vYa
+# USDT (ERC-20/Ethereum): 0xbd073FE96238e3818aB789631EEf0Bc3382B656D
+# BTC: bc1qlq0hq0tzhqh9g58l02cvu5a0g8xkfr5j4hxmc9
+# TRX: TGXnDLJGJN6kJWvJrF6LAqb1tF49xB5vYa

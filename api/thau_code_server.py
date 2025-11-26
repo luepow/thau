@@ -10,6 +10,11 @@ Exposes:
 - Tool Factory endpoints
 """
 
+# Add project root to Python path
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from fastapi import FastAPI, WebSocket, HTTPException, WebSocketDisconnect
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -322,9 +327,34 @@ async def list_agents():
     return {"agents": agents_list, "total": len(agents_list)}
 
 
+async def call_ollama(prompt: str, model: str = "thau:latest") -> str:
+    """Call Ollama API for code generation"""
+    import httpx
+    ollama_url = "http://localhost:11434/api/generate"
+
+    try:
+        async with httpx.AsyncClient(timeout=60.0) as client:
+            response = await client.post(
+                ollama_url,
+                json={
+                    "model": model,
+                    "prompt": prompt,
+                    "stream": False
+                }
+            )
+
+            if response.status_code == 200:
+                result = response.json()
+                return result.get("response", "No response from Ollama")
+            else:
+                return f"Error calling Ollama: {response.status_code}"
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+
 @app.post("/api/agents/task")
 async def create_agent_task(request: TaskRequest):
-    """Create a task for an agent"""
+    """Create a task for an agent and process it with Ollama"""
     try:
         role = AgentRole(request.role)
     except ValueError:
@@ -335,11 +365,16 @@ async def create_agent_task(request: TaskRequest):
         role=role
     )
 
+    # Process task with Ollama
+    prompt = f"You are a {role.value} AI assistant. {request.description}"
+    ai_response = await call_ollama(prompt)
+
     return {
         "task_id": task.id,
-        "description": task.description,
+        "description": request.description,
+        "result": ai_response,
         "agent_role": task.agent_role.value,
-        "status": task.status
+        "status": "completed"
     }
 
 
@@ -516,7 +551,7 @@ async def startup_event():
     print("="*70)
     print(f"✅ Agent Orchestrator: {len(orchestrator.agents)} agents")
     print(f"✅ MCP Registry: {len(mcp_registry.tools)} tools")
-    print(f"✅ Tool Factory: {len(tool_factory.templates)} templates")
+    print(f"✅ Tool Factory: {len(tool_factory.tool_templates)} templates")
     print(f"✅ API Toolkit: Ready")
     print("="*70)
     print("📡 Server ready to accept connections")
