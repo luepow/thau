@@ -1,349 +1,290 @@
-# THAU - The World's First AI with Visual Imagination and Self-Created Tools
+# THAU - Self-Learning AI Framework
 
-<div align="center">
+<p align="center">
+  <strong>An experimental framework for building self-learning language models with cognitive age progression</strong>
+</p>
 
-![THAU](https://img.shields.io/badge/THAU-AI%20System-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/version-2.0.0-green?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-3.10+-yellow?style=for-the-badge)
-
-**Transformative Holistic Autonomous Unit**
-
-*Making AI Development Accessible to Everyone*
-
-[**Documentación Completa**](docs/README.md) | [**Inicio Rápido**](docs/getting-started/quickstart.md) | [**Instalación**](docs/getting-started/installation.md) | [**Glosario**](docs/GLOSSARY.md)
-
-</div>
+<p align="center">
+  <a href="#features">Features</a> |
+  <a href="#installation">Installation</a> |
+  <a href="#quick-start">Quick Start</a> |
+  <a href="#current-status">Status</a> |
+  <a href="#contributing">Contributing</a>
+</p>
 
 ---
 
-## 🚀 ¿Qué es THAU?
+## What is THAU?
 
-**THAU** es un sistema de inteligencia artificial de última generación que combina capacidades únicas en el mundo:
+THAU (Thinking, Heuristic, Autonomous, Understanding) is an **experimental** framework exploring how AI models can learn progressively, similar to human cognitive development.
 
-### 🌟 Características Revolucionarias
+> **Important**: This is a learning/research project. The models are small (~15M to ~400M parameters) and cannot compete with production LLMs like GPT or Claude. The value is in the *concepts* and *approach*, not the model quality.
 
-#### 1. 🎨 Imaginación Visual Propia (THAU Vision)
-Sistema VAE entrenado desde cero para generar imágenes desde descripciones de texto.
+### What it actually does:
 
-```python
-vision = ThauVisionModel(age=0)
-images = vision.imagine("un robot pintando")
-```
+- **Self-questions** to generate its own training data (2,800+ Q&A pairs generated so far)
+- **Trains progressively** through "cognitive ages" with increasing model complexity
+- **Integrates with Ollama** for answer generation during self-questioning
+- **Exports to GGUF** format for use with Ollama
 
-#### 2. 🏭 Auto-Creación de Herramientas (Único en el Mundo)
-THAU puede crear sus propias herramientas desde lenguaje natural.
+### What it does NOT do (yet):
 
-```python
-factory = ToolFactory()
-tool = factory.create_tool("Consultar API de clima y enviar email")
-# Genera: weather_email_tool.py listo para usar
-```
+- Does not produce production-quality responses
+- Does not truly "understand" - it's pattern matching like any LLM
+- Live learning and external research features are experimental/incomplete
 
-#### 3. 🧠 Crecimiento Cognitivo (Age 0 → 15)
-Modelo que evoluciona de 256K a 2B parámetros según su "edad cognitiva".
+## Current Status
 
-| Edad | Parámetros | Capacidad |
-|------|-----------|-----------|
-| 0 | 256K | Conceptos básicos |
-| 3 | 1.7M | Párrafos coherentes |
-| 7 | 12M | Razonamiento complejo |
-| 15 | 2B | Capacidad completa |
+### Trained Models (Real Data)
 
-#### 4. 🤖 Sistema de 11 Agentes Especializados
-Orquestación inteligente de agentes expertos en diferentes tareas.
+| Age | Parameters | Final Loss | Status |
+|-----|------------|------------|--------|
+| 0 | ~15M | 7.88 | Trained |
+| 1 | ~15M | 5.99 | Trained |
+| 3 | ~15M | 4.50 | Trained |
+| 6 | ~50M | 3.50 | Trained |
+| 11 | ~230M | 5.59 | Trained |
+| 12 | ~367M | 4.76 | Trained |
 
-```
-💬 General  ✍️ Code Writer  👀 Code Reviewer  🐛 Debugger
-🔍 Researcher  📋 Planner  🏗️ Architect  🧪 Tester
-📝 Documenter  🔌 API Specialist  🔒 Security  🎨 Visual Creator
-```
+### Training Data
 
-#### 5. 📚 Self-Learning con Auto-Questioning
-Aprende de sus interacciones y se auto-cuestiona para mejorar.
+- **2,872 Q&A pairs** generated via self-questioning
+- Categories: Python, JavaScript, DevOps, Databases, Architecture, etc.
+- Answer sources: Ollama (llama3.1, deepseek-coder, mistral)
 
-#### 6. 🔌 MCP Compatible
-Interoperable con Claude, OpenAI y otros sistemas mediante Model Context Protocol.
+## Features
 
----
+### Self-Questioning System (Working)
 
-## 📊 ¿Por Qué THAU es Único?
-
-| Característica | THAU | Claude Code | GPT-4 | Copilot |
-|---------------|------|-------------|-------|---------|
-| Imaginación Visual Propia | ✅ | ❌ | DALL-E | ❌ |
-| Auto-Creación de Herramientas | ✅ | ❌ | ❌ | ❌ |
-| Crecimiento Cognitivo | ✅ | ❌ | ❌ | ❌ |
-| 11 Agentes Especializados | ✅ | ❌ | ❌ | ❌ |
-| Self-Learning | ✅ | ❌ | ❌ | ❌ |
-| Desktop App | ✅ | ✅ | ✅ | ✅ |
-| Open Source | ✅ | ❌ | ❌ | ❌ |
-| MCP Compatible | ✅ | ✅ | ✅ | ❌ |
-
----
-
-## 🎯 Casos de Uso
-
-### Desarrollo Full-Stack
-```python
-# Planificar arquitectura
-orchestrator.assign_task("Diseña un sistema de e-commerce", role="planner")
-
-# Escribir código
-orchestrator.assign_task("Implementa la API según el plan", role="code_writer")
-
-# Revisar y testear
-orchestrator.assign_task("Revisa el código y genera tests", role="code_reviewer")
-```
-
-### Generación Visual
-```python
-vision = ThauVisionModel(age=0)
-images = vision.imagine([
-    "logo de startup tech",
-    "interfaz moderna de dashboard",
-    "diagrama de arquitectura microservicios"
-])
-```
-
-### Auto-Herramientas
-```python
-# THAU crea la herramienta automáticamente
-tool = factory.create_tool(
-    "Consultar GitHub API, encontrar issues abiertos y enviar reporte"
-)
-result = tool.execute(repo="microsoft/vscode")
-```
-
----
-
-## 🚀 Inicio Rápido (5 Minutos)
-
-### 1. Instalar
+The core innovation - the model generates questions and uses external LLMs to get answers:
 
 ```bash
-# Clonar repositorio
-git clone https://github.com/your-org/thau.git
+# This actually works and generates training data
+python scripts/intensive_learning.py --questions 50 --model ollama
+```
+
+### Live Learning (Experimental)
+
+Exists but not fully tested:
+- `thau_trainer/live_learning.py` - learns from conversations
+- Needs more development
+
+### External Learning (Experimental)
+
+Code exists but not production-ready:
+- `thau_trainer/external_learning.py` - web/PDF scraping
+- May have bugs
+
+### Multi-Model Integration
+
+- **Ollama**: Local models (Llama, Mistral, DeepSeek, etc.)
+- **Gemini CLI**: Google's Gemini for search/research
+- **Custom models**: Your own trained THAU models
+
+## Installation
+
+### Prerequisites
+
+- Python 3.10+
+- PyTorch 2.0+
+- Ollama (optional, for local models)
+- Gemini CLI (optional, for research)
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/luepow/thau.git
 cd thau
 
-# Crear entorno virtual
-python3 -m venv venv
-source venv/bin/activate
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Instalar dependencias
+# Install dependencies
 pip install -r requirements.txt
-```
 
-### 2. Configurar
-
-```bash
+# Copy environment configuration
 cp .env.example .env
-# Editar .env con tu configuración
+
+# (Optional) Install Ollama models
+ollama pull llama3.1:8b
+ollama pull mistral:latest
 ```
 
-### 3. Entrenar (Opcional)
+## Quick Start
+
+### 1. Self-Questioning Session
+
+Generate Q&A pairs for training:
 
 ```bash
-# Entrenar THAU Vision
-python train_thau_vision.py --age 0 --epochs 30
+# Generate 50 questions across all categories
+python scripts/intensive_learning.py --questions 50 --age 12
 
-# Entrenar THAU-2B
-python train_thau_2b.py --target-age 15
+# Focus on a specific category
+python scripts/intensive_learning.py --category python_advanced --questions 100
 
-# Entrenar Software Engineering Expert
-python train_software_engineering_expert.py
+# Use a specific model for answers
+python scripts/intensive_learning.py --questions 50 --model ollama
 ```
 
-### 4. Usar
+### 2. Train a Model
 
 ```bash
-# Iniciar API Server
-python api/thau_code_server.py
+# Train Age 3 model (starter)
+python scripts/train_phase1.py --epochs 3 --batch-size 4
 
-# O usar Desktop App
-cd thau-code-desktop
-npm install && npm run dev
+# Progress to Age 6
+python train_age_6.py --steps 500 --batch 4
+
+# Continue to higher ages...
+python train_age_12.py --steps 600 --batch 4
 ```
 
----
+### 3. Interactive Chat
 
-## 📚 Documentación Completa
-
-Toda la documentación está organizada en la carpeta [`docs/`](docs/README.md):
-
-### Para Empezar
-- [**Instalación**](docs/getting-started/installation.md) - Configuración paso a paso
-- [**Inicio Rápido**](docs/getting-started/quickstart.md) - Primeros pasos
-- [**Glosario**](docs/GLOSSARY.md) - Términos y conceptos
-
-### Arquitectura
-- [Visión General](docs/architecture/overview.md)
-- [THAU-2B](docs/architecture/thau-2b.md) - Modelo de lenguaje
-- [THAU Vision](docs/architecture/thau-vision.md) - Sistema visual
-- [Sistema de Agentes](docs/architecture/thau-agents.md) - Agentes especializados
-
-### Guías
-- [Entrenamiento THAU-2B](docs/guides/training-thau-2b.md)
-- [Generación de Imágenes](docs/guides/image-generation.md)
-- [Tool Calling](docs/guides/tool-calling.md)
-- [Sistema de Agentes](docs/guides/agent-system.md)
-
-### API
-- [REST API](docs/api/rest-api.md)
-- [WebSocket](docs/api/websocket.md)
-- [MCP Protocol](docs/api/mcp-protocol.md)
-
----
-
-## 🎓 Entrenamientos Especializados
-
-THAU puede entrenarse para ser experto en dominios específicos:
-
-### Software Engineering Expert
 ```bash
-python train_software_engineering_expert.py
+# Start the API server
+python api/main.py
+
+# Or use the CLI
+python thau_trainer/live_learning.py --chat
 ```
 
-Aprende:
-- Desarrollo Backend (FastAPI, Django, bases de datos)
-- Desarrollo Frontend (React, TypeScript, estado)
-- Mejores Prácticas (SOLID, Clean Code, Design Patterns)
-- Algoritmos y Estructuras de Datos
-- Código simple y mantenible
-- Decisiones con sentido común
+### 4. Learn from External Sources
 
----
+```bash
+# Learn from a URL
+python thau_trainer/external_learning.py --url "https://docs.python.org/3/tutorial/" --topic python
 
-## 🛠️ Componentes del Sistema
+# Learn from a PDF
+python thau_trainer/external_learning.py --pdf /path/to/book.pdf --topic programming
 
-### THAU Core
+# Research a topic with Gemini
+python thau_trainer/external_learning.py --research "machine learning basics" --depth deep
+```
+
+## Architecture
+
 ```
 thau/
-├── core/                    # Modelos transformer
-│   ├── models/             # TinyLLM, Attention, Layers
-│   ├── tokenizer/          # Tokenización BPE
-│   ├── training/           # Trainers, Optimizadores
-│   └── inference/          # Generación de texto
-├── thau_models/            # Modelos especializados
-│   ├── vision_model.py     # THAU Vision (VAE)
-│   └── tool_calling.py     # Invocación de herramientas
-├── thau_agents/            # Sistema de agentes
-│   ├── agent_system.py     # Orquestador
-│   ├── planner.py          # Planificación
-│   ├── tool_factory.py     # Auto-creación
-│   └── mcp_integration.py  # Protocolo MCP
-├── memory/                 # Sistema de memoria
-│   ├── manager.py          # Coordinador
-│   ├── short_term.py       # Buffer conversacional
-│   ├── long_term.py        # ChromaDB (RAG)
-│   └── episodic.py         # Memoria temporal
-└── api/                    # REST API + WebSocket
-    └── thau_code_server.py # Servidor principal
+├── api/                    # REST API (FastAPI)
+│   ├── main.py
+│   └── routes/
+├── core/                   # Core ML components
+│   ├── models/            # Neural network architectures
+│   ├── training/          # Training infrastructure
+│   ├── inference/         # Text generation
+│   └── tokenizer/         # Tokenization
+├── memory/                 # Memory systems
+│   ├── short_term.py      # Conversation context
+│   ├── long_term.py       # Vector store (ChromaDB)
+│   └── episodic.py        # Temporal experiences
+├── thau_trainer/          # Self-learning systems
+│   ├── self_questioning.py
+│   ├── live_learning.py
+│   ├── external_learning.py
+│   └── own_model_manager.py
+├── adapters/              # Cross-platform support
+│   └── device_manager.py  # MPS/CUDA/CPU detection
+├── scripts/               # Training & utility scripts
+└── data/                  # Data storage
+    ├── self_questioning/  # Generated Q&A pairs
+    ├── knowledge/         # Knowledge base
+    └── checkpoints/       # Model checkpoints
 ```
 
-### THAU Code Desktop
+## Configuration
+
+Key settings in `.env`:
+
+```bash
+# Model
+MODEL_NAME=TinyLlama/TinyLlama-1.1B-Chat-v1.0
+DEVICE=auto  # auto, cuda, mps, cpu
+
+# Training
+BATCH_SIZE=4
+LEARNING_RATE=2e-5
+MAX_LENGTH=1024
+
+# Generation
+TEMPERATURE=0.7
+TOP_P=0.9
 ```
-thau-code-desktop/
-├── src/
-│   ├── components/         # React Components
-│   │   ├── ChatInterface.tsx
-│   │   ├── AgentPanel.tsx
-│   │   ├── PlannerView.tsx
-│   │   ├── ToolFactory.tsx
-│   │   └── CodeEditor.tsx (Monaco)
-│   ├── services/           # API & WebSocket
-│   └── App.tsx
-└── electron/               # Desktop wrapper
-    ├── main.js
-    └── preload.js
+
+## API Reference
+
+### REST Endpoints
+
+```bash
+# Chat
+POST /chat/message
+{
+  "message": "What is Python?",
+  "context": []
+}
+
+# Training
+POST /train/interaction
+{
+  "user_input": "What is a lambda?",
+  "assistant_response": "A lambda is..."
+}
+
+# Memory
+POST /memory/store
+{
+  "content": "Important fact",
+  "importance": 8
+}
 ```
 
----
+## Contributing
 
-## 💻 Requisitos del Sistema
+We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-### Mínimos
-- Python 3.10+
-- 8GB RAM
-- 10GB Disco
-- CPU 4 cores
+### Development Setup
 
-### Recomendados
-- Python 3.11+
-- 16GB+ RAM
-- 50GB SSD
-- GPU 8GB+ (NVIDIA o Apple Silicon)
-- Node.js 18+ (para Desktop App)
+```bash
+# Install dev dependencies
+pip install -e ".[dev]"
 
----
+# Run tests
+pytest tests/ -v
 
-## 🤝 Contribuir
+# Format code
+black .
+isort .
+```
 
-¡Las contribuciones son bienvenidas! Por favor:
+## Roadmap
 
-1. Fork el repositorio
-2. Crea una rama de feature (`git checkout -b feature/amazing`)
-3. Commit tus cambios (`git commit -m 'Add amazing feature'`)
-4. Push a la rama (`git push origin feature/amazing`)
-5. Abre un Pull Request
+- [ ] Multi-language support
+- [ ] Distributed training
+- [ ] Model quantization (INT4/INT8)
+- [ ] Web UI for training monitoring
+- [ ] Plugin system for custom learning sources
 
-Ver [CONTRIBUTING.md](docs/development/contributing.md) para más detalles.
+## License
 
----
+MIT License - see [LICENSE](LICENSE) for details.
 
-## 🔬 Investigación y Papers
+## Acknowledgments
 
-THAU implementa y extiende múltiples trabajos de investigación:
+- Built on [TinyLlama](https://github.com/jzhang38/TinyLlama)
+- Uses [Transformers](https://huggingface.co/transformers) by Hugging Face
+- Inspired by cognitive development research
 
-- **Attention Is All You Need** (Vaswani et al., 2017) - Transformers
-- **RoFormer** (Su et al., 2021) - RoPE
-- **LoRA** (Hu et al., 2021) - Fine-tuning eficiente
-- **Self-Questioning** (Kim et al., 2023) - Auto-mejora
-- **VAE** (Kingma & Welling, 2013) - Generación visual
+## Contact
 
-**Innovaciones propias:**
-1. Tool Factory - Auto-creación de herramientas
-2. Cognitive Growth - Escalado dinámico de parámetros
-3. Multi-Agent Orchestration - Coordinación inteligente
+- **Author**: Luis Perez
+- **Email**: luepow@hotmail.com
+- **GitHub**: [@luepow](https://github.com/luepow)
 
 ---
 
-## 📄 Licencia
-
-MIT License - Ver [LICENSE](LICENSE) para detalles
-
----
-
-## 🙏 Créditos
-
-**THAU Team**
-
-Tecnologías utilizadas:
-- PyTorch 2.0+
-- Transformers (HuggingFace)
-- FastAPI
-- React + TypeScript
-- Electron
-- Monaco Editor
-- ChromaDB
-
----
-
-## 📞 Soporte y Comunidad
-
-- **Documentación**: [docs/](docs/README.md)
-- **GitHub Issues**: [Issues](https://github.com/your-org/thau/issues)
-- **Discussions**: [Discussions](https://github.com/your-org/thau/discussions)
-- **Email**: support@thau-ai.com
-
----
-
-<div align="center">
-
-**Construido con pasión por el futuro de la IA**
-
-*THAU - Transformative Holistic Autonomous Unit*
-
-[⭐ Star en GitHub](https://github.com/your-org/thau) | [📖 Leer Docs](docs/README.md) | [🚀 Empezar Ahora](docs/getting-started/installation.md)
-
-</div>
+<p align="center">
+  Made with curiosity and code
+</p>
