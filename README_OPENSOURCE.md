@@ -8,7 +8,7 @@
   <a href="#features">Features</a> |
   <a href="#installation">Installation</a> |
   <a href="#quick-start">Quick Start</a> |
-  <a href="#architecture">Architecture</a> |
+  <a href="#current-status">Status</a> |
   <a href="#contributing">Contributing</a>
 </p>
 
@@ -16,44 +16,64 @@
 
 ## What is THAU?
 
-THAU (Thinking, Heuristic, Autonomous, Understanding) is an experimental framework for building AI models that can:
+THAU (Thinking, Heuristic, Autonomous, Understanding) is an **experimental** framework exploring how AI models can learn progressively, similar to human cognitive development.
 
-- **Learn continuously** from interactions (like a living being)
-- **Self-question** to generate training data autonomously
-- **Research topics** from the web and PDFs
-- **Progress through cognitive ages** (0-15 years) with increasing complexity
+> **Important**: This is a learning/research project. The models are small (~15M to ~400M parameters) and cannot compete with production LLMs like GPT or Claude. The value is in the *concepts* and *approach*, not the model quality.
 
-> **Note**: This is an educational/experimental project. The trained models are not meant to compete with production LLMs like GPT or Claude, but rather to explore novel approaches to continuous learning.
+### What it actually does:
+
+- **Self-questions** to generate its own training data (2,800+ Q&A pairs generated so far)
+- **Trains progressively** through "cognitive ages" with increasing model complexity
+- **Integrates with Ollama** for answer generation during self-questioning
+- **Exports to GGUF** format for use with Ollama
+
+### What it does NOT do (yet):
+
+- Does not produce production-quality responses
+- Does not truly "understand" - it's pattern matching like any LLM
+- Live learning and external research features are experimental/incomplete
+
+## Current Status
+
+### Trained Models (Real Data)
+
+| Age | Parameters | Final Loss | Status |
+|-----|------------|------------|--------|
+| 0 | ~15M | 7.88 | Trained |
+| 1 | ~15M | 5.99 | Trained |
+| 3 | ~15M | 4.50 | Trained |
+| 6 | ~50M | 3.50 | Trained |
+| 11 | ~230M | 5.59 | Trained |
+| 12 | ~367M | 4.76 | Trained |
+
+### Training Data
+
+- **2,872 Q&A pairs** generated via self-questioning
+- Categories: Python, JavaScript, DevOps, Databases, Architecture, etc.
+- Answer sources: Ollama (llama3.1, deepseek-coder, mistral)
 
 ## Features
 
-### Cognitive Age System
-Models progress through developmental stages, each with increasing complexity:
+### Self-Questioning System (Working)
 
-| Age | Parameters | Description |
-|-----|------------|-------------|
-| 0-3 | ~15M | Basic language understanding |
-| 6 | ~50M | Simple reasoning |
-| 9 | ~150M | Complex patterns |
-| 12 | ~400M | Advanced reasoning |
-| 15 | ~2B | Full cognitive capacity |
+The core innovation - the model generates questions and uses external LLMs to get answers:
 
-### Self-Learning Systems
+```bash
+# This actually works and generates training data
+python scripts/intensive_learning.py --questions 50 --model ollama
+```
 
-1. **Self-Questioning** (`thau_trainer/self_questioning.py`)
-   - Generates its own Q&A pairs for training
-   - Covers multiple knowledge categories
-   - Uses external models (Ollama, Gemini) for answers
+### Live Learning (Experimental)
 
-2. **Live Learning** (`thau_trainer/live_learning.py`)
-   - Learns from each user interaction
-   - Short-term memory for context
-   - Auto-researches unknown topics
+Exists but not fully tested:
+- `thau_trainer/live_learning.py` - learns from conversations
+- Needs more development
 
-3. **External Learning** (`thau_trainer/external_learning.py`)
-   - Scrapes and learns from web pages
-   - Extracts knowledge from PDFs
-   - Research mode for deep topic investigation
+### External Learning (Experimental)
+
+Code exists but not production-ready:
+- `thau_trainer/external_learning.py` - web/PDF scraping
+- May have bugs
 
 ### Multi-Model Integration
 
