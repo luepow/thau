@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfQu\u00e9 es recursi\u00f3n?",
+  "input": "",
+  "output": "Recursi\u00f3n es un concepto fundamental en la programaci\u00f3n que se refiere a la habilidad de una funci\u00f3n o procedimiento para llamar a s\u00ed misma dentro de su propia definici\u00f3n. A esto se le conoce como \"llamada recursiva\" y permite escribir c\u00f3digo m\u00e1s f\u00e1cil, conciso y mantenible.",
+  "metadata": {
+    "confidence": 1.0,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-21T15:02:19.386541",
+  "hash": "7d1b9de297f90e510f5b0f9d1f16e1cb"
+}

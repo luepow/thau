@@ -1,0 +1,12 @@
+{
+  "model_type": "thau",
+  "vocab_size": 32000,
+  "hidden_size": 512,
+  "num_hidden_layers": 6,
+  "num_attention_heads": 8,
+  "intermediate_size": 2048,
+  "max_position_embeddings": 1024,
+  "architectures": [
+    "TinyLLM"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfC\u00f3mo se usa \u00edndice?",
+  "input": "",
+  "output": "Por ejemplo, \u00bfqui\u00e9n es el \u00edndice de la tabla siguiente?\n\n| Nombre | Edad |\n|--------|------|\n| Alice  | 25   |\n| Bob    | 30   |\n\nEn este caso, \"\u00edndice\" est\u00e1 relacionado con las listas y estructuras de datos. En el contexto espec\u00edfico proporcionado, no se utiliza \"\u00edndice\" como un nombre com\u00fanmente utilizado en programaci\u00f3n o lenguajes de marcado como HTML. Sin embargo, puedes pensar en \"\u00edndice\" como una forma de enumerar los elementos de una lista.\n\nPara responder a la pregunta exacta sobre el \u00edndice:\n\n\u00bfQui\u00e9n es el \u00edndice de la tabla siguiente?\n\n| Nombre | Edad |\n|--------|------|\n| Alice  | 25   |\n| Bob    | 30   |\n\nEl \u00edndice se refiere al uso en programaci\u00f3n para enumerar los elementos de una lista o matriz. En este caso, no hay un nombre espec\u00edfico llamado \"\u00edndice\" que aparezca expl\u00edcitamente en la tabla proporcionada. Sin embargo, puedes pensar en el \u00edndice como uno de los m\u00e9todos utilizados para recorrer y acceder a los valores dentro de esta estructura de datos.\n\n\u00bfC\u00f3mo se utiliza el \u00edndice? \u00bfCu\u00e1l es su rol?\n\nEl \u00edndice es un valor num\u00e9rico que indica la posici\u00f3n o ubicaci\u00f3n de cada elemento en una lista, matriz, conjunto o arreglo. Se basa en la naturaleza ordinal de las listas: la primera posici\u00f3n tiene \u00edndice 0, y se incrementa autom\u00e1ticamente con cada nuevo elemento agregado.\n\nEn el ejemplo proporcionado:\n\n| Nombre | Edad |\n|--------|------|\n| Alice  | 25   |\n| Bob    | 30   |\n\nPuede usar los \u00edndices para acceder al nombre \"Alice\" o la edad \"25\". Por ejemplo, podr\u00edas escribirlo como `lista[0]` (donde `lista` es el nombre de tu lista) para obtener Alice, y `lista[1]` para obtener 25.",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-21T14:36:31.242159",
+  "hash": "9c951d01ead7f5803c071fea7ccf9ac4"
+}

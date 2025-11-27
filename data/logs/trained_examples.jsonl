@@ -83,3 +83,664 @@
 {"hash": "5b3678e464474eeea8d03e2db66dd8db", "trained_at": "2025-11-14T05:55:02.044868", "instruction_preview": "\u00bfPara qu\u00e9 sirve recursi\u00f3n?"}
 {"hash": "84e6d91cba2ab0768237dfad2734e897", "trained_at": "2025-11-14T05:55:02.045041", "instruction_preview": "muestrame una funcion"}
 {"hash": "1e8a6602148a8bdcddb9561607d277e5", "trained_at": "2025-11-14T05:55:02.045101", "instruction_preview": "\u00bfQu\u00e9 es SOLID?"}
+{"hash": "321d13462a2e88b3dc2605668883ade6", "trained_at": "2025-11-15T22:03:56.813336", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "10d38f2c772495137b038ef56cf9dfa0", "trained_at": "2025-11-15T22:03:56.814818", "instruction_preview": "\u00bfC\u00f3mo se usa monitoreo?"}
+{"hash": "f04e4514af42502fd6864d9bc0132866", "trained_at": "2025-11-15T22:03:56.815661", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "e26ff7423f16e5cecbfdf308f027877a", "trained_at": "2025-11-15T22:03:56.815991", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "e255c3f6e9ea544ec3a3c301ae492835", "trained_at": "2025-11-15T22:03:56.816566", "instruction_preview": "que edad tienes"}
+{"hash": "dc2b68f4fc9e7b65de81b257b04d7c1a", "trained_at": "2025-11-15T22:03:56.818295", "instruction_preview": "\u00bfQu\u00e9 es encriptaci\u00f3n?"}
+{"hash": "2d293dd6373d10cb718750faecc41bb1", "trained_at": "2025-11-15T22:03:56.819181", "instruction_preview": "busca una web de google.com"}
+{"hash": "036eff129333a38a52e440263f18cf18", "trained_at": "2025-11-15T22:03:56.819988", "instruction_preview": "\u00bfPara qu\u00e9 sirve replicaci\u00f3n?"}
+{"hash": "efc835225fdd8c1e10219370331b8334", "trained_at": "2025-11-15T22:03:56.820373", "instruction_preview": "como haces un prorama en java"}
+{"hash": "f2c7d0588adc641508e9900e0796525f", "trained_at": "2025-11-15T22:03:56.820644", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "5e829834ff809b428a9fd790b182ee5b", "trained_at": "2025-11-15T22:03:56.821362", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "e06e655f41e1c381194591423a01ea92", "trained_at": "2025-11-15T22:03:56.822308", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "a20fc41e9c157851149469b405b0ec49", "trained_at": "2025-11-15T22:03:56.824163", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "775b832de85d17892f3cd6214eaa7c24", "trained_at": "2025-11-15T22:03:56.825424", "instruction_preview": "\u00bfPara qu\u00e9 sirve complejidad?"}
+{"hash": "47e3f53a19b3f6b67cd81e07403c3c8e", "trained_at": "2025-11-15T22:03:56.825930", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "bb6e709c7db48421ef1b8c89eb300d1f", "trained_at": "2025-11-15T22:03:56.826579", "instruction_preview": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?"}
+{"hash": "18615a8a876fcb4ab6b0e78cab6242f3", "trained_at": "2025-11-15T22:03:56.827434", "instruction_preview": "\u00bfC\u00f3mo se usa base de datos?"}
+{"hash": "68c497df2c1030527d94926a15e61ea1", "trained_at": "2025-11-15T22:03:56.827876", "instruction_preview": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?"}
+{"hash": "ab23be8ef08115de53d446a12337f79e", "trained_at": "2025-11-15T22:03:56.828940", "instruction_preview": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?"}
+{"hash": "ee780567a35cba5f7df95761ba4d46c2", "trained_at": "2025-11-15T22:03:56.829700", "instruction_preview": "\u00bfPara qu\u00e9 sirve REST?"}
+{"hash": "23a065beff7d2a05ffd771c229462d3f", "trained_at": "2025-11-15T22:03:56.830403", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "92718abdbdb1b2fd269661a9ba4145c0", "trained_at": "2025-11-15T22:03:56.830996", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "e8c5acf3c4eba7526a56cfc3ec4b2878", "trained_at": "2025-11-15T22:03:56.831245", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "d10acf87e87d9ef5dacb5422e47ccdc3", "trained_at": "2025-11-15T22:03:56.832231", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "1c30ef18b3a148bd84b0c65d45735da1", "trained_at": "2025-11-15T22:03:56.833064", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "a83729f0f96592c6054e0677c4fcda54", "trained_at": "2025-11-15T22:03:56.833638", "instruction_preview": "\u00bfC\u00f3mo se usa API?"}
+{"hash": "46fe1dba61b12197c26b92d76c562f9b", "trained_at": "2025-11-15T22:03:56.834690", "instruction_preview": "\u00bfPara qu\u00e9 sirve condicional?"}
+{"hash": "8c4719e3b7befc282a6b607c70f2ff3a", "trained_at": "2025-11-15T22:03:56.835159", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "d108588fafe7aefce376929ceb10de9a", "trained_at": "2025-11-15T22:03:56.835456", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "586ec8440423662c656f19604a619bf5", "trained_at": "2025-11-15T22:03:56.835664", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "9cb3d5baf9f35468c51d3c6120c172d9", "trained_at": "2025-11-15T22:03:56.836269", "instruction_preview": "\u00bfC\u00f3mo se usa retorno?"}
+{"hash": "852b25fbfd48612a6f2ccf29950c86f1", "trained_at": "2025-11-15T22:03:56.836567", "instruction_preview": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?"}
+{"hash": "ea9dae9ea1e568a021d03512f6d3411f", "trained_at": "2025-11-15T22:03:56.836760", "instruction_preview": "\u00bfC\u00f3mo se usa clase?"}
+{"hash": "4a61e50d626182908ea897d1c82684d9", "trained_at": "2025-11-15T22:03:56.836929", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "4d0ff0b445ba4cc3039a4468a82cf311", "trained_at": "2025-11-15T22:03:56.837133", "instruction_preview": "\u00bfQu\u00e9 es escalabilidad?"}
+{"hash": "fc592cde0ab52b07cded39c3bcb36aa0", "trained_at": "2025-11-15T22:03:56.837669", "instruction_preview": "\u00bfPara qu\u00e9 sirve condicional?"}
+{"hash": "3f302a3b80db30cb1e0db6f89683b2c4", "trained_at": "2025-11-15T22:03:56.838257", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "a36f9b8405ac622f438f457168da6b40", "trained_at": "2025-11-15T22:03:56.838535", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "f75c7b175f9e101cca5bed2ea7b8c815", "trained_at": "2025-11-15T22:03:56.839895", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "35e5ce1fe7a20d176f6db9e723e9557d", "trained_at": "2025-11-15T22:03:56.840903", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "27423e541dc4c60db8a73317a06e4f67", "trained_at": "2025-11-15T22:03:56.842249", "instruction_preview": "\u00bfPara qu\u00e9 sirve contenedor?"}
+{"hash": "fe9747a024806267aac285064a56b60e", "trained_at": "2025-11-15T22:03:56.843492", "instruction_preview": "\u00bfPara qu\u00e9 sirve CI/CD?"}
+{"hash": "ba8ade72a2bfadb6c6f59e4719cb265f", "trained_at": "2025-11-15T22:03:56.844191", "instruction_preview": "\u00bfC\u00f3mo se usa contenedor?"}
+{"hash": "77e2f0781c86985d495efebea5b28099", "trained_at": "2025-11-15T22:03:56.844486", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "bb5e0fe433add09dfc80056921dcc3bc", "trained_at": "2025-11-15T22:03:56.845012", "instruction_preview": "\u00bfQu\u00e9 es monitoreo?"}
+{"hash": "ad82d8dea3bf44b147ae7d77bc63b869", "trained_at": "2025-11-15T22:03:56.845292", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "622af1531acaa73735e8b49ef98b4f20", "trained_at": "2025-11-15T22:03:56.845998", "instruction_preview": "\u00bfQu\u00e9 es concurrencia?"}
+{"hash": "c720429a937c3d1644f4224d6bfbd92a", "trained_at": "2025-11-15T22:03:56.846536", "instruction_preview": "\u00bfQu\u00e9 es base de datos?"}
+{"hash": "0470b48ae170651fcf69e5c1c152debd", "trained_at": "2025-11-15T22:03:56.847300", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "efce031b2949cc5f563d3490f35844e0", "trained_at": "2025-11-15T22:03:56.847855", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "1431eb5072c1dc8fcbad6dfc8f35a7fb", "trained_at": "2025-11-15T22:03:56.848331", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "300f6bc30470043df7ba1b917b323259", "trained_at": "2025-11-15T22:03:56.848815", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "5b697619b2713299fda5c7312aa0141c", "trained_at": "2025-11-15T22:03:56.849426", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "8e7395c2d85859f5eab152d232402ea9", "trained_at": "2025-11-15T22:03:56.849826", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "bfed27b44491368022ae845fb30db07f", "trained_at": "2025-11-15T22:03:56.850342", "instruction_preview": "\u00bfC\u00f3mo se usa HTTP?"}
+{"hash": "82de0996f91ad91ceaea6ae35d143bd3", "trained_at": "2025-11-15T22:03:56.850693", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "3ad163c6ae350d3612e22658b89c9ec9", "trained_at": "2025-11-15T22:03:56.851163", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "824a8c9f202b98bda987765f93bced94", "trained_at": "2025-11-15T22:03:56.851641", "instruction_preview": "\u00bfPara qu\u00e9 sirve complejidad?"}
+{"hash": "e415f843c743115cf20d7a4dd3b8e169", "trained_at": "2025-11-15T22:03:56.852280", "instruction_preview": "\u00bfQu\u00e9 es funci\u00f3n?"}
+{"hash": "665e271340d1a5e54a2292bc45d00598", "trained_at": "2025-11-15T22:03:56.853445", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "d1ca75b9a08b237462fd71c505f4dc76", "trained_at": "2025-11-15T22:03:56.854307", "instruction_preview": "\u00bfC\u00f3mo se usa concurrencia?"}
+{"hash": "18ee1cf293f01da0c5cedf214969cf6e", "trained_at": "2025-11-15T22:03:56.855689", "instruction_preview": "\u00bfC\u00f3mo se usa disponibilidad?"}
+{"hash": "f0b5eeab8eb7d3837d903b65127a3be3", "trained_at": "2025-11-15T22:03:56.856251", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "9517f701c3d5ccdba8270b2826fe4a28", "trained_at": "2025-11-15T22:03:56.857326", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "ba4f311d1c3751916bbeacaa13507c5c", "trained_at": "2025-11-15T22:03:56.858537", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "cb8fc8b11cfa9663fec0b6cf1ec7a17d", "trained_at": "2025-11-15T22:03:56.859040", "instruction_preview": "\u00bfQu\u00e9 es particionamiento?"}
+{"hash": "719b7bf093c1d45bd3f11fd952cb0692", "trained_at": "2025-11-15T22:03:56.859690", "instruction_preview": "\u00bfQu\u00e9 es optimizaci\u00f3n?"}
+{"hash": "5a5728e6d2fe71bae79cd6ceed058b47", "trained_at": "2025-11-15T22:03:56.860024", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "d3bdde0188ce9232801849ae09020041", "trained_at": "2025-11-15T22:03:56.860824", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "c5722ffdb424926bf485c0e2bbb23ed0", "trained_at": "2025-11-15T22:03:56.861403", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "1e442a8ca7327617d8d3424cba33f5d9", "trained_at": "2025-11-15T22:03:56.861650", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "5c63d9d8a29d77fe9a70def41b85df5c", "trained_at": "2025-11-15T22:03:56.862062", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "c20d20995f5267114a6292531ae11115", "trained_at": "2025-11-15T22:03:56.862454", "instruction_preview": "\u00bfC\u00f3mo se usa API?"}
+{"hash": "99e44d73ebad7031a27c5a13e153ad98", "trained_at": "2025-11-15T22:03:56.862669", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "8b5f3119ac871faa0b6f08a696e677d7", "trained_at": "2025-11-15T22:03:56.863122", "instruction_preview": "\u00bfQu\u00e9 es escalabilidad?"}
+{"hash": "35319392c3aa37b887471ad542241372", "trained_at": "2025-11-15T22:03:56.863737", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "ca82d2673e29b78b807e933bf29c46a7", "trained_at": "2025-11-15T22:03:56.864012", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "0f739c58bb010823493e2348557ed9fb", "trained_at": "2025-11-16T05:54:26.736546", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "66f98fb1c7f18573bf217cd587e2901d", "trained_at": "2025-11-16T05:54:26.736742", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "dea2a173baf46c16e8215790987b2662", "trained_at": "2025-11-16T05:54:26.736918", "instruction_preview": "\u00bfQu\u00e9 es encriptaci\u00f3n?"}
+{"hash": "71602dc4e21ed09db902a0a6ded2e9cc", "trained_at": "2025-11-16T11:54:44.325027", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "065a89e5060be8f08993c759fe44ea4f", "trained_at": "2025-11-16T11:54:44.325166", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "41a3eb8c01ff7e567a63d3af0f4500e5", "trained_at": "2025-11-16T11:54:44.325592", "instruction_preview": "\u00bfPara qu\u00e9 sirve particionamiento?"}
+{"hash": "4b8698613206b03e4aa4f45c387af805", "trained_at": "2025-11-16T11:54:44.325687", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "f0c755df2ba5fd2663fd21fcdfe7df9f", "trained_at": "2025-11-16T11:54:44.325756", "instruction_preview": "\u00bfPara qu\u00e9 sirve disponibilidad?"}
+{"hash": "d6c598eb07d7b84413ee00c54bf9dff5", "trained_at": "2025-11-16T11:54:44.325824", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "8c865ad07c385ba6d69d74852d8578ea", "trained_at": "2025-11-16T11:54:44.325891", "instruction_preview": "\u00bfQu\u00e9 es \u00edndice?"}
+{"hash": "03c4bc38d04f6462b09742ce7c31c642", "trained_at": "2025-11-16T11:54:44.325956", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "2c262ab73de62f8b587bf88bd396f119", "trained_at": "2025-11-16T11:54:44.326017", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "ccdeafc2046923c4b0e91db9b29e6bcd", "trained_at": "2025-11-16T11:54:44.326347", "instruction_preview": "\u00bfPara qu\u00e9 sirve complejidad?"}
+{"hash": "3a5b504008efeb217b9894ed0e089353", "trained_at": "2025-11-16T11:54:44.326537", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "ac87379c431553744286fc1d498755a0", "trained_at": "2025-11-16T11:54:44.326596", "instruction_preview": "\u00bfC\u00f3mo se usa concurrencia?"}
+{"hash": "c57fc5fc5470b8a130aa8260807a2cd9", "trained_at": "2025-11-16T11:54:44.326658", "instruction_preview": "\u00bfQu\u00e9 es particionamiento?"}
+{"hash": "58142a40fdb2ffff36ee2612b3d80c40", "trained_at": "2025-11-16T11:54:44.326838", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "3c69edb3297294d3ee09f2d9b6b19fb7", "trained_at": "2025-11-16T11:54:44.326890", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "ca78f8514d62e376db3ad5bb6d930c3a", "trained_at": "2025-11-16T11:54:44.326942", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "10a296e0440ccbedadeee209e78f7716", "trained_at": "2025-11-16T11:54:44.327032", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "f91f870a3074dd5af9ab5a5c12cf197e", "trained_at": "2025-11-16T11:54:44.327110", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "28ef58a952fb4d4395eab3b7fcc3d2c6", "trained_at": "2025-11-16T11:54:44.327548", "instruction_preview": "\u00bfC\u00f3mo se usa microservicio?"}
+{"hash": "72d6750ff98c38cfc17e7c8939a075ba", "trained_at": "2025-11-16T11:54:44.327614", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "d22df4629d055f51fdadd27d9889a791", "trained_at": "2025-11-16T11:54:44.327667", "instruction_preview": "\u00bfQu\u00e9 es array?"}
+{"hash": "5ebbde845e9f0b667e604786af303cbf", "trained_at": "2025-11-16T11:54:44.327717", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "025977ab97d9c44d59543733482df0d3", "trained_at": "2025-11-16T11:54:44.327770", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "3ea3f94b2548f1a4a873c235baa40199", "trained_at": "2025-11-16T11:54:44.327822", "instruction_preview": "\u00bfPara qu\u00e9 sirve array?"}
+{"hash": "ed19d89287dcfe11d72ebd7e31a30601", "trained_at": "2025-11-16T11:54:44.327877", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "bfb602ca64e5a879050048cfc351962d", "trained_at": "2025-11-16T11:54:44.327936", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "9a86b5905a13294e81c9824d3c0a5486", "trained_at": "2025-11-16T11:54:44.327988", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "b1fd9a02f30c01ee919a652c7052d6af", "trained_at": "2025-11-16T11:54:44.328040", "instruction_preview": "\u00bfC\u00f3mo se usa disponibilidad?"}
+{"hash": "e3d27b3fc0fcf92a3ef37cc41e45fc80", "trained_at": "2025-11-16T11:54:44.328332", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "ac7c3c4f4081ec5485951d81ae94d211", "trained_at": "2025-11-16T11:54:44.328393", "instruction_preview": "\u00bfQu\u00e9 es HTTP?"}
+{"hash": "d3f2302bdc0c3d1a01202ec25e6b840a", "trained_at": "2025-11-16T11:54:44.328444", "instruction_preview": "\u00bfPara qu\u00e9 sirve funci\u00f3n?"}
+{"hash": "dfb5fd858434200f0b3368fcee668000", "trained_at": "2025-11-16T11:54:44.328499", "instruction_preview": "\u00bfPara qu\u00e9 sirve condicional?"}
+{"hash": "a60b32de11abed4003388c8dfa6c0c4a", "trained_at": "2025-11-16T11:54:44.328546", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "9787135ffb26139e231fac3834bd712f", "trained_at": "2025-11-16T11:54:44.328614", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "2944fa336f2935bdecb21336104d23d5", "trained_at": "2025-11-16T17:58:33.212494", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "58e10d47a295350e62f92523cceaf8ae", "trained_at": "2025-11-16T17:58:33.213047", "instruction_preview": "\u00bfPara qu\u00e9 sirve servidor?"}
+{"hash": "1805be6346ac5b93b6959047a9b77bde", "trained_at": "2025-11-16T17:58:33.213235", "instruction_preview": "\u00bfC\u00f3mo se usa contenedor?"}
+{"hash": "c3ec63fdb537aad2cc282b8b139c7e81", "trained_at": "2025-11-16T17:58:33.213797", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "ec88c107fc05e7661806da1ae31f475a", "trained_at": "2025-11-16T17:58:33.213996", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "90830f8821041da846f9849f4d45fc41", "trained_at": "2025-11-16T17:58:33.214186", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "827d7e1e3cf06d2afd0dd75f763acae1", "trained_at": "2025-11-16T17:58:33.214613", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "c8308457a0bcf68aac90a85efd64409f", "trained_at": "2025-11-16T17:58:33.214686", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "59615081719caf1efb90722c7093719a", "trained_at": "2025-11-16T17:58:33.214921", "instruction_preview": "\u00bfC\u00f3mo se usa \u00edndice?"}
+{"hash": "4cc81c5247a33b2e6be8109d1724ede6", "trained_at": "2025-11-16T17:58:33.215003", "instruction_preview": "\u00bfPara qu\u00e9 sirve condicional?"}
+{"hash": "8c9882c90369cab8ed45e49a4d118cec", "trained_at": "2025-11-16T17:58:33.215082", "instruction_preview": "\u00bfQu\u00e9 es servidor?"}
+{"hash": "762c00da96ef79e4982c13183f570014", "trained_at": "2025-11-16T17:58:33.215158", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "1cff533f6ca3a5d4e4948aec3544a431", "trained_at": "2025-11-16T17:58:33.215380", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "ee29f3993a2fb0212894e0140f5830fa", "trained_at": "2025-11-16T17:58:33.215767", "instruction_preview": "\u00bfPara qu\u00e9 sirve CI/CD?"}
+{"hash": "23e7036f0467b68355df541ec007093d", "trained_at": "2025-11-16T17:58:33.216001", "instruction_preview": "\u00bfQu\u00e9 es particionamiento?"}
+{"hash": "c6d6a55b8acd9e604019b0d447cfafb0", "trained_at": "2025-11-16T17:58:33.216107", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "afc7867c0193185d83af500fb8e9c503", "trained_at": "2025-11-16T17:58:33.216473", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "90c868d45ed8b4639188e9e54dcfb180", "trained_at": "2025-11-16T17:58:33.216672", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "90558dd0a2c9d2c4ba71d157a203db2a", "trained_at": "2025-11-16T17:58:33.216728", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "49fbe8404a4cad76599dc819051fa4f5", "trained_at": "2025-11-16T17:58:33.216798", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "1c196407301b9d86beb7042891307b12", "trained_at": "2025-11-16T17:58:33.216965", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "cc54596c29df7769939a6e3311d2b78a", "trained_at": "2025-11-16T17:58:33.217146", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "a51d52637648c8bfe02b3ca5753a81f2", "trained_at": "2025-11-17T00:01:14.450622", "instruction_preview": "\u00bfPara qu\u00e9 sirve SQL?"}
+{"hash": "947819d13ce3cba633ae08cb811f1da2", "trained_at": "2025-11-17T00:01:14.451172", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "f7f1913767325074b3c4a1a444f62cbf", "trained_at": "2025-11-17T00:01:14.451285", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "6dafa36e7a0b34e7be6eedf07c30e186", "trained_at": "2025-11-17T00:01:14.451496", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "a769ad634d29d898a2340c08730c4585", "trained_at": "2025-11-17T00:01:14.451738", "instruction_preview": "\u00bfC\u00f3mo se usa indexaci\u00f3n?"}
+{"hash": "1b5911b2451713a87c717a21a5cc9673", "trained_at": "2025-11-17T00:01:14.451955", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "43f23f6db822c3ede7baf7fbd44cf869", "trained_at": "2025-11-17T00:01:14.452159", "instruction_preview": "\u00bfPara qu\u00e9 sirve particionamiento?"}
+{"hash": "0ad8979563f572b33d0b5714c472642f", "trained_at": "2025-11-17T00:01:14.452349", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "c7cbdc628002782a49c54bb221f76c3e", "trained_at": "2025-11-17T00:01:14.452723", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "b4aaf463e6f2ee8211e66c448c94e009", "trained_at": "2025-11-17T00:01:14.452796", "instruction_preview": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?"}
+{"hash": "e1f4a6b6d850ca8a56a72cca1d36099d", "trained_at": "2025-11-17T00:01:14.452859", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "6fd5d0d895c5501b2a1aab22d7eaf012", "trained_at": "2025-11-17T00:01:14.452915", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "afaba2ce2ff602bee8004576720538c0", "trained_at": "2025-11-17T00:01:14.453152", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "86e815335cc617fc03063ebea53a9b11", "trained_at": "2025-11-17T00:01:14.453374", "instruction_preview": "\u00bfQu\u00e9 es monitoreo?"}
+{"hash": "ac557f8a219408c1756c5a6fffd82e72", "trained_at": "2025-11-17T00:01:14.453603", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "e77577af4aae4aa39c219290ee2d1b49", "trained_at": "2025-11-17T00:01:14.453692", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "d4dfd638b5bbed88f5f977a8dac2f7d6", "trained_at": "2025-11-17T00:01:14.454117", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "1badfd070401043bdd1b54e04dc55611", "trained_at": "2025-11-17T00:01:14.454333", "instruction_preview": "\u00bfC\u00f3mo se usa SQL?"}
+{"hash": "d0ae87c1bd2d4e4ef037b20391f6bf0e", "trained_at": "2025-11-17T00:01:14.454518", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "8436b7f1dd2a208301cce96185489137", "trained_at": "2025-11-17T00:01:14.454582", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "92b8db90508f74b8587a46fe13f3e00a", "trained_at": "2025-11-17T00:01:14.454840", "instruction_preview": "\u00bfPara qu\u00e9 sirve cliente?"}
+{"hash": "a832ceec3a6556c20edaef7f68217446", "trained_at": "2025-11-17T00:01:14.455052", "instruction_preview": "\u00bfPara qu\u00e9 sirve complejidad?"}
+{"hash": "fa40bd4791f1f9b46c27d272d3119d57", "trained_at": "2025-11-17T00:01:14.455256", "instruction_preview": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?"}
+{"hash": "59e704e95b22b4c33a7f9c2a6f675b2b", "trained_at": "2025-11-17T00:01:14.455745", "instruction_preview": "\u00bfPara qu\u00e9 sirve recursi\u00f3n?"}
+{"hash": "f0958c3b1f9efa03f9ee28f4913473f6", "trained_at": "2025-11-17T00:01:14.455928", "instruction_preview": "\u00bfPara qu\u00e9 sirve normalizaci\u00f3n?"}
+{"hash": "bc52942d3a0fa4e67a24ef44177bafff", "trained_at": "2025-11-17T00:01:14.456100", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "2aff3267078fea7a6b7f59d1599351d3", "trained_at": "2025-11-17T00:01:14.456182", "instruction_preview": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?"}
+{"hash": "e9c4411529bf06b5b3b5599c05c45f13", "trained_at": "2025-11-17T00:01:14.456417", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "07bd6bc3353d8551d447363a20ff38e7", "trained_at": "2025-11-17T00:01:14.456488", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "2712baa6fa812380d714bde61c1e69c2", "trained_at": "2025-11-17T00:01:14.457492", "instruction_preview": "\u00bfQu\u00e9 es replicaci\u00f3n?"}
+{"hash": "ba0012c24c7b9363f462fa0aabab35ce", "trained_at": "2025-11-17T00:01:14.457664", "instruction_preview": "\u00bfPara qu\u00e9 sirve funci\u00f3n?"}
+{"hash": "6f87ec681711365169b019b3f61b3981", "trained_at": "2025-11-17T00:01:14.457868", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "6a9581181550a2a8b75228236463e9f0", "trained_at": "2025-11-17T00:01:14.458271", "instruction_preview": "\u00bfQu\u00e9 es condicional?"}
+{"hash": "ecd4ef6089819d8bf1e4ab4b6b29e040", "trained_at": "2025-11-17T00:01:14.458569", "instruction_preview": "\u00bfPara qu\u00e9 sirve funci\u00f3n?"}
+{"hash": "c11640e5e9010aedf43eac9145a0888d", "trained_at": "2025-11-17T00:01:14.458766", "instruction_preview": "\u00bfPara qu\u00e9 sirve cach\u00e9?"}
+{"hash": "6de0c52f9651141506afa4913b0ea3c4", "trained_at": "2025-11-17T00:01:14.458848", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "819af87b8cdb07b083729e19f773c070", "trained_at": "2025-11-17T00:01:14.459049", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "735686091d00b79d94ecb704c8f291da", "trained_at": "2025-11-17T00:01:14.459107", "instruction_preview": "\u00bfPara qu\u00e9 sirve normalizaci\u00f3n?"}
+{"hash": "92cbd131f34d6894a70a1e1d4c61e055", "trained_at": "2025-11-17T00:01:14.459308", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "eaa8e8788460f10a8826673bdf746f0b", "trained_at": "2025-11-17T00:01:14.459508", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "b48bad668b074ff1ce794f919afb1b49", "trained_at": "2025-11-17T00:01:14.459678", "instruction_preview": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?"}
+{"hash": "5b0a6a560eea91bc2d503addd9f4bab6", "trained_at": "2025-11-17T00:01:14.460014", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "5f9d82d2d7385977b981dc3ad6402853", "trained_at": "2025-11-17T06:01:53.049164", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "fa82a1794285bcc5f6b237d2784ac094", "trained_at": "2025-11-17T06:01:53.049697", "instruction_preview": "\u00bfQu\u00e9 es particionamiento?"}
+{"hash": "95b206c48d2569f29e4c8377681e5b44", "trained_at": "2025-11-17T06:01:53.050064", "instruction_preview": "\u00bfPara qu\u00e9 sirve autenticaci\u00f3n?"}
+{"hash": "d3f104d000f971b6c2edb10520c82d51", "trained_at": "2025-11-17T06:01:53.050453", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "3ee416e7cba78a95c434be7f901c0c77", "trained_at": "2025-11-17T06:01:53.050794", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "2cffef10e6390913beb999432a7fd3db", "trained_at": "2025-11-17T06:01:53.050867", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "93447515457a5a2933f2df5945ddca5a", "trained_at": "2025-11-17T06:01:53.051387", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "5e0982849c2e44127308d25e5788755c", "trained_at": "2025-11-17T06:01:53.051508", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "03be8d848c372c1ee59fc33dd7cf2505", "trained_at": "2025-11-17T06:01:53.051731", "instruction_preview": "\u00bfQu\u00e9 es funci\u00f3n?"}
+{"hash": "008f9f905a93c919caf68e7cad794710", "trained_at": "2025-11-17T06:01:53.052073", "instruction_preview": "\u00bfPara qu\u00e9 sirve normalizaci\u00f3n?"}
+{"hash": "7485c1e46441aa05d67ce26dc79d9e7a", "trained_at": "2025-11-17T06:01:53.052392", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "11bb264b246757cba2a124d22d139d8a", "trained_at": "2025-11-17T06:01:53.052452", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "9239be808efb50cc2cc1a1cec926500b", "trained_at": "2025-11-17T06:01:53.052550", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "da9cc8a2aa4d963846a716ae97f60b0e", "trained_at": "2025-11-17T06:01:53.052910", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "144c3d56a43981fba00659899f389fc0", "trained_at": "2025-11-17T06:01:53.053119", "instruction_preview": "\u00bfQu\u00e9 es HTTP?"}
+{"hash": "50b4adf6dd6f44f44bdc6223001e276a", "trained_at": "2025-11-17T06:01:53.053301", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "00302f32e4caeb0c91299d6ed57c1d8f", "trained_at": "2025-11-17T06:01:53.053574", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "ae22ecfb4c5b46cfabc48497b94aac37", "trained_at": "2025-11-17T06:01:53.053780", "instruction_preview": "\u00bfPara qu\u00e9 sirve condicional?"}
+{"hash": "6ad6d8b931abca230a08d62de49caabb", "trained_at": "2025-11-17T06:01:53.053989", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "a8594d28cd4cb7549a2effabec7921d8", "trained_at": "2025-11-17T06:01:53.054050", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "21690342a99d55ba2990fdc0cb5bdea4", "trained_at": "2025-11-17T06:01:53.054255", "instruction_preview": "\u00bfPara qu\u00e9 sirve SQL?"}
+{"hash": "4a35784150a686133b6e4f327079b25a", "trained_at": "2025-11-17T06:01:53.054466", "instruction_preview": "\u00bfC\u00f3mo se usa array?"}
+{"hash": "644c6be4f24e4ca556b46a35cdf3cdcc", "trained_at": "2025-11-17T06:01:53.054533", "instruction_preview": "\u00bfC\u00f3mo se usa base de datos?"}
+{"hash": "a662d979f9497d6da638cd57fcada7cf", "trained_at": "2025-11-17T06:01:53.054747", "instruction_preview": "\u00bfPara qu\u00e9 sirve clase?"}
+{"hash": "f3ea8215d11df404d182205ffa33b3db", "trained_at": "2025-11-17T06:01:53.054943", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "7102cbbe29226044438982df015302b5", "trained_at": "2025-11-17T06:01:53.055151", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "694ccd4ddbc82c467151feb632597058", "trained_at": "2025-11-17T06:01:53.055257", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "b92d145a85ac40334a6105505ef317be", "trained_at": "2025-11-17T06:01:53.055520", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "4b7f001ca9e20cd0147ffb175ee29b8c", "trained_at": "2025-11-17T06:01:53.055642", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "eb42d78d03ca5e12f4dd944dee5ea9e0", "trained_at": "2025-11-17T06:01:53.055836", "instruction_preview": "\u00bfQu\u00e9 es cach\u00e9?"}
+{"hash": "4e3c2987e6dfa56f24b8ac86366acfca", "trained_at": "2025-11-17T06:01:53.056120", "instruction_preview": "\u00bfPara qu\u00e9 sirve funci\u00f3n?"}
+{"hash": "495dc81742dd98f7ccfee10288042b3a", "trained_at": "2025-11-17T06:01:53.056404", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "c3626c462263c1d2da9f2a0a8159a908", "trained_at": "2025-11-17T06:01:53.056642", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "1d3e83468e9ca4ddb83e69f8c9807de5", "trained_at": "2025-11-17T06:01:53.056920", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "920cf5cf17a7384cfb733d89da52284c", "trained_at": "2025-11-17T06:01:53.057190", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "6942c6539ecee3de82db879ed4eeeb66", "trained_at": "2025-11-17T06:01:53.057287", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "70d87aae538c5fe72f6ae7b2f9ff916f", "trained_at": "2025-11-17T06:01:53.057372", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "97c39d84e1e8940600b33346696dd3c7", "trained_at": "2025-11-17T06:01:53.057560", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "1644119b4cf4da997e8ac4e048b727f3", "trained_at": "2025-11-17T06:01:53.057836", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "1cdfa12fda5487e8549728fd3ac39bd2", "trained_at": "2025-11-17T06:01:53.057982", "instruction_preview": "\u00bfC\u00f3mo se usa clase?"}
+{"hash": "dd09f74f51a8ffbce81ebb4546dd8e13", "trained_at": "2025-11-17T06:01:53.058188", "instruction_preview": "\u00bfC\u00f3mo se usa agregaci\u00f3n?"}
+{"hash": "ebc08faa736c70f8083cfc14aa9d13aa", "trained_at": "2025-11-17T06:01:53.058359", "instruction_preview": "\u00bfQu\u00e9 es funci\u00f3n?"}
+{"hash": "b5392d54aad19137ae178743a27f9b26", "trained_at": "2025-11-17T06:01:53.058513", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "f8d8a324a903e36a380b5ac0da3de896", "trained_at": "2025-11-17T06:01:53.058572", "instruction_preview": "\u00bfC\u00f3mo se usa base de datos?"}
+{"hash": "684ddf7bc893b2b12cc828604c6eb086", "trained_at": "2025-11-17T06:01:53.058643", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "bf4e58d5ff90c6ce614576df7909e433", "trained_at": "2025-11-17T06:01:53.058840", "instruction_preview": "\u00bfPara qu\u00e9 sirve paralelismo?"}
+{"hash": "51551752c74b89dea8dbcea1c28d4bfe", "trained_at": "2025-11-17T06:01:53.059124", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "b742ce17059d8ef6a47ff4b614a17576", "trained_at": "2025-11-17T06:01:53.059315", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "1d309e11349e59655526a05469da9354", "trained_at": "2025-11-17T06:01:53.059568", "instruction_preview": "\u00bfPara qu\u00e9 sirve optimizaci\u00f3n?"}
+{"hash": "51874a430367a29b0ca6961c1a591259", "trained_at": "2025-11-17T06:01:53.059658", "instruction_preview": "\u00bfPara qu\u00e9 sirve escalabilidad?"}
+{"hash": "d6874f79e2603322419d76307c290f7d", "trained_at": "2025-11-17T06:01:53.059806", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "aa4051c7411896b284a1a7d315629563", "trained_at": "2025-11-17T06:01:53.059969", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "ea969415d2a47f2c1ded7ad6052dab15", "trained_at": "2025-11-17T06:01:53.060033", "instruction_preview": "\u00bfPara qu\u00e9 sirve microservicio?"}
+{"hash": "b73e975485ed5d9a0c9e3a5e30364571", "trained_at": "2025-11-17T06:01:53.060090", "instruction_preview": "\u00bfPara qu\u00e9 sirve array?"}
+{"hash": "1a3df4ea737e6c4715836c031816b23c", "trained_at": "2025-11-17T06:01:53.060164", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "fc7991cb11ab8361e6aa07ef20418848", "trained_at": "2025-11-17T06:01:53.060428", "instruction_preview": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?"}
+{"hash": "f7943f5422d4793ead2bb24a7a6f9522", "trained_at": "2025-11-17T06:01:53.060704", "instruction_preview": "\u00bfQu\u00e9 es transacci\u00f3n?"}
+{"hash": "4d600811ee840f38484131f41aba83d5", "trained_at": "2025-11-17T06:01:53.060891", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "4b0de1416d0b8bb9e5c45da77007ee85", "trained_at": "2025-11-17T12:04:20.861528", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "c8751fbe5a97b90751ff718500f811c9", "trained_at": "2025-11-17T12:04:20.861962", "instruction_preview": "\u00bfQu\u00e9 es servidor?"}
+{"hash": "a4f9d268d3defee742438052a07d5fee", "trained_at": "2025-11-17T12:04:20.862425", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "3bff8bc7baa391c948873a8b9558c837", "trained_at": "2025-11-17T12:04:20.862790", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "1092ccfd07b51ccf923a69708c079f9a", "trained_at": "2025-11-17T12:04:20.863947", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "2b0095fbc4d6261d63719d0f252c126d", "trained_at": "2025-11-17T12:04:20.864244", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "59918f27eac2ac6c54b9a4d7b87ed03c", "trained_at": "2025-11-17T12:04:20.864544", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "2ab554fb0409e08f18f5ab5b9bacadd5", "trained_at": "2025-11-17T12:04:20.864772", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "58fc2d07128cfcc31618694b47d172db", "trained_at": "2025-11-17T12:04:20.864957", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "94517e99afd3549578d78057d4d0031f", "trained_at": "2025-11-17T12:04:20.865140", "instruction_preview": "\u00bfC\u00f3mo se usa complejidad?"}
+{"hash": "fe275571186f2a5ff7018a2a24828176", "trained_at": "2025-11-17T12:04:20.866770", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "78f88a18b853de970f216c389f384c35", "trained_at": "2025-11-17T12:04:20.866840", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "751c31b529f04e99663ce3006db9a613", "trained_at": "2025-11-17T12:04:20.867009", "instruction_preview": "\u00bfC\u00f3mo se usa API?"}
+{"hash": "e282a74794315e62453744fb36dc931a", "trained_at": "2025-11-17T12:04:20.867291", "instruction_preview": "\u00bfQu\u00e9 es encriptaci\u00f3n?"}
+{"hash": "2b468a8f670488db615640691ca968ce", "trained_at": "2025-11-17T12:04:20.867672", "instruction_preview": "\u00bfQu\u00e9 es agregaci\u00f3n?"}
+{"hash": "02e61890917aa7e1333c3dc2336fa5a0", "trained_at": "2025-11-17T12:04:20.867733", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "25a24a202c4e2f2dfc834ddf32875139", "trained_at": "2025-11-17T12:04:20.867788", "instruction_preview": "\u00bfPara qu\u00e9 sirve REST?"}
+{"hash": "ec130f29661288ca837da2f2cc1d0a39", "trained_at": "2025-11-17T12:04:20.867988", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "a69df3e238ba7757c18250a6751897ec", "trained_at": "2025-11-17T12:04:20.868218", "instruction_preview": "\u00bfQu\u00e9 es monitoreo?"}
+{"hash": "1c3320ba51fee48dbcc72766b904dd92", "trained_at": "2025-11-17T12:04:20.868568", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "86f976f712b4bd2d4f485f8e5e089b24", "trained_at": "2025-11-17T12:04:20.868881", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "860d564f04f00b4913ad5a12a2a0c378", "trained_at": "2025-11-17T12:04:20.869198", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "3fcfc6df4f4b9e26c42711eb427e8805", "trained_at": "2025-11-17T12:04:20.869371", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "f4d002a74bd8b4fd8a06f9989d6eb9d9", "trained_at": "2025-11-17T12:04:20.869565", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "6d96e6a464c7856cc3af42fe9a2778ad", "trained_at": "2025-11-17T12:04:20.869866", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "2c404ff678106ffd661923e6369a02a4", "trained_at": "2025-11-17T12:04:20.870104", "instruction_preview": "\u00bfPara qu\u00e9 sirve algoritmo?"}
+{"hash": "ad0c07898d95cca1996c67e4d07a7966", "trained_at": "2025-11-17T12:04:20.870269", "instruction_preview": "\u00bfPara qu\u00e9 sirve contenedor?"}
+{"hash": "12ff21f3e7a63991fa636a236dd51e32", "trained_at": "2025-11-17T12:04:20.870450", "instruction_preview": "\u00bfQu\u00e9 es base de datos?"}
+{"hash": "01a7bbe2715eb4c547629e5e12a9f491", "trained_at": "2025-11-17T12:04:20.870649", "instruction_preview": "\u00bfQu\u00e9 es particionamiento?"}
+{"hash": "533aa0606b0de0428522e89451ffd3b2", "trained_at": "2025-11-17T12:04:20.870926", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "04b45dacec8b446567f1d67778e04aae", "trained_at": "2025-11-17T12:04:20.871119", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "e2fc5c4178cc22f35e75be021cf7b9be", "trained_at": "2025-11-17T12:04:20.871411", "instruction_preview": "\u00bfPara qu\u00e9 sirve complejidad?"}
+{"hash": "405aca7958308400a38face29b049b3d", "trained_at": "2025-11-17T12:04:20.871619", "instruction_preview": "\u00bfPara qu\u00e9 sirve autenticaci\u00f3n?"}
+{"hash": "88408e1836608e33fc388304115ffbda", "trained_at": "2025-11-17T12:04:20.871786", "instruction_preview": "\u00bfC\u00f3mo se usa REST?"}
+{"hash": "5ac4c6140252da6fc4292a31d0f69135", "trained_at": "2025-11-17T12:04:20.871845", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "f572147c8960715e670978fb9fb5c37a", "trained_at": "2025-11-17T12:04:20.872024", "instruction_preview": "\u00bfPara qu\u00e9 sirve array?"}
+{"hash": "763dcf7ae63c5582584b0bd885ed55a2", "trained_at": "2025-11-17T12:04:20.872207", "instruction_preview": "\u00bfQu\u00e9 es servidor?"}
+{"hash": "a58c2d014e0ad1c47ae4d9ff9eeab888", "trained_at": "2025-11-17T12:04:20.872382", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "5af786217284da6a98e46c3a197ec6f0", "trained_at": "2025-11-17T12:04:20.872556", "instruction_preview": "\u00bfPara qu\u00e9 sirve array?"}
+{"hash": "941cf10f3448bc2324faf1933e3915d1", "trained_at": "2025-11-17T12:04:20.872739", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "12c49f2563d2edeb5cf2c387c0bc4b70", "trained_at": "2025-11-17T12:04:20.872921", "instruction_preview": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?"}
+{"hash": "950f0ec12c99001f12144cc1ee15d1f2", "trained_at": "2025-11-18T00:08:32.462253", "instruction_preview": "\u00bfQu\u00e9 es funci\u00f3n?"}
+{"hash": "3730a1ef55e1e680802b04da1c86d008", "trained_at": "2025-11-18T00:08:32.462428", "instruction_preview": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?"}
+{"hash": "f83c68704e31bf63a14646dff4d19349", "trained_at": "2025-11-18T06:11:51.193430", "instruction_preview": "\u00bfPara qu\u00e9 sirve contenedor?"}
+{"hash": "3c231f4c5fb4194dcbefdda8392f88ad", "trained_at": "2025-11-18T06:11:51.193801", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "a37fde7663320511a42081fee1670963", "trained_at": "2025-11-18T06:11:51.194229", "instruction_preview": "\u00bfQu\u00e9 es servidor?"}
+{"hash": "bf0865313351a1ab7014430a6fb6fb8a", "trained_at": "2025-11-18T06:11:51.194537", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "4c473210e3b73a3da60094deedac97d1", "trained_at": "2025-11-18T06:11:51.194819", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "a3f06e465aead16637e6f6a6f4ce8605", "trained_at": "2025-11-18T06:11:51.195073", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "967a38a65390b1f959210dbb5b3d42f5", "trained_at": "2025-11-18T06:11:51.195304", "instruction_preview": "\u00bfQu\u00e9 es disponibilidad?"}
+{"hash": "75ba812d406026c20309a16d6d01ebe0", "trained_at": "2025-11-18T06:11:51.195383", "instruction_preview": "\u00bfC\u00f3mo se usa disponibilidad?"}
+{"hash": "d594837a7f73ba3132b91395e8131b76", "trained_at": "2025-11-18T06:11:51.195593", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "38eaa6db57d2529a07ad785026861455", "trained_at": "2025-11-18T06:11:51.195805", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "a187ddbf321750b54eb9d757e1243ddb", "trained_at": "2025-11-18T06:11:51.196152", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "b55391de6efdfc307ac5fbc8d65fb575", "trained_at": "2025-11-18T06:11:51.196385", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "ea2ceb2f8306a4a19f5794a91b6aeb2d", "trained_at": "2025-11-18T06:11:51.196664", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "5517455c5c0c664f7cf17516ceabc819", "trained_at": "2025-11-18T06:11:51.197253", "instruction_preview": "\u00bfPara qu\u00e9 sirve particionamiento?"}
+{"hash": "b36ed2caae43e2b393fc9f7c6d64f633", "trained_at": "2025-11-18T06:11:51.197339", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "5097d87bf03713b06ff3e99394703474", "trained_at": "2025-11-18T06:11:51.197574", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "be7e84ca8b744aa1bec0ae39e4329540", "trained_at": "2025-11-18T06:11:51.197823", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "d60b325b9d26d5aa4c640498852c73bb", "trained_at": "2025-11-18T06:11:51.198025", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "052907ad1cf248fcc5275e03b430f2df", "trained_at": "2025-11-18T06:11:51.198242", "instruction_preview": "\u00bfC\u00f3mo se usa paralelismo?"}
+{"hash": "5e8689992f1b3267a3fb67c28659ddfc", "trained_at": "2025-11-18T06:11:51.198344", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "9c6c9de5aded1c354521d8bda38bcf40", "trained_at": "2025-11-18T06:11:51.198714", "instruction_preview": "\u00bfPara qu\u00e9 sirve monitoreo?"}
+{"hash": "8c0571ec0a0b259165bfde9f2950ec4e", "trained_at": "2025-11-18T06:11:51.199832", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "ef5b822fc2c81e610fa9130f3d5716cf", "trained_at": "2025-11-18T06:11:51.199934", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "e67d3efea5c8792cb901ea57f321b3ac", "trained_at": "2025-11-18T06:11:51.200214", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "2c81657d00406d95a12d21cfa7aefaba", "trained_at": "2025-11-18T06:11:51.200310", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "e5764fa93c4d2f43f5ef2050e2a46ba5", "trained_at": "2025-11-18T06:11:51.200662", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "066d0e610b35d4d3f6f493b607e40742", "trained_at": "2025-11-18T06:11:51.200995", "instruction_preview": "\u00bfQu\u00e9 es concurrencia?"}
+{"hash": "d7ab8c7e88ada5702b4f9bc6bc2cb954", "trained_at": "2025-11-18T06:11:51.202491", "instruction_preview": "\u00bfPara qu\u00e9 sirve cliente?"}
+{"hash": "86f18b517b79bd473fb240562b5357c8", "trained_at": "2025-11-18T06:11:51.202568", "instruction_preview": "\u00bfPara qu\u00e9 sirve servidor?"}
+{"hash": "0c242adb88a6414219c43cdad5452c67", "trained_at": "2025-11-18T06:11:51.202641", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "f7703634017559cd821225988e539cbc", "trained_at": "2025-11-18T06:11:51.202885", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "59380cdf9a97f71a354dbf0564b3591b", "trained_at": "2025-11-18T06:11:51.202978", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "2825f865b479b131490ba9c4f4e2ae8f", "trained_at": "2025-11-18T06:11:51.203200", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "84eac51d289d84963bddfdcb30a6b34a", "trained_at": "2025-11-18T06:11:51.203417", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "de6e30a577b5127cf0a67d3ea6e32571", "trained_at": "2025-11-18T06:11:51.203709", "instruction_preview": "\u00bfPara qu\u00e9 sirve disponibilidad?"}
+{"hash": "c7b86aa18339807490458a76ef9d65aa", "trained_at": "2025-11-18T06:11:51.203802", "instruction_preview": "\u00bfC\u00f3mo se usa algoritmo?"}
+{"hash": "6ba84fff8bc347dc86dbea7e76395420", "trained_at": "2025-11-18T06:11:51.204188", "instruction_preview": "\u00bfQu\u00e9 es monitoreo?"}
+{"hash": "392fcd121777cd9e8862c031c7243535", "trained_at": "2025-11-18T06:11:51.204403", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "0ccbab94fc4b43d4d9f6b2d5899577ac", "trained_at": "2025-11-18T06:11:51.204586", "instruction_preview": "\u00bfQu\u00e9 es base de datos?"}
+{"hash": "a81a5acd0990ab27def991820f470f99", "trained_at": "2025-11-18T06:11:51.204656", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "2a6ff11611d1fa2c8369fdbff61a91ad", "trained_at": "2025-11-18T06:11:51.204882", "instruction_preview": "\u00bfC\u00f3mo se usa array?"}
+{"hash": "e08fbb01f40eb054b976e5fbc36af592", "trained_at": "2025-11-18T06:11:51.205118", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "ff99391ada3b76a28d99a6ab51d13400", "trained_at": "2025-11-18T06:11:51.205197", "instruction_preview": "\u00bfQu\u00e9 es encriptaci\u00f3n?"}
+{"hash": "9ca17eada3be0efc5dd26fa883c86ec5", "trained_at": "2025-11-18T06:11:51.205277", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "d6aa7edbcaacd55ac0b26d9a30554682", "trained_at": "2025-11-18T06:11:51.205572", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "0b7442d7f0296225b3e33c48c205085d", "trained_at": "2025-11-18T06:11:51.205761", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "27beb98cfbc7e38965c7dd9348e64630", "trained_at": "2025-11-18T06:11:51.205987", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "a8d8092d8fb8ac35c84ed32dcdb53d25", "trained_at": "2025-11-18T06:11:51.206215", "instruction_preview": "\u00bfQu\u00e9 es base de datos?"}
+{"hash": "326c45c42d33e2acbc5cc09e61337ccd", "trained_at": "2025-11-18T06:11:51.206516", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "ad8b0ae7d89b46b6f51a260ac29b7379", "trained_at": "2025-11-18T06:11:51.206686", "instruction_preview": "\u00bfPara qu\u00e9 sirve cliente?"}
+{"hash": "4953407cdd0d08912730dbad500a2b50", "trained_at": "2025-11-18T06:11:51.206976", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "42ab9ef0077d98164399f6e6a371a268", "trained_at": "2025-11-18T06:11:51.207153", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "3b3dd0114980881b846f4d4e06744ce3", "trained_at": "2025-11-18T06:11:51.207385", "instruction_preview": "\u00bfQu\u00e9 es transacci\u00f3n?"}
+{"hash": "c3e3cf621aa2be96e4f4b6bd2639586c", "trained_at": "2025-11-18T06:11:51.207464", "instruction_preview": "\u00bfQu\u00e9 es condicional?"}
+{"hash": "b28aff17f251691bf4e11ead247c3e1c", "trained_at": "2025-11-18T12:14:33.904906", "instruction_preview": "\u00bfPara qu\u00e9 sirve servidor?"}
+{"hash": "9e619abffbfeb3831a941ba63521146c", "trained_at": "2025-11-18T12:14:33.905482", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "d038e8228e9ad85ded6b9262ae1b78cf", "trained_at": "2025-11-18T12:14:33.905610", "instruction_preview": "\u00bfPara qu\u00e9 sirve recursi\u00f3n?"}
+{"hash": "65227ed3f744ea4d6dc1663a1eac6c0b", "trained_at": "2025-11-18T12:14:33.905685", "instruction_preview": "\u00bfPara qu\u00e9 sirve autenticaci\u00f3n?"}
+{"hash": "75ca484b595ff414ee0e5b527ff7bbf0", "trained_at": "2025-11-18T12:14:33.905770", "instruction_preview": "\u00bfPara qu\u00e9 sirve normalizaci\u00f3n?"}
+{"hash": "8a23cb428c0b4d914cc6ead02489c6c9", "trained_at": "2025-11-18T12:14:33.906005", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "e094972a1da64f8f4d8b4a4a571a38c5", "trained_at": "2025-11-18T12:14:33.906085", "instruction_preview": "\u00bfQu\u00e9 es orquestaci\u00f3n?"}
+{"hash": "5bc911be7ddd67d270a9821b109f7273", "trained_at": "2025-11-18T12:14:33.906156", "instruction_preview": "\u00bfC\u00f3mo se usa clase?"}
+{"hash": "2795c3643fdee6c58faa574546efdf7a", "trained_at": "2025-11-18T12:14:33.906337", "instruction_preview": "\u00bfPara qu\u00e9 sirve algoritmo?"}
+{"hash": "52d746e0f08c616b0b1155ddadf16b46", "trained_at": "2025-11-18T12:14:33.906729", "instruction_preview": "\u00bfPara qu\u00e9 sirve microservicio?"}
+{"hash": "94d11c2488b4ed4bcdea7afac61b0e56", "trained_at": "2025-11-18T12:14:33.908922", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "49e72cf51d1f14e3ae8e6818537fc7b1", "trained_at": "2025-11-18T12:14:33.909022", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "3ddf1de382e80eb8c6074656dac27758", "trained_at": "2025-11-18T12:14:33.909095", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "8b3c168ba7efd77ef055fed9da095403", "trained_at": "2025-11-18T12:14:33.909589", "instruction_preview": "\u00bfQu\u00e9 es funci\u00f3n?"}
+{"hash": "8b8b76d1f8ad97872b3192c617e1b85b", "trained_at": "2025-11-18T12:14:33.909697", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "9a617491b9d5cda9e94185084483bf4e", "trained_at": "2025-11-18T12:14:33.909780", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "c25844fd254060b4aee0a0ad12f5c51b", "trained_at": "2025-11-18T12:14:33.910023", "instruction_preview": "\u00bfPara qu\u00e9 sirve escalabilidad?"}
+{"hash": "2885d439ef23b99f148bb36e72667c17", "trained_at": "2025-11-18T12:14:33.910678", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "9bd3a9867534f5ecb449a31f2f25af37", "trained_at": "2025-11-18T12:14:33.910917", "instruction_preview": "\u00bfPara qu\u00e9 sirve clase?"}
+{"hash": "1bcd6067c4a939a061a028d9f59ebbac", "trained_at": "2025-11-18T12:14:33.911215", "instruction_preview": "\u00bfQu\u00e9 es disponibilidad?"}
+{"hash": "900d0d950197e8c737856ae8c4c9609f", "trained_at": "2025-11-18T12:14:33.911317", "instruction_preview": "\u00bfQu\u00e9 es par\u00e1metro?"}
+{"hash": "be9e6c72f84d30f52ef999e407e8e93c", "trained_at": "2025-11-18T12:14:33.911378", "instruction_preview": "\u00bfQu\u00e9 es objeto?"}
+{"hash": "849ddc9c598ec96c05c502ff9c18e6d2", "trained_at": "2025-11-18T12:14:33.911445", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "31a218351acafe133f4dc65bffb70d4f", "trained_at": "2025-11-18T12:14:33.911648", "instruction_preview": "\u00bfC\u00f3mo se usa servidor?"}
+{"hash": "290f9fc46db4ad04059ea501f2dfbcc0", "trained_at": "2025-11-18T12:14:33.912020", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "3e0d1b58ffddc0c26dacd1ec9c163008", "trained_at": "2025-11-18T12:14:33.912097", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "457e6b6642c7012194da80cdf8650a39", "trained_at": "2025-11-18T18:17:03.644692", "instruction_preview": "\u00bfPara qu\u00e9 sirve cliente?"}
+{"hash": "f17492b7f26263379c3f381c73e7f557", "trained_at": "2025-11-18T18:17:03.645157", "instruction_preview": "\u00bfC\u00f3mo se usa agregaci\u00f3n?"}
+{"hash": "0d052d580047edff52ec7b294dd63d9b", "trained_at": "2025-11-18T18:17:03.645390", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "90e2755736316b879100e0e36b55ac78", "trained_at": "2025-11-18T18:17:03.645527", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "34400ccc91d84532a538aeb3d074edf0", "trained_at": "2025-11-18T18:17:03.645848", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "2574a434248cbd0767cf1222beb560a5", "trained_at": "2025-11-18T18:17:03.645976", "instruction_preview": "\u00bfQu\u00e9 es variable?"}
+{"hash": "636257821375c96ec1ef3b0441d7b951", "trained_at": "2025-11-18T18:17:03.646234", "instruction_preview": "\u00bfC\u00f3mo se usa API?"}
+{"hash": "047ac4288677d133eb531edb95fddc73", "trained_at": "2025-11-18T18:17:03.646589", "instruction_preview": "\u00bfC\u00f3mo se usa disponibilidad?"}
+{"hash": "5448abfc6fd1ed8e4795b7e033e45792", "trained_at": "2025-11-18T18:17:03.646906", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "79728089308fce5a6e7966618c8a646f", "trained_at": "2025-11-18T18:17:03.647252", "instruction_preview": "\u00bfPara qu\u00e9 sirve particionamiento?"}
+{"hash": "28daf031b88e08436fa9f451f9ec9884", "trained_at": "2025-11-18T18:17:03.647578", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "c3f6808b138441e0d5a70fab1ca7a1cf", "trained_at": "2025-11-18T18:17:03.647763", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "bf8bbc4df0664bc117b71f013f06de83", "trained_at": "2025-11-18T18:17:03.647822", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "257779bf9df95c2e956924f916196101", "trained_at": "2025-11-18T18:17:03.648042", "instruction_preview": "\u00bfPara qu\u00e9 sirve SQL?"}
+{"hash": "ed744e7a75fb9b4823eba27f81bb4dc7", "trained_at": "2025-11-18T18:17:03.648223", "instruction_preview": "\u00bfC\u00f3mo se usa HTTP?"}
+{"hash": "8906e1e1c7a038d5cd4bcd63a7fe5b77", "trained_at": "2025-11-18T18:17:03.648292", "instruction_preview": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?"}
+{"hash": "cae674796133c6e159de335f9578577c", "trained_at": "2025-11-18T18:17:03.648369", "instruction_preview": "\u00bfPara qu\u00e9 sirve optimizaci\u00f3n?"}
+{"hash": "a3348f38540a49119c1c774b83997faa", "trained_at": "2025-11-18T18:17:03.648428", "instruction_preview": "\u00bfQu\u00e9 es \u00edndice?"}
+{"hash": "c6b595fb9004e6ff4a53337eecc40ca0", "trained_at": "2025-11-19T00:18:38.332246", "instruction_preview": "\u00bfPara qu\u00e9 sirve cach\u00e9?"}
+{"hash": "db1ed149c8d17c528cdb763208fc8b67", "trained_at": "2025-11-19T00:18:38.332418", "instruction_preview": "\u00bfQu\u00e9 es concurrencia?"}
+{"hash": "56cd1a728d103d85b6933e1b655cc325", "trained_at": "2025-11-19T00:18:38.332502", "instruction_preview": "\u00bfQu\u00e9 es disponibilidad?"}
+{"hash": "08c54e45e1853c3d2a6fd11fddffd779", "trained_at": "2025-11-19T00:18:38.332574", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "74ff267c7b8f5c00aded6e31966382fd", "trained_at": "2025-11-19T06:20:14.285539", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "116b865064fd524940febd4271450611", "trained_at": "2025-11-19T06:20:14.285937", "instruction_preview": "\u00bfPara qu\u00e9 sirve SQL?"}
+{"hash": "0199ac78f0f8671acab1c0ecbd59bfd1", "trained_at": "2025-11-19T06:20:14.286216", "instruction_preview": "\u00bfPara qu\u00e9 sirve replicaci\u00f3n?"}
+{"hash": "e98e4b1324f315e7f2e2f28371f350ec", "trained_at": "2025-11-19T06:20:14.286662", "instruction_preview": "\u00bfC\u00f3mo se usa servidor?"}
+{"hash": "f7311b1bdb79ced68a0b3f01147fe01b", "trained_at": "2025-11-19T06:20:14.286963", "instruction_preview": "\u00bfPara qu\u00e9 sirve clase?"}
+{"hash": "aa9b5a0af35ae0a1f8401ab11fa9cdb1", "trained_at": "2025-11-19T06:20:14.287097", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "5f00b60a13e8af80f95ad4c0b57b9dfa", "trained_at": "2025-11-19T06:20:14.287227", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "f5f13f5a6d9a0721455a0bcb3133c70b", "trained_at": "2025-11-19T06:20:14.287571", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "95d9399c387a4d7a5c88ae79e1ff9110", "trained_at": "2025-11-19T06:20:14.287702", "instruction_preview": "\u00bfC\u00f3mo se usa paralelismo?"}
+{"hash": "13cc9c789e2832786fef072d2dea7716", "trained_at": "2025-11-19T06:20:14.287906", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "b91dc9922ece221e6b479f6870bee04f", "trained_at": "2025-11-19T06:20:14.288026", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "8d9080fd853e1148ef7ca8565709c392", "trained_at": "2025-11-19T06:20:14.288295", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "283962e4efc9ea5f4f704d5f25676610", "trained_at": "2025-11-19T06:20:14.288415", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "a86dcbde67290343032f71f658b19dfb", "trained_at": "2025-11-19T06:20:14.288514", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "052b8430ed9fbce253d163544a8dc1c1", "trained_at": "2025-11-19T06:20:14.288767", "instruction_preview": "\u00bfC\u00f3mo se usa base de datos?"}
+{"hash": "9cb2c21601f3602df12f1c2c2dbe0a18", "trained_at": "2025-11-19T06:20:14.288855", "instruction_preview": "\u00bfPara qu\u00e9 sirve cach\u00e9?"}
+{"hash": "66d7cdd0a0602b9b7756e665af62c336", "trained_at": "2025-11-19T06:20:14.289039", "instruction_preview": "como estas? "}
+{"hash": "794733081da9ca6c711e2f034de50772", "trained_at": "2025-11-19T06:20:14.289208", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "52abaf22161cffb2e58a4831b025528e", "trained_at": "2025-11-19T06:20:14.289431", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "b63f8574c98141da1a3fdc7e011714b5", "trained_at": "2025-11-19T06:20:14.289771", "instruction_preview": "\u00bfQu\u00e9 es base de datos?"}
+{"hash": "3d5a847adc8ab1fb0303e5312d5355c0", "trained_at": "2025-11-19T06:20:14.289863", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "04a82e463091d48588a5596575a112f5", "trained_at": "2025-11-19T06:20:14.289960", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "a9d39f5cec41c78cd9f326c510d0766f", "trained_at": "2025-11-19T06:20:14.290176", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "c06e076deff890fa72b2ded13e79b2af", "trained_at": "2025-11-19T06:20:14.290584", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "6fc7032d8d2810ec36321e335e189f94", "trained_at": "2025-11-19T06:20:14.290685", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "09263ac572fbe5a07ea7bf4e3c831002", "trained_at": "2025-11-19T06:20:14.291134", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "42c7b1e07135701dd39f9785d27edfa9", "trained_at": "2025-11-19T06:20:14.291334", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "895939c59f135c78c1b2c6f3ab43a680", "trained_at": "2025-11-19T06:20:14.291512", "instruction_preview": "\u00bfQu\u00e9 es array?"}
+{"hash": "a75064c982423703b5f4beeae6dce70c", "trained_at": "2025-11-19T06:20:14.291767", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "2c9d156cf696bd696c798d208bb2d557", "trained_at": "2025-11-19T06:20:14.291905", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "bca905c0f40726c42d12766e5918c0f5", "trained_at": "2025-11-19T06:20:14.292115", "instruction_preview": "\u00bfPara qu\u00e9 sirve contenedor?"}
+{"hash": "645b47d05e5732add2f5d1afb4c07f74", "trained_at": "2025-11-19T06:20:14.292365", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "2fc9a5168efa534d3ae4584a4d921555", "trained_at": "2025-11-19T06:20:14.292726", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "5dad34666c10259270a12bba8bda7cb1", "trained_at": "2025-11-19T06:20:14.292826", "instruction_preview": "\u00bfC\u00f3mo se usa microservicio?"}
+{"hash": "17174bfce841cf54450951f63c29416c", "trained_at": "2025-11-19T06:20:14.292974", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "1f2f60212c7b5768af3f102e6b0f2c01", "trained_at": "2025-11-19T06:20:14.293225", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "db4964748ff05cda08bc620c0a1ba7e5", "trained_at": "2025-11-19T06:20:14.293334", "instruction_preview": "\u00bfPara qu\u00e9 sirve cach\u00e9?"}
+{"hash": "83c8d58b073d398794163b9ba03ea610", "trained_at": "2025-11-19T06:20:14.293587", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "f19f34ac32efb2e323cb4dc7ec8963cc", "trained_at": "2025-11-19T06:20:14.293674", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "c651dcdcbae1013e09ef9d039475ff91", "trained_at": "2025-11-19T06:20:14.293882", "instruction_preview": "\u00bfQu\u00e9 es concurrencia?"}
+{"hash": "889a1a04c009c9caf5c16d524a1c0ad9", "trained_at": "2025-11-19T06:20:14.294082", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "352dd0898ef1f8a339bf4987905c979c", "trained_at": "2025-11-19T06:20:14.294308", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "306bd4edb9c25101d860a792dbcc4ed8", "trained_at": "2025-11-19T06:20:14.294522", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "6670b53d7f884ef33de135055d01d14b", "trained_at": "2025-11-19T06:20:14.294724", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "dc79de14afc301c3683eac6e27db0774", "trained_at": "2025-11-19T06:20:14.295072", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "7a93c97bb039613ba3759a57e41d1e91", "trained_at": "2025-11-19T06:20:14.295194", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "e2e4df0f94a4932dc2cd60c1b8aeddf9", "trained_at": "2025-11-19T06:20:14.295291", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "da3976b27be629a8c901d42a6f64d97d", "trained_at": "2025-11-19T06:20:14.295362", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "5343466c3dca06d67e6a00bd4dd0697d", "trained_at": "2025-11-19T06:20:14.295712", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "82c217534fa31f1d90c1dc01257c72ba", "trained_at": "2025-11-19T06:20:14.295782", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "8a0febd028a4d7aa014965e60031fdcc", "trained_at": "2025-11-19T06:20:14.296025", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "bc35b0cf50b0cd01cffa6b0150b7332d", "trained_at": "2025-11-19T06:20:14.296222", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "a619fe6d2d1db9c088434fe1b5592e7c", "trained_at": "2025-11-19T06:20:14.296466", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "84562fcb56d87fff0c2ba0c1aede28ad", "trained_at": "2025-11-19T06:20:14.296636", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "fdaf23f3f41ddb0dd64b5083cc09ee8d", "trained_at": "2025-11-19T06:20:14.296944", "instruction_preview": "\u00bfC\u00f3mo se usa m\u00e9todo?"}
+{"hash": "cf07aad467c97845c295c6079aea6709", "trained_at": "2025-11-19T06:20:14.297204", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "f224af8a578a238f858b32671b9ed9fa", "trained_at": "2025-11-19T06:20:14.297450", "instruction_preview": "\u00bfQu\u00e9 es monitoreo?"}
+{"hash": "4459210318da1ab0e2f8c863f3e8b5aa", "trained_at": "2025-11-19T06:20:14.297537", "instruction_preview": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?"}
+{"hash": "4cacf97c2638b99a1910b7db8323da3e", "trained_at": "2025-11-19T12:23:47.780486", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "0d3b0818ed0046e7c612330a32c30753", "trained_at": "2025-11-19T12:23:47.780666", "instruction_preview": "\u00bfQu\u00e9 es orquestaci\u00f3n?"}
+{"hash": "33cca95173b822c905f6ec5c13fc1759", "trained_at": "2025-11-19T12:23:47.780754", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "3cc720f46898356c64ee4030dc54b277", "trained_at": "2025-11-19T12:23:47.780831", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "f82603e5155974f1a5915f94c4ec4a4f", "trained_at": "2025-11-19T12:23:47.780920", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "c2baf0204a0a6ac99f3de9663ff7dcc7", "trained_at": "2025-11-19T12:23:47.780985", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "0f5915773cc1f0b6562cbceaf1105c48", "trained_at": "2025-11-19T12:23:47.781212", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "e2341f09a3401d9ad4a9e9d2aa291fae", "trained_at": "2025-11-19T12:23:47.781323", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "150835712905fb594ff5556ba54688c8", "trained_at": "2025-11-19T12:23:47.781401", "instruction_preview": "\u00bfC\u00f3mo se usa m\u00e9todo?"}
+{"hash": "af57ea771e9cb3324916bb1a4397e86d", "trained_at": "2025-11-19T12:23:47.781464", "instruction_preview": "\u00bfC\u00f3mo se usa clase?"}
+{"hash": "e52503a3d91bbff98cd91cd3274dcf84", "trained_at": "2025-11-19T12:23:47.781527", "instruction_preview": "\u00bfPara qu\u00e9 sirve disponibilidad?"}
+{"hash": "e5811fc0b1ac67533cd0be92ca95b569", "trained_at": "2025-11-19T12:23:47.781591", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "7e3abcf10c9869302456a486f7d2cf28", "trained_at": "2025-11-19T12:23:47.781807", "instruction_preview": "\u00bfQu\u00e9 es HTTP?"}
+{"hash": "20e559bf4dcbafb2c7bc8173dd553c80", "trained_at": "2025-11-19T12:23:47.781868", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "4a7fca98306180a956060c705d690e12", "trained_at": "2025-11-19T12:23:47.782079", "instruction_preview": "\u00bfPara qu\u00e9 sirve orquestaci\u00f3n?"}
+{"hash": "71eb696946de9ceb3e9cf27ed49aca86", "trained_at": "2025-11-19T12:23:47.782140", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "1b1424dbb133a29a52a881ac4f82355d", "trained_at": "2025-11-19T12:23:47.782342", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "6f016ec985682a6a1f904c5d833558b2", "trained_at": "2025-11-19T12:23:47.782409", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "80df25a708ec8878bf00293dd168ea5d", "trained_at": "2025-11-19T12:23:47.782504", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "8fc2b08b75e439a40b1162af2e3ed4d0", "trained_at": "2025-11-19T12:23:47.782753", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "8fe2341a2a51107060bce45d2c3f74e1", "trained_at": "2025-11-19T12:23:47.782825", "instruction_preview": "\u00bfQu\u00e9 es transacci\u00f3n?"}
+{"hash": "f65b7c39b7238829061550f70a33c4c4", "trained_at": "2025-11-19T12:23:47.782879", "instruction_preview": "\u00bfQu\u00e9 es optimizaci\u00f3n?"}
+{"hash": "a7722318bfc82f864a5630c622e8c38f", "trained_at": "2025-11-19T12:23:47.783078", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "8365ba0e2b7fff97a7e8f765228ac64e", "trained_at": "2025-11-19T12:23:47.783254", "instruction_preview": "\u00bfQu\u00e9 es orquestaci\u00f3n?"}
+{"hash": "b58c16fa6169bdfe9bcc4265841f86bd", "trained_at": "2025-11-19T12:23:47.783313", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "f9b10b6cb96b5193729312f34e540bcd", "trained_at": "2025-11-19T12:23:47.783391", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "32b4d45adca8e27b34e8b215884e5a7b", "trained_at": "2025-11-19T12:23:47.783447", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "a06fd60c1ca1e6cf4cef81b51ff90b27", "trained_at": "2025-11-19T12:23:47.783713", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "7974de47085f5c38ca68fc322cb6ac0e", "trained_at": "2025-11-19T12:23:47.783777", "instruction_preview": "\u00bfC\u00f3mo se usa transacci\u00f3n?"}
+{"hash": "8553385ec0022031ae55526bf15e06ec", "trained_at": "2025-11-19T12:23:47.783999", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "9bea03df35032c5843c8a86afe09b3b8", "trained_at": "2025-11-19T12:23:47.784116", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "f1723d583f00e8b79763e0bdb9890e13", "trained_at": "2025-11-19T12:23:47.784236", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "773da94788529d14d8e438857691465d", "trained_at": "2025-11-19T12:23:47.784325", "instruction_preview": "\u00bfQu\u00e9 es HTTP?"}
+{"hash": "3b3af12cd370443f12a8d00f0c53033b", "trained_at": "2025-11-19T12:23:47.784441", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "35579b3796fc06982403833c954409ec", "trained_at": "2025-11-19T12:23:47.784522", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "9e115c9792370b08a005a92a13e2914d", "trained_at": "2025-11-19T12:23:47.784604", "instruction_preview": "\u00bfPara qu\u00e9 sirve monitoreo?"}
+{"hash": "66dd691f2008ceec65c6b24157c77f2b", "trained_at": "2025-11-19T12:23:47.784673", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "cb5dc653e5ae0ad50ea0c2f850402ac3", "trained_at": "2025-11-19T12:23:47.784748", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "61d21f087cc6300dfd02e85b054cc4dd", "trained_at": "2025-11-19T12:23:47.784818", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "696b15549cbfdfcc51fdee25ce1b05e2", "trained_at": "2025-11-20T01:01:21.501888", "instruction_preview": "\u00bfC\u00f3mo se usa monitoreo?"}
+{"hash": "76edda066c793430722c04e785fc46c6", "trained_at": "2025-11-20T01:01:21.502194", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "c0f00887cb24d2a73d8572a54b2bf3e6", "trained_at": "2025-11-20T01:01:21.502504", "instruction_preview": "\u00bfQu\u00e9 es \u00edndice?"}
+{"hash": "dca639224c9a2f9b03675ee66c3f1ee9", "trained_at": "2025-11-20T01:01:21.502657", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "6d722d461e16b64c75321eb97c3cd526", "trained_at": "2025-11-20T01:01:21.502776", "instruction_preview": "\u00bfPara qu\u00e9 sirve disponibilidad?"}
+{"hash": "66a54094d15919ddb6d64f8e1de6a0f6", "trained_at": "2025-11-20T01:01:21.502846", "instruction_preview": "\u00bfC\u00f3mo se usa CI/CD?"}
+{"hash": "70cd11040e912ca61803dd983e4716ab", "trained_at": "2025-11-20T01:01:21.502920", "instruction_preview": "\u00bfPara qu\u00e9 sirve CI/CD?"}
+{"hash": "904c2855393d7cfb828b74bcbadacc0a", "trained_at": "2025-11-20T01:01:21.502992", "instruction_preview": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?"}
+{"hash": "aa4fce2fa0bb776d4101de5c647d6d45", "trained_at": "2025-11-20T01:01:21.503059", "instruction_preview": "\u00bfC\u00f3mo se usa optimizaci\u00f3n?"}
+{"hash": "e358ada1dae2d6ea04b746fa023bb53e", "trained_at": "2025-11-20T01:01:21.503128", "instruction_preview": "\u00bfQu\u00e9 es contenedor?"}
+{"hash": "583f83eeb4d6bd9556a964a4ca17ea53", "trained_at": "2025-11-20T01:01:21.503194", "instruction_preview": "\u00bfPara qu\u00e9 sirve paralelismo?"}
+{"hash": "31320db75bcfb2bade8696325eef5aa2", "trained_at": "2025-11-20T07:04:32.642374", "instruction_preview": "\u00bfQu\u00e9 es orquestaci\u00f3n?"}
+{"hash": "f4b4696f35b880c99832dc3c326a0391", "trained_at": "2025-11-20T07:04:32.642805", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "334ccd58342c2f2683422556a116fd04", "trained_at": "2025-11-20T07:04:32.643192", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "1a3256e1d445e556df77f300e6967f08", "trained_at": "2025-11-20T07:04:32.643457", "instruction_preview": "\u00bfQu\u00e9 es normalizaci\u00f3n?"}
+{"hash": "4c67715d73d0a5290192173e11d95515", "trained_at": "2025-11-20T07:04:32.643961", "instruction_preview": "\u00bfQu\u00e9 es par\u00e1metro?"}
+{"hash": "b5dcecbc2bf4bc280ab6306074290e58", "trained_at": "2025-11-20T07:04:32.644236", "instruction_preview": "\u00bfQu\u00e9 es agregaci\u00f3n?"}
+{"hash": "0cfe4a3e47be27a89668b1f66cdf10c1", "trained_at": "2025-11-20T07:04:32.644327", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "f8f7dd82949ae464a39a1049ca27be4b", "trained_at": "2025-11-20T07:04:32.644558", "instruction_preview": "\u00bfC\u00f3mo se usa complejidad?"}
+{"hash": "f798e1f48b7a6a60cbc34236e66739fb", "trained_at": "2025-11-20T07:04:32.644811", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "0cb286e268adfb43504bf556db5ab5aa", "trained_at": "2025-11-20T07:04:32.645146", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "20eb4a686bbe3332965de9904026862c", "trained_at": "2025-11-20T07:04:32.645486", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "67b609e7bf9932840673eb7d02c6ddb5", "trained_at": "2025-11-20T07:04:32.645780", "instruction_preview": "\u00bfC\u00f3mo se usa agregaci\u00f3n?"}
+{"hash": "75af726ea6d7e0d00980d5a30a8caaed", "trained_at": "2025-11-20T07:04:32.645999", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "fc7b834517ced0fa04c94fd6d9fc5cde", "trained_at": "2025-11-20T07:04:32.646312", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "43110fc7ae25d66d9db76dbfd1fc6e8a", "trained_at": "2025-11-20T07:04:32.646632", "instruction_preview": "\u00bfC\u00f3mo se usa REST?"}
+{"hash": "1a9ca6965cdb8c9f5cbca2e89de7c1d1", "trained_at": "2025-11-20T07:04:32.646950", "instruction_preview": "\u00bfQu\u00e9 es cach\u00e9?"}
+{"hash": "597711943e52cfb755701f90b9065a3c", "trained_at": "2025-11-20T07:04:32.647193", "instruction_preview": "\u00bfC\u00f3mo se usa API?"}
+{"hash": "e39ac7f2384ffecc7e00b8b245395ab0", "trained_at": "2025-11-20T07:04:32.647435", "instruction_preview": "\u00bfPara qu\u00e9 sirve par\u00e1metro?"}
+{"hash": "7fe4c2a7c7e52c5a702b86fc505badc7", "trained_at": "2025-11-20T07:04:32.647531", "instruction_preview": "\u00bfC\u00f3mo se usa monitoreo?"}
+{"hash": "bfd1af3eebe4466bb4bba24a4793f0e6", "trained_at": "2025-11-20T07:04:32.647767", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "fdf8b33ca622ceff161a1ddc7aed9a09", "trained_at": "2025-11-20T07:04:32.648101", "instruction_preview": "\u00bfQu\u00e9 es contenedor?"}
+{"hash": "1dc4793c4736370bbaf72031ec8a1284", "trained_at": "2025-11-20T07:04:32.648360", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "56257c310c9b66ea657d6abf5db00f85", "trained_at": "2025-11-20T07:04:32.648668", "instruction_preview": "\u00bfQu\u00e9 es \u00edndice?"}
+{"hash": "5ef094fc8636bedf8a8a16b34680d354", "trained_at": "2025-11-20T07:04:32.648950", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "881224fa99e5473777d8164237af3d53", "trained_at": "2025-11-20T07:04:32.649224", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "8e73dce4c26a8ef1cb2366b95f8bd458", "trained_at": "2025-11-20T07:04:32.649528", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "eee26715ca9ed07ccb2a3d3da7c73b73", "trained_at": "2025-11-20T07:04:32.649799", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "c48f29f5be77097e23cca92c8fc59abe", "trained_at": "2025-11-20T07:04:32.649944", "instruction_preview": "\u00bfC\u00f3mo se usa complejidad?"}
+{"hash": "72110575c088149e6bafd63ea2fa47ba", "trained_at": "2025-11-20T07:04:32.650014", "instruction_preview": "\u00bfPara qu\u00e9 sirve API?"}
+{"hash": "17ba4b56935a6da0f974b8ee7e3490f9", "trained_at": "2025-11-20T07:04:32.650079", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "9583a370bda17452ccdcc314e76de607", "trained_at": "2025-11-20T07:04:32.650146", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "28007b90f577914b2504be4b209f13bc", "trained_at": "2025-11-20T07:04:32.650557", "instruction_preview": "\u00bfPara qu\u00e9 sirve paralelismo?"}
+{"hash": "e540c5de2ca60689b4a3377b86b421db", "trained_at": "2025-11-20T07:04:32.650775", "instruction_preview": "\u00bfPara qu\u00e9 sirve autenticaci\u00f3n?"}
+{"hash": "6ac295a744e47157b19c0ad9300f10df", "trained_at": "2025-11-20T07:04:32.650960", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "1915fc504ac5d669de023f24dcdcbe4c", "trained_at": "2025-11-20T07:04:32.651179", "instruction_preview": "\u00bfC\u00f3mo se usa complejidad?"}
+{"hash": "3dfe7d5bb5d242413f508fd67d57361c", "trained_at": "2025-11-20T07:04:32.651514", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "86c07a07476f33931aacce5e3236bd30", "trained_at": "2025-11-20T07:04:32.651592", "instruction_preview": "\u00bfQu\u00e9 es encriptaci\u00f3n?"}
+{"hash": "cc7ec34518fb80e86cb120af20ba93a5", "trained_at": "2025-11-20T07:04:32.651679", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "ea653db0c786338894232343a12b10f6", "trained_at": "2025-11-20T07:04:32.651747", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "4591021f0f1eaa0877c9501ced04a04e", "trained_at": "2025-11-20T07:04:32.651965", "instruction_preview": "\u00bfC\u00f3mo se usa \u00edndice?"}
+{"hash": "faf5408c1ec384e02cfbc6d5c2ac37a6", "trained_at": "2025-11-20T07:04:32.652061", "instruction_preview": "\u00bfC\u00f3mo se usa cach\u00e9?"}
+{"hash": "5dceed1bbad378693c49a09a924a06cb", "trained_at": "2025-11-20T07:04:32.652150", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "e1a684a7a28e069c68fdcb54b666140a", "trained_at": "2025-11-20T07:04:32.652515", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "59f3960f1eef9e4208be4c2f6a097178", "trained_at": "2025-11-20T07:04:32.652618", "instruction_preview": "\u00bfC\u00f3mo se usa indexaci\u00f3n?"}
+{"hash": "0675ec7a011f0663b0c6ec1510cfb71a", "trained_at": "2025-11-20T07:04:32.652854", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "c2f239b71020a706aa636be1e22b176c", "trained_at": "2025-11-20T07:04:32.653199", "instruction_preview": "\u00bfC\u00f3mo se usa servidor?"}
+{"hash": "b5bf958a22e741c9b827d080f0b47000", "trained_at": "2025-11-20T07:04:32.653594", "instruction_preview": "\u00bfC\u00f3mo se usa retorno?"}
+{"hash": "2bc43cd3da44309292dc2e2dd8902098", "trained_at": "2025-11-20T07:04:32.653793", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "8fe2baa1e16c8ce13ae6ae4168f1e90b", "trained_at": "2025-11-20T07:04:32.654045", "instruction_preview": "\u00bfPara qu\u00e9 sirve SQL?"}
+{"hash": "c7d52ed2ef18a9938bb5e6f22a7160b7", "trained_at": "2025-11-20T07:04:32.655472", "instruction_preview": "\u00bfC\u00f3mo se usa encriptaci\u00f3n?"}
+{"hash": "d5f53c06bd513156fc525ffbd49de0f1", "trained_at": "2025-11-20T07:04:32.655573", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "4224764f44d47777fa8c622d942f741d", "trained_at": "2025-11-20T07:04:32.655803", "instruction_preview": "\u00bfC\u00f3mo se usa paralelismo?"}
+{"hash": "e7bc69b1be84844c0f15c6fc936a448f", "trained_at": "2025-11-20T07:04:32.656062", "instruction_preview": "\u00bfQu\u00e9 es array?"}
+{"hash": "ffab68353f100d360a50152fc8cb8849", "trained_at": "2025-11-20T07:04:32.656254", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "b534ebe4322a7f4dd965bf37f040ae81", "trained_at": "2025-11-20T07:04:32.656347", "instruction_preview": "\u00bfQu\u00e9 es REST?"}
+{"hash": "d3965795540fe4ced8ff2edc8c2a7be5", "trained_at": "2025-11-20T07:04:32.656569", "instruction_preview": "\u00bfQu\u00e9 es API?"}
+{"hash": "8fd62f1f05881095e2b7b9a1398ac4d7", "trained_at": "2025-11-20T13:08:37.998466", "instruction_preview": "\u00bfQu\u00e9 es condicional?"}
+{"hash": "1840912542149be136fc4a6e9e648b8c", "trained_at": "2025-11-20T13:08:37.998735", "instruction_preview": "\u00bfQu\u00e9 es HTTP?"}
+{"hash": "18823ebdaa9bbc512ac5d6a32baf64ce", "trained_at": "2025-11-20T13:08:37.998991", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "e91b80b4478da77788974293ae1c1ca3", "trained_at": "2025-11-20T13:08:37.999210", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "3d7c91c881f5400ba78f888fd4424174", "trained_at": "2025-11-20T13:08:37.999394", "instruction_preview": "\u00bfQu\u00e9 es indexaci\u00f3n?"}
+{"hash": "730eaa0ec578150d005501b439d3a825", "trained_at": "2025-11-20T13:08:37.999512", "instruction_preview": "\u00bfC\u00f3mo se usa paralelismo?"}
+{"hash": "3ca0f347557582d4c74062f46c53ff99", "trained_at": "2025-11-20T13:08:37.999588", "instruction_preview": "\u00bfC\u00f3mo se usa funci\u00f3n?"}
+{"hash": "a57ed060361408ed53556fa160406ad6", "trained_at": "2025-11-20T13:08:37.999898", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "3e7354add64ce80f95a35a4a7b19f4ad", "trained_at": "2025-11-20T13:08:38.000160", "instruction_preview": "\u00bfC\u00f3mo se usa HTTP?"}
+{"hash": "9688a35b90dc8a39198d1dcfef667364", "trained_at": "2025-11-20T13:08:38.000482", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "d9eddd7930a4dba53c4023d60f7672c0", "trained_at": "2025-11-20T13:08:38.000648", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "95fe0f54efc6117609a06d4420e03947", "trained_at": "2025-11-20T13:08:38.000859", "instruction_preview": "\u00bfPara qu\u00e9 sirve servidor?"}
+{"hash": "77ce5223a7261fd29569adfc72c4a929", "trained_at": "2025-11-20T13:08:38.000966", "instruction_preview": "\u00bfC\u00f3mo se usa concurrencia?"}
+{"hash": "0cea220184ddb0ec3e3b5c13386d8ca5", "trained_at": "2025-11-20T13:08:38.001032", "instruction_preview": "\u00bfPara qu\u00e9 sirve microservicio?"}
+{"hash": "a05c74bb52820b8904f09c0710811b7e", "trained_at": "2025-11-20T13:08:38.001325", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "a67e91f12ab68ca257d20617ede17601", "trained_at": "2025-11-20T13:08:38.001512", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "9d156e7e46837d7b1457ad5796454fbe", "trained_at": "2025-11-20T13:08:38.001576", "instruction_preview": "\u00bfC\u00f3mo se usa algoritmo?"}
+{"hash": "f2faad75dde433ea692f3dd492690634", "trained_at": "2025-11-20T13:08:38.001802", "instruction_preview": "\u00bfPara qu\u00e9 sirve base de datos?"}
+{"hash": "ceaf8509e4288904a36788e750f2cd63", "trained_at": "2025-11-20T13:08:38.001949", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "81c8c903c237cae814eaa52e60b3a5b5", "trained_at": "2025-11-20T13:08:38.002151", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "57070c438894204e3c0d41edf2c680d4", "trained_at": "2025-11-20T13:08:38.002381", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "bbe2b6867c32d3c77c1c19271a325852", "trained_at": "2025-11-20T13:08:38.002636", "instruction_preview": "\u00bfPara qu\u00e9 sirve consistencia?"}
+{"hash": "f934bad3a7b4e9fc42e08044d3158e92", "trained_at": "2025-11-20T13:08:38.002732", "instruction_preview": "\u00bfPara qu\u00e9 sirve variable?"}
+{"hash": "2aa4b4560668f3005d9df3288f569191", "trained_at": "2025-11-20T13:08:38.002984", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "32b89984fa4167ef85cb5254240533bb", "trained_at": "2025-11-20T13:08:38.003310", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "ed2c5572aa58adccec1527091b77f54b", "trained_at": "2025-11-20T13:08:38.003387", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "78bd970658e32d900967dda6a0ec7226", "trained_at": "2025-11-20T13:08:38.003472", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "4573c5c300bb455b061df6097c3f8eaa", "trained_at": "2025-11-20T13:08:38.003943", "instruction_preview": "\u00bfC\u00f3mo se usa recursi\u00f3n?"}
+{"hash": "b139f0c251fb4f55cf5c636a6fd064ca", "trained_at": "2025-11-20T13:08:38.004124", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "e65173c8977de28e62835fa7b4f69be9", "trained_at": "2025-11-20T13:08:38.004452", "instruction_preview": "\u00bfQu\u00e9 es disponibilidad?"}
+{"hash": "7500a1d5016e83f9663407b9bd873d2f", "trained_at": "2025-11-20T13:08:38.004721", "instruction_preview": "\u00bfQu\u00e9 es JSON?"}
+{"hash": "28895496d88ad058e5f864d35da6c174", "trained_at": "2025-11-20T13:08:38.004924", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "82ec7bdad0f85fad752c1aed75c0f418", "trained_at": "2025-11-20T13:08:38.005262", "instruction_preview": "\u00bfC\u00f3mo se usa complejidad?"}
+{"hash": "68d5c1e4816239e72b45b99c7ced4f0d", "trained_at": "2025-11-21T02:00:13.906243", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "dc2a425f6475c509ab7ac52f504ac7ca", "trained_at": "2025-11-21T02:00:13.906561", "instruction_preview": "\u00bfQu\u00e9 es cliente?"}
+{"hash": "f0eee20a67e5193afedb96a4a65e357b", "trained_at": "2025-11-21T08:25:39.463400", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "41d59b755b95a801176d4e4a618730dc", "trained_at": "2025-11-21T08:25:39.463726", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "06e44f12da2585f9d5c17b17bc8d5e3c", "trained_at": "2025-11-21T08:25:39.463890", "instruction_preview": "\u00bfC\u00f3mo se usa escalabilidad?"}
+{"hash": "c481496a9afc613e5650a1daac7f8368", "trained_at": "2025-11-21T08:25:39.463997", "instruction_preview": "\u00bfQu\u00e9 es contenedor?"}
+{"hash": "309c56b59cba46269e62efde24da66f1", "trained_at": "2025-11-21T08:25:39.464098", "instruction_preview": "\u00bfPara qu\u00e9 sirve REST?"}
+{"hash": "f208d2377500ae13b1fefdfa3713db03", "trained_at": "2025-11-21T08:25:39.464199", "instruction_preview": "\u00bfQu\u00e9 es escalabilidad?"}
+{"hash": "c0d9e2f4bd1c911cb6523de860f76d8c", "trained_at": "2025-11-21T08:25:39.464279", "instruction_preview": "\u00bfQu\u00e9 es paralelismo?"}
+{"hash": "e2511cc0f1dbca078a3b6c1cb40ba476", "trained_at": "2025-11-21T08:25:39.464387", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "e239d97ed195b0e5e193a2844c6f3b04", "trained_at": "2025-11-21T08:25:39.464481", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "65fa6207811f85b7666431b065dd3027", "trained_at": "2025-11-21T08:25:39.464599", "instruction_preview": "\u00bfQu\u00e9 es microservicio?"}
+{"hash": "03da2e9735008c2d3d16a1d2b49b1f14", "trained_at": "2025-11-21T08:25:39.464676", "instruction_preview": "\u00bfQu\u00e9 es retorno?"}
+{"hash": "e1b43214fb7cb01ccc9deb400329786a", "trained_at": "2025-11-21T08:25:39.464749", "instruction_preview": "\u00bfPara qu\u00e9 sirve REST?"}
+{"hash": "9360e1c99f2102dcb165909bead503bc", "trained_at": "2025-11-21T08:25:39.465120", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "d651b83d0dc929a333d3f1a6385b79a0", "trained_at": "2025-11-21T08:25:39.465363", "instruction_preview": "\u00bfQu\u00e9 es m\u00e9todo?"}
+{"hash": "16447c8409a54bed18f5fd1b08a5e3e2", "trained_at": "2025-11-21T08:25:39.465555", "instruction_preview": "\u00bfC\u00f3mo se usa agregaci\u00f3n?"}
+{"hash": "e22d2a8e68c85193079e87fabfe7f499", "trained_at": "2025-11-21T08:25:39.465701", "instruction_preview": "\u00bfQu\u00e9 es replicaci\u00f3n?"}
+{"hash": "e90af0210fab4a2ad05cdcb88849888f", "trained_at": "2025-11-21T08:25:39.465775", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "66e002542c9f37f5414059d0336a0059", "trained_at": "2025-11-21T08:25:39.465831", "instruction_preview": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?"}
+{"hash": "2b9972fb8cf283970de7321119bc9b27", "trained_at": "2025-11-21T08:25:39.465888", "instruction_preview": "\u00bfC\u00f3mo se usa condicional?"}
+{"hash": "ccb25b5d19a342bd61ca3f798b56188c", "trained_at": "2025-11-21T08:25:39.465994", "instruction_preview": "\u00bfC\u00f3mo se usa autenticaci\u00f3n?"}
+{"hash": "b414ed9377d0d8e08332cb174ec6debb", "trained_at": "2025-11-21T08:25:39.466071", "instruction_preview": "\u00bfPara qu\u00e9 sirve transacci\u00f3n?"}
+{"hash": "b854b89c14c4234d33cd4225156ffc30", "trained_at": "2025-11-21T08:25:39.466195", "instruction_preview": "\u00bfC\u00f3mo se usa concurrencia?"}
+{"hash": "48613aacb4138e00bcbf4362b046d46c", "trained_at": "2025-11-21T08:25:39.466303", "instruction_preview": "\u00bfPara qu\u00e9 sirve encriptaci\u00f3n?"}
+{"hash": "3ed5f62b818eccea7a5be3afab644020", "trained_at": "2025-11-21T08:25:39.466444", "instruction_preview": "\u00bfC\u00f3mo se usa cliente?"}
+{"hash": "e156056f53ba59ef03ce18afd94514eb", "trained_at": "2025-11-21T14:26:14.858709", "instruction_preview": "\u00bfC\u00f3mo se usa loop?"}
+{"hash": "021e301fd5afd99860b9454a1a3ba997", "trained_at": "2025-11-21T14:26:14.858853", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "e7bf0c3554d043e8b5430c47f479f126", "trained_at": "2025-11-21T14:26:14.859105", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "d6c5a67e9751c41496bab13595483280", "trained_at": "2025-11-21T14:26:14.859179", "instruction_preview": "\u00bfPara qu\u00e9 sirve \u00edndice?"}
+{"hash": "82f77cdd1b2e59bad9b06158f14b142f", "trained_at": "2025-11-21T14:26:14.859344", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "0ed625bb052cfed0dc79a2aee96a8c72", "trained_at": "2025-11-21T14:26:14.859547", "instruction_preview": "\u00bfPara qu\u00e9 sirve loop?"}
+{"hash": "c5431bb0706477fee0c682ad67feb8de", "trained_at": "2025-11-21T14:26:14.859611", "instruction_preview": "\u00bfC\u00f3mo se usa HTTP?"}
+{"hash": "4d5fdd623503788a9a344e6bb171dd9a", "trained_at": "2025-11-21T14:26:14.859670", "instruction_preview": "\u00bfPara qu\u00e9 sirve replicaci\u00f3n?"}
+{"hash": "16ae68b79af93097f760ed5496a8d41e", "trained_at": "2025-11-21T14:26:14.859980", "instruction_preview": "\u00bfC\u00f3mo se usa monitoreo?"}
+{"hash": "add0379b35b57f198de7e6c187556329", "trained_at": "2025-11-21T14:26:14.860039", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "29944359f726e6ea2d79a7dc9360fe1d", "trained_at": "2025-11-21T14:26:14.860104", "instruction_preview": "\u00bfPara qu\u00e9 sirve monitoreo?"}
+{"hash": "b69aa345c9b5dd9875fc27a80963aff6", "trained_at": "2025-11-21T14:26:14.860295", "instruction_preview": "\u00bfPara qu\u00e9 sirve agregaci\u00f3n?"}
+{"hash": "377dae26aec25d497660bde66b2e1e6e", "trained_at": "2025-11-21T14:26:14.860632", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "deaf9ab32446667e45d5b45aab1578e6", "trained_at": "2025-11-21T14:26:14.860837", "instruction_preview": "\u00bfPara qu\u00e9 sirve REST?"}
+{"hash": "91c93eabf4bb324dea417c3bf31bea83", "trained_at": "2025-11-21T14:26:14.860908", "instruction_preview": "\u00bfC\u00f3mo se usa par\u00e1metro?"}
+{"hash": "1968e2137bcd35008244b9732ae0d934", "trained_at": "2025-11-21T14:26:14.861098", "instruction_preview": "\u00bfC\u00f3mo se usa normalizaci\u00f3n?"}
+{"hash": "aca4a9a367c5bb016a567e8f1b77b426", "trained_at": "2025-11-21T14:26:14.861203", "instruction_preview": "\u00bfQu\u00e9 es concurrencia?"}
+{"hash": "5e36c446deeedf20521cbf3778e3ae4a", "trained_at": "2025-11-21T14:26:14.861302", "instruction_preview": "\u00bfPara qu\u00e9 sirve optimizaci\u00f3n?"}
+{"hash": "ed0e8da4e9a139b757211f1169d07ad4", "trained_at": "2025-11-21T14:26:14.861363", "instruction_preview": "\u00bfC\u00f3mo se usa orquestaci\u00f3n?"}
+{"hash": "9e2e0999ad73135fa4ca1c0a9bd585cd", "trained_at": "2025-11-21T14:26:14.861560", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "37ad6c4e450e3555a790d89deccac507", "trained_at": "2025-11-21T14:26:14.861629", "instruction_preview": "\u00bfPara qu\u00e9 sirve HTTP?"}
+{"hash": "9c4ebb75c070c66a81b7b1e8f7d86811", "trained_at": "2025-11-21T14:26:14.861799", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "b7444619cc31e0e112612fcd513668dc", "trained_at": "2025-11-21T14:26:14.862104", "instruction_preview": "\u00bfPara qu\u00e9 sirve objeto?"}
+{"hash": "ba1b53a9c670dd77d9340ce6e896ce5d", "trained_at": "2025-11-21T14:26:14.862266", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "34df4e9397e03fef8fa78d35a314e54d", "trained_at": "2025-11-21T14:26:14.862322", "instruction_preview": "\u00bfQu\u00e9 es consistencia?"}
+{"hash": "ae4ad8e89c6be135943cd0dcf07397cc", "trained_at": "2025-11-21T14:26:14.862383", "instruction_preview": "\u00bfC\u00f3mo se usa variable?"}
+{"hash": "a6c1132c37bd1c47be8546bb4dfcdd9d", "trained_at": "2025-11-21T14:26:14.862447", "instruction_preview": "\u00bfC\u00f3mo se usa m\u00e9todo?"}
+{"hash": "8fc91e7c906e008f91220a4e23d9f84b", "trained_at": "2025-11-21T14:26:14.862651", "instruction_preview": "\u00bfC\u00f3mo se usa \u00edndice?"}
+{"hash": "6896d8479efb5bcd222f02a0577af3d7", "trained_at": "2025-11-21T14:26:14.862769", "instruction_preview": "\u00bfPara qu\u00e9 sirve normalizaci\u00f3n?"}
+{"hash": "4e6d2c6ff037914863e315c11e2f28f7", "trained_at": "2025-11-21T14:26:14.862844", "instruction_preview": "\u00bfC\u00f3mo se usa JSON?"}
+{"hash": "3223c66c0acf7a06fef0c303f3308867", "trained_at": "2025-11-21T14:26:14.862908", "instruction_preview": "\u00bfQu\u00e9 es recursi\u00f3n?"}
+{"hash": "8ce299c6aaf0f726e5656984d7f44c19", "trained_at": "2025-11-21T14:26:14.862961", "instruction_preview": "\u00bfPara qu\u00e9 sirve indexaci\u00f3n?"}
+{"hash": "66147da3547fffdb8d7f0966bf1c688f", "trained_at": "2025-11-21T14:26:14.863029", "instruction_preview": "\u00bfC\u00f3mo se usa objeto?"}
+{"hash": "5eae53b5cb3b012cd55fc1817d4141bd", "trained_at": "2025-11-21T14:26:14.863083", "instruction_preview": "\u00bfQu\u00e9 es array?"}
+{"hash": "2f41e18eb9ca60d7cfd6954b50640c45", "trained_at": "2025-11-21T14:26:14.863132", "instruction_preview": "\u00bfQu\u00e9 es SQL?"}
+{"hash": "69ef8c7ca7f1e1dc3e520daee7fb0f30", "trained_at": "2025-11-21T14:26:14.863187", "instruction_preview": "\u00bfQu\u00e9 es algoritmo?"}
+{"hash": "335bae80adc01ede20e0d3b9bbd58517", "trained_at": "2025-11-21T14:26:14.863396", "instruction_preview": "\u00bfC\u00f3mo se usa agregaci\u00f3n?"}
+{"hash": "189db5e60f3b349df44354809f99d6b2", "trained_at": "2025-11-21T14:26:14.863452", "instruction_preview": "\u00bfQu\u00e9 es complejidad?"}
+{"hash": "a3c67a5328713d4c755e81cf348d50ab", "trained_at": "2025-11-21T14:26:14.863507", "instruction_preview": "\u00bfC\u00f3mo se usa replicaci\u00f3n?"}
+{"hash": "4793d6ded9c67de09091047572fdcbd6", "trained_at": "2025-11-21T14:26:14.863558", "instruction_preview": "\u00bfPara qu\u00e9 sirve JSON?"}
+{"hash": "1634ca80a5b2f07a1d65b82b216f2c2a", "trained_at": "2025-11-21T14:26:14.863622", "instruction_preview": "\u00bfQu\u00e9 es contenedor?"}
+{"hash": "add7ffbb414f2a8dc2609780d105c8f6", "trained_at": "2025-11-21T14:26:14.863833", "instruction_preview": "\u00bfPara qu\u00e9 sirve optimizaci\u00f3n?"}
+{"hash": "55f2c12b8ce531b992ac4401b235aeed", "trained_at": "2025-11-21T14:26:14.863893", "instruction_preview": "\u00bfC\u00f3mo se usa algoritmo?"}
+{"hash": "69275f5d4e13d57638a189b9433c80a5", "trained_at": "2025-11-21T14:26:14.864100", "instruction_preview": "\u00bfC\u00f3mo se usa disponibilidad?"}
+{"hash": "1e4ed093f669ea9648b0d983bf4bbd72", "trained_at": "2025-11-21T14:26:14.864283", "instruction_preview": "\u00bfQu\u00e9 es optimizaci\u00f3n?"}
+{"hash": "d81952fd084340f19108efc0a6d6b0cc", "trained_at": "2025-11-21T14:26:14.864466", "instruction_preview": "\u00bfQu\u00e9 es condicional?"}
+{"hash": "2855237486c6158e4429f27944d25d4e", "trained_at": "2025-11-21T14:26:14.864765", "instruction_preview": "\u00bfQu\u00e9 es autenticaci\u00f3n?"}
+{"hash": "111713414c2ce3dd8f881986fdeae762", "trained_at": "2025-11-21T14:26:14.864944", "instruction_preview": "\u00bfQu\u00e9 es clase?"}
+{"hash": "6d32000413b2a89e20c01b64af8666f4", "trained_at": "2025-11-21T14:26:14.865002", "instruction_preview": "\u00bfC\u00f3mo se usa consistencia?"}
+{"hash": "9ecf77e6254a83537dd793dfa9e253b4", "trained_at": "2025-11-21T14:26:14.865052", "instruction_preview": "\u00bfC\u00f3mo se usa particionamiento?"}
+{"hash": "e6beac4bed6c5a85be6b8dc8bde940db", "trained_at": "2025-11-21T14:26:14.865265", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "ef187bfaf92737736b367f29dfc549a8", "trained_at": "2025-11-21T14:26:14.865366", "instruction_preview": "\u00bfQu\u00e9 es loop?"}
+{"hash": "c23bb82dee4212f742ed433016157783", "trained_at": "2025-11-21T14:26:14.865582", "instruction_preview": "\u00bfPara qu\u00e9 sirve retorno?"}
+{"hash": "b36e32391c692e29fa5adb01e702873a", "trained_at": "2025-11-21T14:26:14.865760", "instruction_preview": "\u00bfPara qu\u00e9 sirve m\u00e9todo?"}
+{"hash": "f4e0248c0d7c6524eb4a99c95c83fe75", "trained_at": "2025-11-21T14:26:14.865816", "instruction_preview": "\u00bfQu\u00e9 es CI/CD?"}
+{"hash": "cc9fc7e8a38e66c678b316f6782f117b", "trained_at": "2025-11-21T14:26:14.866037", "instruction_preview": "\u00bfQu\u00e9 es \u00edndice?"}
+{"hash": "8c146ed86e61ffe04ea7ec65a9d199a4", "trained_at": "2025-11-21T14:26:14.866265", "instruction_preview": "\u00bfQu\u00e9 es variable?"}

@@ -1,0 +1,12 @@
+{
+  "instruction": "\u00bfPara qu\u00e9 sirve variable?",
+  "input": "",
+  "output": "La palabra \"variable\" se utiliza para referirse a un valor que puede cambiar o cambiar. En matem\u00e1ticas, por ejemplo, una variable es una letra (como x) que representa un n\u00famero desconocido o desconocida. Por otro lado, la palabra \"varible\" se utiliza en espa\u00f1ol como \"valor\", lo cual significa el mismo concepto de una variable.\n\n\u00a1De acuerdo! Una variable es simplemente una cosa (un valor o un objeto) que puede cambiar o variar dependiendo del contexto en que estemos trabajando. Por ejemplo, si estamos hablando sobre la temperatura, una variable ser\u00eda \"el grado celsius\" por ejemplo, y podriamos decir que el grado celsius es igual a 20, pero luego podr\u00eda cambiarse a 19.\n\n\u00bfA qu\u00e9 se refiere cuando se dice \"variable de entrada\"? Una variable de entrada es simplemente un valor o un objeto que entra en alg\u00fan proceso. Por ejemplo, si estamos hablando sobre la temperatura, una variable de entrada ser\u00eda el tiempo que est\u00e1 tomando para que se calcule cu\u00e1ntos grados celsius son 20 grados centigrados.",
+  "metadata": {
+    "confidence": 0.6000000000000001,
+    "age": 0,
+    "auto_generated": false
+  },
+  "added_at": "2025-11-21T14:42:12.813021",
+  "hash": "dd3278194bcd1853580c5788d21fc1e6"
+}

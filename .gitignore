@@ -90,3 +90,6 @@ build/
 !data/checkpoints/.gitkeep
 !data/memory/.gitkeep
 export/models/*.gguf
+thau_age_3_hf/pytorch_model.bin
+*.bin
+data/memory/*.db
