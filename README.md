@@ -5,11 +5,16 @@
 </p>
 
 <p align="center">
+  <em>Dedicated to Thomas and Aurora - watching you learn and grow inspired this project</em>
+</p>
+
+<p align="center">
   <a href="#features">Features</a> |
   <a href="#installation">Installation</a> |
   <a href="#quick-start">Quick Start</a> |
   <a href="#current-status">Status</a> |
-  <a href="#contributing">Contributing</a>
+  <a href="#contributing">Contributing</a> |
+  <a href="#support-this-project">Support</a>
 </p>
 
 ---
@@ -266,6 +271,18 @@ isort .
 - [ ] Model quantization (INT4/INT8)
 - [ ] Web UI for training monitoring
 - [ ] Plugin system for custom learning sources
+
+## Support This Project
+
+If you find THAU useful or interesting, consider supporting its development:
+
+<p align="center">
+  <a href="https://buymeacoffee.com/luepow"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
+  <a href="https://github.com/sponsors/luepow"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
+  <a href="https://paypal.me/luepow"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
+</p>
+
+Your support helps cover compute costs and keeps this project alive!
 
 ## License
 
