@@ -17,11 +17,36 @@
   <a href="#support-this-project">Support</a>
 </p>
 
+<p align="center">
+  <a href="https://ollama.com/luepow/thau"><img src="https://img.shields.io/badge/Ollama-luepow%2Fthau-blue" alt="Ollama"></a>
+  <a href="https://huggingface.co/luepow/thau"><img src="https://img.shields.io/badge/HuggingFace-luepow%2Fthau-yellow" alt="HuggingFace"></a>
+  <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="License">
+</p>
+
+---
+
+## The Story Behind THAU
+
+**THAU** was born from a simple question: *"Can an AI learn progressively, like a child does?"*
+
+As a developer and father, I (Luis Perez) was fascinated by how my children Thomas and Aurora learn - starting with basic concepts and gradually building more complex understanding. This inspired me to create a framework that mimics this cognitive progression in AI.
+
+### Why I Built This
+
+- **Curiosity**: I wanted to understand how LLMs work from the inside out
+- **Experimentation**: To test if progressive "cognitive age" training could improve model quality
+- **Learning**: Building something hands-on is the best way to learn
+- **Open Source**: To share the journey with others who are curious about AI
+
+### Built With Claude
+
+This entire project was developed in collaboration with **Claude** (Anthropic's AI assistant). From architecture decisions to code implementation, debugging, and documentation - Claude has been my pair programming partner throughout this journey. It's a testament to what human-AI collaboration can achieve.
+
 ---
 
 ## What is THAU?
 
-THAU (Thinking, Heuristic, Autonomous, Understanding) is an **experimental** framework exploring how AI models can learn progressively, similar to human cognitive development.
+THAU (Thinking, Helpful, Autonomous, Understanding) is an **experimental** framework exploring how AI models can learn progressively, similar to human cognitive development.
 
 > **Important**: This is a learning/research project. The models are small (~15M to ~400M parameters) and cannot compete with production LLMs like GPT or Claude. The value is in the *concepts* and *approach*, not the model quality.
 
@@ -277,7 +302,7 @@ isort .
 If you find THAU useful or interesting, consider supporting its development:
 
 <p align="center">
-  <a href="https://buymeacoffee.com/luepow"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
+  <a href="https://buymeacoffee.com/luepowg"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
   <a href="https://github.com/sponsors/luepow"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
   <a href="https://paypal.me/luepow"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
 </p>
@@ -290,9 +315,11 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Acknowledgments
 
-- Built on [TinyLlama](https://github.com/jzhang38/TinyLlama)
-- Uses [Transformers](https://huggingface.co/transformers) by Hugging Face
-- Inspired by cognitive development research
+- **Thomas & Aurora** - My children, whose learning journey inspired this project
+- **Claude (Anthropic)** - AI pair programming partner throughout development
+- **TinyLlama Team** - For the excellent base model
+- **Hugging Face** - For the transformers library and model hosting
+- **Ollama Team** - For making local LLM deployment accessible
 
 ## Contact
 
@@ -300,8 +327,24 @@ MIT License - see [LICENSE](LICENSE) for details.
 - **Email**: luepow@hotmail.com
 - **GitHub**: [@luepow](https://github.com/luepow)
 
+## Try the Model
+
+```bash
+# Ollama
+ollama pull luepow/thau
+ollama run luepow/thau
+
+# HuggingFace
+from transformers import AutoModelForCausalLM, AutoTokenizer
+model = AutoModelForCausalLM.from_pretrained("luepow/thau")
+```
+
 ---
 
 <p align="center">
-  Made with curiosity and code
+  <em>THAU - Built with curiosity, love, and a lot of help from Claude</em>
+</p>
+
+<p align="center">
+  <em>"The best way to learn is to build something"</em>
 </p>

@@ -55,7 +55,7 @@ Before publishing, you need to:
 **Setup:**
 1. Go to https://www.buymeacoffee.com/
 2. Sign up with GitHub
-3. Choose username (e.g., buymeacoffee.com/luepow)
+3. Choose username (e.g., buymeacoffee.com/luepowg)
 4. Customize profile:
    - Add THAU description
    - Upload logo/image
