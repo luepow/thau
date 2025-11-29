@@ -1,0 +1,199 @@
+{
+  "name": "MCP Tool Calling Dataset",
+  "version": "1.0",
+  "description": "Dataset para entrenar THAU en el uso de herramientas MCP con formato <tool_call>",
+  "examples": [
+    {
+      "user": "que hora es?",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "cual es la fecha de hoy?",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "dime la hora actual",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "que dia es hoy?",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "necesito saber la hora",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "busca informacion sobre Python asyncio",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"Python asyncio tutorial\"}}</tool_call>"
+    },
+    {
+      "user": "encuentra articulos sobre machine learning",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"machine learning articulos\"}}</tool_call>"
+    },
+    {
+      "user": "busca como usar Docker",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"Docker tutorial basico\"}}</tool_call>"
+    },
+    {
+      "user": "investiga sobre React hooks",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"React hooks guia\"}}</tool_call>"
+    },
+    {
+      "user": "busca documentacion de FastAPI",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"FastAPI documentacion oficial\"}}</tool_call>"
+    },
+    {
+      "user": "calcula 15 * 23",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = 15 * 23\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "genera una lista del 1 al 10",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = list(range(1, 11))\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "calcula el factorial de 5",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"import math\\nresult = math.factorial(5)\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "invierte la cadena 'hola mundo'",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = 'hola mundo'[::-1]\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "suma los numeros del 1 al 100",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = sum(range(1, 101))\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "cuanto es 2 elevado a la 10?",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = 2 ** 10\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "lee el archivo config.py",
+      "assistant": "<tool_call>{\"name\": \"read_file\", \"arguments\": {\"filepath\": \"config.py\"}}</tool_call>"
+    },
+    {
+      "user": "muestra el contenido de README.md",
+      "assistant": "<tool_call>{\"name\": \"read_file\", \"arguments\": {\"filepath\": \"README.md\"}}</tool_call>"
+    },
+    {
+      "user": "abre el archivo requirements.txt",
+      "assistant": "<tool_call>{\"name\": \"read_file\", \"arguments\": {\"filepath\": \"requirements.txt\"}}</tool_call>"
+    },
+    {
+      "user": "lee main.py",
+      "assistant": "<tool_call>{\"name\": \"read_file\", \"arguments\": {\"filepath\": \"main.py\"}}</tool_call>"
+    },
+    {
+      "user": "lista los archivos del directorio actual",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \".\"}}</tool_call>"
+    },
+    {
+      "user": "que hay en la carpeta src?",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \"src\"}}</tool_call>"
+    },
+    {
+      "user": "muestra los archivos en data/",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \"data\"}}</tool_call>"
+    },
+    {
+      "user": "lista el contenido de scripts",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \"scripts\"}}</tool_call>"
+    },
+    {
+      "user": "que archivos hay en el proyecto?",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \".\"}}</tool_call>"
+    },
+    {
+      "user": "haz un GET a https://api.example.com/users",
+      "assistant": "<tool_call>{\"name\": \"call_rest_api\", \"arguments\": {\"url\": \"https://api.example.com/users\", \"method\": \"GET\"}}</tool_call>"
+    },
+    {
+      "user": "consulta la API de clima",
+      "assistant": "<tool_call>{\"name\": \"call_rest_api\", \"arguments\": {\"url\": \"https://api.weather.com/current\", \"method\": \"GET\"}}</tool_call>"
+    },
+    {
+      "user": "genera una imagen de un perro",
+      "assistant": "<tool_call>{\"name\": \"generate_image\", \"arguments\": {\"prompt\": \"a cute dog\"}}</tool_call>"
+    },
+    {
+      "user": "crea una imagen de un atardecer en la playa",
+      "assistant": "<tool_call>{\"name\": \"generate_image\", \"arguments\": {\"prompt\": \"beautiful sunset on the beach\"}}</tool_call>"
+    },
+    {
+      "user": "dibuja un gato jugando",
+      "assistant": "<tool_call>{\"name\": \"generate_image\", \"arguments\": {\"prompt\": \"playful cat\"}}</tool_call>"
+    },
+    {
+      "user": "que es Python?",
+      "assistant": "Python es un lenguaje de programacion de alto nivel, interpretado y de proposito general. Es conocido por su sintaxis clara y legible, lo que lo hace ideal para principiantes y expertos."
+    },
+    {
+      "user": "como funciona un bucle for?",
+      "assistant": "Un bucle for en programacion permite iterar sobre una secuencia de elementos (como una lista o rango), ejecutando un bloque de codigo para cada elemento de la secuencia."
+    },
+    {
+      "user": "que es una funcion?",
+      "assistant": "Una funcion es un bloque de codigo reutilizable que realiza una tarea especifica. Se define una vez con un nombre y puede llamarse multiples veces con diferentes argumentos."
+    },
+    {
+      "user": "explica que es una variable",
+      "assistant": "Una variable es un contenedor para almacenar datos en memoria. Tiene un nombre identificador y puede contener diferentes tipos de valores como numeros, texto o estructuras de datos."
+    },
+    {
+      "user": "que es un array?",
+      "assistant": "Un array o arreglo es una estructura de datos que almacena una coleccion ordenada de elementos del mismo tipo en posiciones contiguas de memoria, accesibles mediante un indice numerico."
+    },
+    {
+      "user": "por favor calcula 100 dividido entre 7",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"result = 100 / 7\\nprint(f'Resultado: {result:.4f}')\"}}</tool_call>"
+    },
+    {
+      "user": "podrias buscar informacion sobre kubernetes?",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"Kubernetes tutorial introduction\"}}</tool_call>"
+    },
+    {
+      "user": "necesito que leas el archivo package.json",
+      "assistant": "<tool_call>{\"name\": \"read_file\", \"arguments\": {\"filepath\": \"package.json\"}}</tool_call>"
+    },
+    {
+      "user": "puedes decirme que hora es ahora?",
+      "assistant": "<tool_call>{\"name\": \"get_current_time\", \"arguments\": {}}</tool_call>"
+    },
+    {
+      "user": "muestrame los archivos de la carpeta tests",
+      "assistant": "<tool_call>{\"name\": \"list_directory\", \"arguments\": {\"path\": \"tests\"}}</tool_call>"
+    },
+    {
+      "user": "genera una imagen de un paisaje de montanas nevadas",
+      "assistant": "<tool_call>{\"name\": \"generate_image\", \"arguments\": {\"prompt\": \"snowy mountain landscape, majestic peaks\"}}</tool_call>"
+    },
+    {
+      "user": "ejecuta print('Hola THAU')",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"print('Hola THAU')\"}}</tool_call>"
+    },
+    {
+      "user": "ordena esta lista: [5, 2, 8, 1, 9]",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"lista = [5, 2, 8, 1, 9]\\nresult = sorted(lista)\\nprint(result)\"}}</tool_call>"
+    },
+    {
+      "user": "encuentra el maximo de [10, 45, 23, 78, 12]",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"numeros = [10, 45, 23, 78, 12]\\nprint(f'Maximo: {max(numeros)}')\"}}</tool_call>"
+    },
+    {
+      "user": "cuantas palabras tiene 'Hola mundo desde THAU'?",
+      "assistant": "<tool_call>{\"name\": \"execute_python\", \"arguments\": {\"code\": \"texto = 'Hola mundo desde THAU'\\npalabras = len(texto.split())\\nprint(f'Palabras: {palabras}')\"}}</tool_call>"
+    },
+    {
+      "user": "busca tutoriales de TypeScript",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"TypeScript tutorial beginners\"}}</tool_call>"
+    },
+    {
+      "user": "informacion sobre GraphQL",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"GraphQL introduction guide\"}}</tool_call>"
+    },
+    {
+      "user": "busca mejores practicas de REST API",
+      "assistant": "<tool_call>{\"name\": \"web_search\", \"arguments\": {\"query\": \"REST API best practices design\"}}</tool_call>"
+    }
+  ]
+}

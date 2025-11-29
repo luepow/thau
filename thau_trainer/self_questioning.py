@@ -1500,7 +1500,73 @@ class SelfQuestioningSystem:
                 "rate limiting", "pagination", "authentication", "Bearer token"
             ],
 
-            # === MATEMÁTICAS ===
+            # === MATEMÁTICAS POR NIVEL ===
+            # BÁSICA - Aritmética y conceptos fundamentales
+            "matematicas_basica": [
+                "suma", "resta", "multiplicación", "división", "fracción", "decimal",
+                "porcentaje", "número natural", "número entero", "número par", "número impar",
+                "múltiplo", "divisor", "máximo común divisor", "mínimo común múltiplo",
+                "potencia", "raíz cuadrada", "orden de operaciones", "redondeo",
+                "número primo", "número compuesto", "factorización", "proporción", "razón",
+                "regla de tres", "conversión de unidades", "sistema métrico",
+                "operaciones con fracciones", "fracciones equivalentes", "simplificar fracciones",
+                "suma de fracciones", "resta de fracciones", "multiplicación de fracciones",
+                "división de fracciones", "fracción mixta", "número decimal periódico"
+            ],
+            # MEDIA - Álgebra y Geometría básica
+            "matematicas_media": [
+                "álgebra", "ecuación lineal", "variable", "constante", "coeficiente",
+                "despejar variable", "sistema de ecuaciones", "método de sustitución",
+                "método de eliminación", "inecuación", "valor absoluto",
+                "polinomio", "monomio", "binomio", "suma de polinomios", "resta de polinomios",
+                "multiplicación de polinomios", "factor común", "productos notables",
+                "ecuación cuadrática", "fórmula cuadrática", "discriminante", "raíces",
+                "geometría plana", "triángulo", "cuadrilátero", "polígono", "círculo",
+                "perímetro", "área", "teorema de Pitágoras", "ángulo", "ángulo recto",
+                "ángulos complementarios", "ángulos suplementarios", "triángulos semejantes",
+                "funciones", "dominio", "rango", "función lineal", "pendiente", "ordenada al origen",
+                "gráfica de función", "función cuadrática", "parábola", "vértice"
+            ],
+            # AVANZADA - Cálculo, Trigonometría, Álgebra Lineal
+            "matematicas_avanzada": [
+                "trigonometría", "seno", "coseno", "tangente", "identidades trigonométricas",
+                "ley de senos", "ley de cosenos", "radianes", "círculo unitario",
+                "funciones trigonométricas inversas", "ecuaciones trigonométricas",
+                "logaritmo", "logaritmo natural", "propiedades de logaritmos", "ecuación exponencial",
+                "ecuación logarítmica", "función exponencial", "número e", "crecimiento exponencial",
+                "sucesión", "serie", "progresión aritmética", "progresión geométrica",
+                "límite", "continuidad", "derivada", "regla de la cadena", "regla del producto",
+                "regla del cociente", "derivadas de funciones trigonométricas",
+                "aplicaciones de la derivada", "máximos y mínimos", "optimización",
+                "integral", "integral definida", "integral indefinida", "antiderivada",
+                "integración por sustitución", "integración por partes",
+                "matriz", "vector", "operaciones con matrices", "determinante", "matriz inversa",
+                "sistemas de ecuaciones lineales", "método de Gauss", "espacio vectorial",
+                "números complejos", "forma polar", "operaciones con complejos"
+            ],
+            # EXPERTA - Matemáticas universitarias y teoría
+            "matematicas_experta": [
+                "cálculo multivariable", "derivada parcial", "gradiente", "hessiano", "jacobiano",
+                "integral doble", "integral triple", "coordenadas polares", "coordenadas cilíndricas",
+                "coordenadas esféricas", "teorema de Green", "teorema de Stokes", "teorema de la divergencia",
+                "ecuación diferencial ordinaria", "ecuación diferencial parcial", "EDO de primer orden",
+                "EDO de segundo orden", "ecuación homogénea", "ecuación no homogénea",
+                "serie de Taylor", "serie de Maclaurin", "serie de Fourier", "transformada de Laplace",
+                "transformada de Fourier", "convergencia de series", "radio de convergencia",
+                "álgebra lineal avanzada", "autovalor", "autovector", "diagonalización",
+                "descomposición SVD", "espacios de Hilbert", "transformación lineal",
+                "teoría de grupos", "anillo", "campo", "homomorfismo", "isomorfismo",
+                "topología", "espacio métrico", "espacio normado", "completitud",
+                "análisis real", "medida de Lebesgue", "teorema de la convergencia dominada",
+                "probabilidad avanzada", "variable aleatoria", "función de distribución",
+                "esperanza matemática", "varianza", "covarianza", "teorema del límite central",
+                "distribución normal", "distribución de Poisson", "distribución binomial",
+                "cadenas de Markov", "proceso estocástico", "teorema de Bayes avanzado",
+                "optimización convexa", "programación lineal", "método simplex",
+                "teoría de números", "congruencia", "aritmética modular", "teorema de Fermat",
+                "función phi de Euler", "criptografía matemática", "RSA"
+            ],
+            # Categorías originales mantenidas para compatibilidad
             "matematicas_basicas": [
                 "suma", "resta", "multiplicación", "división", "fracción", "porcentaje",
                 "número primo", "factorial", "potencia", "raíz cuadrada"
@@ -2163,8 +2229,8 @@ class SelfQuestioningSystem:
         # Registrar actividad
         self._record_question(question, answer)
 
-        # Evaluar calidad de respuesta (simple heurística)
-        confidence = self._evaluate_response_quality(answer)
+        # Evaluar calidad de respuesta (heurística estricta)
+        confidence = self._evaluate_response_quality(question, answer)
 
         result = {
             "timestamp": datetime.now().isoformat(),
@@ -2180,38 +2246,108 @@ class SelfQuestioningSystem:
 
         return result
 
-    def _evaluate_response_quality(self, answer: str) -> float:
+    def _evaluate_response_quality(self, question: str, answer: str) -> float:
         """
-        Evalúa la calidad de una respuesta (heurística simple)
+        Evalúa la calidad de una respuesta de forma estricta
 
         Returns:
             Confianza entre 0.0 y 1.0
         """
-        if not answer:
+        if not answer or not question:
             return 0.0
 
-        # Factores de calidad
-        length_ok = 50 <= len(answer) <= 500  # Longitud razonable
-        has_structure = any(word in answer.lower() for word in ["es", "permite", "sirve", "utiliza"])
-        not_too_short = len(answer.split()) >= 10
+        answer_lower = answer.lower().strip()
+        question_lower = question.lower()
 
-        # Calcular confianza
-        confidence = 0.0
-        if length_ok:
-            confidence += 0.4
-        if has_structure:
-            confidence += 0.4
-        if not_too_short:
-            confidence += 0.2
+        # === DESCALIFICADORES INMEDIATOS (retorna 0.0) ===
+
+        # Respuesta empieza con pregunta o puntuación extraña
+        if answer.strip().startswith(("¿", "?", ",", ".", ";", "-")):
+            return 0.0
+
+        # Respuesta muy corta
+        if len(answer) < 100:
+            return 0.0
+
+        # Respuesta en inglés cuando debería ser español
+        english_starts = ["certainly", "here's", "here is", "i would", "i can",
+                         "to help", "how can i", "sure!", "of course"]
+        for eng in english_starts:
+            if answer_lower.startswith(eng):
+                return 0.0
+
+        # Respuesta dice que no puede/sabe
+        negative_patterns = [
+            "no tengo acceso", "no puedo responder", "no puido",
+            "no tenga acceso", "no puedo proporcionar", "necesito más contexto",
+            "necesitaría más información", "no dispongo de"
+        ]
+        for pattern in negative_patterns:
+            if pattern in answer_lower:
+                return 0.0
+
+        # Demasiadas preguntas en la respuesta
+        if answer[:300].count("?") >= 2:
+            return 0.0
+
+        # Respuesta truncada (termina abruptamente)
+        if answer.strip().endswith(("...", "..", " el", " la", " los", " las", " un", " una", " y", " o", " que", " de")):
+            return 0.0
+
+        # Contenido irrelevante (sitio web sin contexto)
+        if "sitio web" in answer_lower and "web" not in question_lower:
+            return 0.0
+
+        # === FACTORES DE CALIDAD POSITIVOS ===
+        confidence = 0.5  # Base
+
+        # Longitud apropiada (100-1500 caracteres)
+        if 100 <= len(answer) <= 1500:
+            confidence += 0.15
+
+        # Tiene estructura (explicación coherente)
+        structure_words = ["es", "permite", "sirve", "utiliza", "consiste", "significa",
+                         "ejemplo", "código", "función", "método", "clase"]
+        if sum(1 for w in structure_words if w in answer_lower) >= 2:
+            confidence += 0.15
+
+        # Suficientes palabras
+        if len(answer.split()) >= 20:
+            confidence += 0.1
+
+        # Contiene código (bueno para programación)
+        if "```" in answer or "def " in answer or "function " in answer:
+            confidence += 0.1
 
         return min(confidence, 1.0)
 
+    def _is_valid_qa_pair(self, question: str, answer: str, category: str = "") -> bool:
+        """
+        Valida si un par pregunta-respuesta es de calidad suficiente para guardar
+
+        Returns:
+            True si debe guardarse, False si no
+        """
+        confidence = self._evaluate_response_quality(question, answer)
+        return confidence >= 0.7
+
     def _save_question_answer(self, qa_data: Dict):
-        """Guarda pregunta y respuesta para análisis"""
+        """Guarda pregunta y respuesta solo si pasa validación de calidad"""
+        question = qa_data.get("question", "")
+        answer = qa_data.get("answer", "")
+        category = qa_data.get("category", "")
+
+        # Validar calidad antes de guardar
+        if not self._is_valid_qa_pair(question, answer, category):
+            print(f"   ⚠️  Descartado por baja calidad")
+            return False
+
         qa_file = self.data_dir / f"qa_{datetime.now().strftime('%Y%m%d')}.jsonl"
 
         with open(qa_file, 'a', encoding='utf-8') as f:
             f.write(json.dumps(qa_data, ensure_ascii=False) + '\n')
+
+        return True
 
     def get_stats(self) -> Dict:
         """Obtiene estadísticas del sistema de auto-cuestionamiento"""
@@ -2284,7 +2420,7 @@ class SelfQuestioningSystem:
 
             if answer:
                 # Evaluar confianza
-                confidence = self._evaluate_response_quality(answer)
+                confidence = self._evaluate_response_quality(question, answer)
 
                 # Registrar
                 self._record_question(question, answer)

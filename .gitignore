@@ -93,3 +93,15 @@ export/models/*.gguf
 thau_age_3_hf/pytorch_model.bin
 *.bin
 data/memory/*.db
+
+# Large model directories (keep structure via README)
+thau_merged_model/
+data/checkpoints/full_training/
+data/checkpoints/specialized_training/
+llama.cpp/
+
+# Generated images (too large)
+data/generated_images/*.png
+
+# Backup directories
+data/self_questioning/backup_*/

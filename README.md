@@ -1,4 +1,4 @@
-# THAU - Self-Learning AI Framework
+# THAU v2.0 - Self-Learning AI Framework
 
 <p align="center">
   <strong>An experimental framework for building self-learning language models with cognitive age progression</strong>
@@ -20,6 +20,7 @@
 <p align="center">
   <a href="https://ollama.com/luepow/thau"><img src="https://img.shields.io/badge/Ollama-luepow%2Fthau-blue" alt="Ollama"></a>
   <a href="https://huggingface.co/luepow/thau"><img src="https://img.shields.io/badge/HuggingFace-luepow%2Fthau-yellow" alt="HuggingFace"></a>
+  <img src="https://img.shields.io/badge/Version-2.0-brightgreen" alt="Version">
   <img src="https://img.shields.io/badge/License-Apache%202.0-green" alt="License">
 </p>
 
@@ -65,22 +66,42 @@ THAU (Thinking, Helpful, Autonomous, Understanding) is an **experimental** frame
 
 ## Current Status
 
-### Trained Models (Real Data)
+### THAU v2.0 - Latest Release (November 2024)
 
-| Age | Parameters | Final Loss | Status |
-|-----|------------|------------|--------|
-| 0 | ~15M | 7.88 | Trained |
-| 1 | ~15M | 5.99 | Trained |
-| 3 | ~15M | 4.50 | Trained |
-| 6 | ~50M | 3.50 | Trained |
-| 11 | ~230M | 5.59 | Trained |
-| 12 | ~367M | 4.76 | Trained |
+| Metric | Value |
+|--------|-------|
+| **Base Model** | TinyLlama-1.1B-Chat-v1.0 |
+| **Parameters** | ~1.1B |
+| **Training Method** | LoRA Fine-tuning |
+| **Final Loss** | 0.43 |
+| **Format** | GGUF F16 (2.2 GB) |
 
-### Training Data
+### Specialized Training Data (v2.0)
 
-- **2,872 Q&A pairs** generated via self-questioning
-- Categories: Python, JavaScript, DevOps, Databases, Architecture, etc.
-- Answer sources: Ollama (llama3.1, deepseek-coder, mistral)
+| Category | Examples |
+|----------|----------|
+| Tool Calling | 112 |
+| Spanish Natural/Technical | 52 |
+| Image Generation | 30 |
+| Conversational Spanish | 20 |
+| Chain of Thought Reasoning | 20 |
+| Programming (Python, JS, Java) | 30+ |
+| **Total** | **297 specialized examples** |
+
+### Training History
+
+| Phase | Data Points | Steps | Final Loss | Status |
+|-------|-------------|-------|------------|--------|
+| Full Training | 3,022 | 4,533 | 0.94 | Complete |
+| Specialized v2.0 | 297 | 745 | 0.43 | Complete |
+
+### Capabilities
+
+- **Tool Calling**: Native JSON-based tool invocation
+- **Image Generation**: Prompt engineering for image generation
+- **Spanish**: Natural conversation and technical explanations
+- **Reasoning**: Step-by-step chain of thought
+- **Programming**: Python, JavaScript, Java assistance
 
 ## Features
 
@@ -329,15 +350,48 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## Try the Model
 
+### Ollama (Recommended)
+
 ```bash
-# Ollama
+# Pull and run
 ollama pull luepow/thau
 ollama run luepow/thau
 
-# HuggingFace
-from transformers import AutoModelForCausalLM, AutoTokenizer
-model = AutoModelForCausalLM.from_pretrained("luepow/thau")
+# Example prompts
+ollama run luepow/thau "Hola, quien eres?"
+ollama run luepow/thau "Que hora es?"  # Tool calling
+ollama run luepow/thau "Genera una imagen de un atardecer"
 ```
+
+### HuggingFace
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+
+model = AutoModelForCausalLM.from_pretrained("luepow/thau")
+tokenizer = AutoTokenizer.from_pretrained("luepow/thau")
+
+# Generate response
+inputs = tokenizer("Hola, como estas?", return_tensors="pt")
+outputs = model.generate(**inputs, max_length=100)
+print(tokenizer.decode(outputs[0]))
+```
+
+### Tool Calling Format
+
+THAU uses a JSON-based tool calling format:
+
+```
+<tool_call>{"name": "tool_name", "arguments": {"param": "value"}}</tool_call>
+```
+
+Available tools:
+- `get_current_time`: Get current date/time
+- `web_search`: Search the internet
+- `execute_python`: Run Python code
+- `generate_image`: Generate image from prompt
+- `read_file`: Read file contents
+- `list_directory`: List directory contents
 
 ---
 
