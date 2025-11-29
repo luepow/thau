@@ -325,7 +325,7 @@ If you find THAU useful or interesting, consider supporting its development:
 <p align="center">
   <a href="https://buymeacoffee.com/luepowg"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee"></a>
   <a href="https://github.com/sponsors/luepow"><img src="https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
-  <a href="https://paypal.me/luepow"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"></a>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=NDASZU5WWUUMJ"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal Donate"></a>
 </p>
 
 Your support helps cover compute costs and keeps this project alive!
