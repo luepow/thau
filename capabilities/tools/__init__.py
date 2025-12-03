@@ -1,7 +1,7 @@
 """
 THAU Tools Module
 
-Sistema de herramientas, MCP integration, y tool factory
+Sistema de herramientas, MCP integration, tool factory, y system tools
 """
 
 from .mcp_integration import (
@@ -24,6 +24,27 @@ from .tool_registry import (
     ToolRegistry,
 )
 
+from .system_tools import (
+    SystemTools,
+)
+
+# Web Search Tools (opcional - funciona sin dependencias)
+try:
+    from .web_search import (
+        WebSearchTool,
+        WebFetcher,
+        ResearchAgent,
+        SearchResult,
+        WebPage,
+        ResearchResult,
+        web_search,
+        fetch_url,
+        research_topic,
+    )
+    WEB_SEARCH_AVAILABLE = True
+except ImportError:
+    WEB_SEARCH_AVAILABLE = False
+
 __all__ = [
     # MCP Integration
     "MCPServer",
@@ -40,4 +61,19 @@ __all__ = [
 
     # Tool Registry
     "ToolRegistry",
+
+    # System Tools (Code Agent)
+    "SystemTools",
+
+    # Web Search (si está disponible)
+    "WebSearchTool",
+    "WebFetcher",
+    "ResearchAgent",
+    "SearchResult",
+    "WebPage",
+    "ResearchResult",
+    "web_search",
+    "fetch_url",
+    "research_topic",
+    "WEB_SEARCH_AVAILABLE",
 ]

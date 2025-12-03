@@ -501,6 +501,266 @@ def create_default_mcp_tools() -> MCPRegistry:
     return registry
 
 
+class ExternalMCPClient:
+    """
+    Cliente MCP para servidores externos (Docker, stdio, etc.)
+
+    Permite a THAU conectarse a MCP servers como los de Claude Desktop:
+    - mcp/fetch
+    - mcp/filesystem
+    - mcp/github
+    - etc.
+
+    Formato de configuración compatible con Claude Desktop:
+    {
+        "mcpServers": {
+            "fetch": {
+                "command": "docker",
+                "args": ["run", "-i", "--rm", "mcp/fetch"]
+            }
+        }
+    }
+    """
+
+    def __init__(self, config_path: str = None):
+        """
+        Initialize external MCP client
+
+        Args:
+            config_path: Path to MCP config file (default: ~/.mcp/config.json)
+        """
+        import os
+        self.config_path = config_path or os.path.expanduser("~/.mcp/config.json")
+        self.servers: Dict[str, Dict] = {}
+        self.processes: Dict[str, Any] = {}
+
+        print("🔌 External MCP Client inicializado")
+        self._load_config()
+
+    def _load_config(self):
+        """Carga configuración de MCP servers"""
+        try:
+            if Path(self.config_path).exists():
+                with open(self.config_path, 'r') as f:
+                    config = json.load(f)
+                    self.servers = config.get("mcpServers", {})
+                    print(f"   Configuración cargada: {self.config_path}")
+                    print(f"   Servers disponibles: {list(self.servers.keys())}")
+            else:
+                print(f"   [INFO] No se encontró {self.config_path}")
+                print("   Puedes crear uno con tus MCP servers")
+        except Exception as e:
+            print(f"   [ERROR] Error cargando config: {e}")
+
+    def add_server(self, name: str, command: str, args: List[str], env: Dict[str, str] = None):
+        """
+        Añade un servidor MCP
+
+        Args:
+            name: Nombre del servidor
+            command: Comando a ejecutar (docker, npx, python, etc.)
+            args: Argumentos del comando
+            env: Variables de entorno opcionales
+        """
+        self.servers[name] = {
+            "command": command,
+            "args": args,
+            "env": env or {}
+        }
+        print(f"   ✅ Server añadido: {name}")
+
+    def list_servers(self) -> List[str]:
+        """Lista servidores MCP disponibles"""
+        return list(self.servers.keys())
+
+    def _start_server(self, name: str) -> bool:
+        """Inicia un servidor MCP si no está corriendo"""
+        import subprocess
+
+        if name not in self.servers:
+            print(f"   ❌ Server '{name}' no encontrado")
+            return False
+
+        if name in self.processes and self.processes[name].poll() is None:
+            # Ya está corriendo
+            return True
+
+        server_config = self.servers[name]
+        cmd = [server_config["command"]] + server_config["args"]
+
+        try:
+            print(f"   🚀 Iniciando MCP server: {name}")
+            print(f"      Comando: {' '.join(cmd)}")
+
+            self.processes[name] = subprocess.Popen(
+                cmd,
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                env={**dict(os.environ), **server_config.get("env", {})}
+            )
+            return True
+        except Exception as e:
+            print(f"   ❌ Error iniciando server: {e}")
+            return False
+
+    def call_tool(self, server_name: str, tool_name: str, arguments: Dict[str, Any]) -> MCPToolResult:
+        """
+        Llama a una herramienta en un servidor MCP externo
+
+        Args:
+            server_name: Nombre del servidor MCP
+            tool_name: Nombre de la herramienta
+            arguments: Argumentos de la herramienta
+
+        Returns:
+            MCPToolResult con el resultado
+        """
+        import subprocess
+        import uuid
+        import time
+
+        call_id = str(uuid.uuid4())
+
+        if server_name not in self.servers:
+            return MCPToolResult(
+                call_id=call_id,
+                success=False,
+                result=None,
+                error=f"Server '{server_name}' no configurado"
+            )
+
+        server_config = self.servers[server_name]
+        cmd = [server_config["command"]] + server_config["args"]
+
+        # Crear request MCP
+        mcp_request = {
+            "jsonrpc": "2.0",
+            "id": call_id,
+            "method": "tools/call",
+            "params": {
+                "name": tool_name,
+                "arguments": arguments
+            }
+        }
+
+        print(f"\n🔧 Llamando MCP tool: {server_name}/{tool_name}")
+        print(f"   Arguments: {arguments}")
+
+        try:
+            start_time = time.time()
+
+            # Ejecutar comando con input JSON
+            process = subprocess.run(
+                cmd,
+                input=json.dumps(mcp_request).encode(),
+                capture_output=True,
+                timeout=60
+            )
+
+            execution_time = (time.time() - start_time) * 1000
+
+            if process.returncode == 0:
+                # Parsear respuesta
+                try:
+                    response = json.loads(process.stdout.decode())
+                    result = response.get("result", response)
+
+                    print(f"   ✅ Éxito ({execution_time:.2f}ms)")
+
+                    return MCPToolResult(
+                        call_id=call_id,
+                        success=True,
+                        result=result,
+                        execution_time_ms=execution_time
+                    )
+                except json.JSONDecodeError:
+                    # Si no es JSON, retornar output raw
+                    return MCPToolResult(
+                        call_id=call_id,
+                        success=True,
+                        result={"output": process.stdout.decode()},
+                        execution_time_ms=execution_time
+                    )
+            else:
+                error = process.stderr.decode() if process.stderr else "Unknown error"
+                print(f"   ❌ Error: {error}")
+
+                return MCPToolResult(
+                    call_id=call_id,
+                    success=False,
+                    result=None,
+                    error=error,
+                    execution_time_ms=execution_time
+                )
+
+        except subprocess.TimeoutExpired:
+            return MCPToolResult(
+                call_id=call_id,
+                success=False,
+                result=None,
+                error="Timeout: el servidor no respondió en 60 segundos"
+            )
+        except Exception as e:
+            return MCPToolResult(
+                call_id=call_id,
+                success=False,
+                result=None,
+                error=str(e)
+            )
+
+    def fetch_url(self, url: str) -> MCPToolResult:
+        """
+        Shortcut para usar el MCP fetch server
+
+        Args:
+            url: URL a obtener
+
+        Returns:
+            MCPToolResult con el contenido
+        """
+        if "fetch" not in self.servers:
+            # Añadir configuración por defecto de fetch
+            self.add_server(
+                "fetch",
+                "docker",
+                ["run", "-i", "--rm", "mcp/fetch"]
+            )
+
+        return self.call_tool("fetch", "fetch", {"url": url})
+
+    def save_config(self):
+        """Guarda la configuración actual"""
+        config = {"mcpServers": self.servers}
+
+        Path(self.config_path).parent.mkdir(parents=True, exist_ok=True)
+
+        with open(self.config_path, 'w') as f:
+            json.dump(config, f, indent=2)
+
+        print(f"💾 Configuración guardada: {self.config_path}")
+
+    def close_all(self):
+        """Cierra todos los procesos de servidores"""
+        for name, process in self.processes.items():
+            if process.poll() is None:
+                process.terminate()
+                print(f"   🛑 Server cerrado: {name}")
+
+
+def get_external_mcp_client(config_path: str = None) -> ExternalMCPClient:
+    """
+    Factory para obtener cliente MCP externo
+
+    Args:
+        config_path: Path opcional a config
+
+    Returns:
+        ExternalMCPClient configurado
+    """
+    return ExternalMCPClient(config_path)
+
+
 if __name__ == "__main__":
     print("="*70)
     print("🧪 Testing THAU MCP Integration")
