@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAU Multi-Agent System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            color: #e0e0e0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 280px 1fr 300px;
+            height: 100vh;
+        }
+
+        /* Sidebar - Agentes */
+        .sidebar {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-right: 1px solid rgba(255,255,255,0.1);
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            color: #fff;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .agent-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .agent-card:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateX(5px);
+        }
+
+        .agent-card.selected {
+            border-color: #4A90D9;
+            background: rgba(74, 144, 217, 0.2);
+        }
+
+        .agent-emoji {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .agent-name {
+            font-weight: bold;
+            display: block;
+        }
+
+        .agent-title {
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+
+        /* Main Chat Area */
+        .main {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            background: rgba(0,0,0,0.3);
+            padding: 15px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 10px;
+            background: #ff4444;
+        }
+
+        .status-indicator.connected {
+            background: #44ff44;
+        }
+
+        .chat-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .message.user {
+            text-align: right;
+        }
+
+        .message.user .bubble {
+            background: #4A90D9;
+            display: inline-block;
+            padding: 12px 18px;
+            border-radius: 18px 18px 4px 18px;
+            max-width: 70%;
+        }
+
+        .message.agent {
+            text-align: left;
+        }
+
+        .message.agent .agent-info {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .message.agent .bubble {
+            background: rgba(255,255,255,0.1);
+            display: inline-block;
+            padding: 12px 18px;
+            border-radius: 18px 18px 18px 4px;
+            max-width: 85%;
+            text-align: left;
+        }
+
+        .message pre {
+            background: rgba(0,0,0,0.3);
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 10px 0;
+        }
+
+        .message code {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9rem;
+        }
+
+        /* Input Area */
+        .input-area {
+            background: rgba(0,0,0,0.3);
+            padding: 15px 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .input-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        #messageInput {
+            flex: 1;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 25px;
+            padding: 12px 20px;
+            color: #fff;
+            font-size: 1rem;
+        }
+
+        #messageInput:focus {
+            outline: none;
+            border-color: #4A90D9;
+        }
+
+        .send-btn {
+            background: linear-gradient(135deg, #4A90D9, #8B5CF6);
+            border: none;
+            border-radius: 25px;
+            padding: 12px 25px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .send-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Project Panel */
+        .project-panel {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-left: 1px solid rgba(255,255,255,0.1);
+            overflow-y: auto;
+        }
+
+        .project-panel h3 {
+            margin-bottom: 15px;
+        }
+
+        .file-list {
+            list-style: none;
+        }
+
+        .file-item {
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        .quick-actions {
+            margin-top: 20px;
+        }
+
+        .quick-btn {
+            width: 100%;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 10px;
+            color: #fff;
+            cursor: pointer;
+            margin-bottom: 10px;
+            transition: background 0.2s;
+        }
+
+        .quick-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        /* Project Input */
+        .project-input {
+            width: 100%;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 10px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        .loading {
+            display: inline-block;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar con Agentes -->
+        <div class="sidebar">
+            <h2>🤖 Equipo THAU</h2>
+            <div id="agentsList"></div>
+        </div>
+
+        <!-- Área Principal de Chat -->
+        <div class="main">
+            <div class="header">
+                <h1>💬 THAU Multi-Agent Development <span class="status-indicator" id="statusIndicator"></span></h1>
+                <p style="opacity:0.7">Sistema de desarrollo colaborativo con 7 agentes especializados</p>
+            </div>
+
+            <div class="chat-area" id="chatArea">
+                <div class="message agent">
+                    <div class="agent-info">🌟 Nova</div>
+                    <div class="bubble">
+                        ¡Hola! Soy Nova, la Project Orchestrator del equipo THAU.
+                        Describe tu proyecto y coordinaré al equipo para desarrollarlo.
+                        <br><br>
+                        Puedes hablar conmigo o seleccionar un agente específico del panel izquierdo.
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-row">
+                    <input type="text" id="messageInput" placeholder="Describe tu proyecto o haz una pregunta..." />
+                    <button class="send-btn" id="sendBtn" onclick="sendMessage()">Enviar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel de Proyecto -->
+        <div class="project-panel">
+            <h3>📁 Proyecto</h3>
+            <input type="text" class="project-input" id="projectName" placeholder="Nombre del proyecto" value="mi_proyecto" />
+
+            <div class="quick-actions">
+                <button class="quick-btn" onclick="startProject()">🚀 Iniciar Proyecto</button>
+                <button class="quick-btn" onclick="askArchitect()">🏗️ Diseñar Arquitectura</button>
+                <button class="quick-btn" onclick="askFrontend()">🎨 Crear Frontend</button>
+                <button class="quick-btn" onclick="askBackend()">🔧 Crear Backend</button>
+                <button class="quick-btn" onclick="runAllAgents()">⚡ Ejecutar Todo</button>
+            </div>
+
+            <h3 style="margin-top:20px">📄 Archivos Creados</h3>
+            <ul class="file-list" id="fileList">
+                <li class="file-item" style="opacity:0.5">Sin archivos aún...</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Configuración de agentes
+        const AGENTS = {
+            pmo: { name: 'Nova', title: 'Project Orchestrator', emoji: '🌟' },
+            architect: { name: 'Atlas', title: 'System Architect', emoji: '🏛️' },
+            frontend: { name: 'Pixel', title: 'Frontend Wizard', emoji: '🎨' },
+            backend: { name: 'Forge', title: 'Backend Architect', emoji: '🔧' },
+            ux: { name: 'Aura', title: 'Experience Designer', emoji: '💫' },
+            qa: { name: 'Sentinel', title: 'Quality Guardian', emoji: '🛡️' },
+            devops: { name: 'Rocket', title: 'Launch Engineer', emoji: '🚀' }
+        };
+
+        let selectedAgent = 'pmo';
+        let ws = null;
+        let reconnectAttempts = 0;
+        let isConnected = false;
+
+        // Inicializar lista de agentes
+        function initAgents() {
+            const container = document.getElementById('agentsList');
+            container.innerHTML = '';
+
+            for (const [role, config] of Object.entries(AGENTS)) {
+                const div = document.createElement('div');
+                div.className = 'agent-card' + (role === selectedAgent ? ' selected' : '');
+                div.dataset.role = role;
+                div.onclick = () => selectAgent(role);
+                div.innerHTML = `
+                    <span class="agent-emoji">${config.emoji}</span>
+                    <span class="agent-name">${config.name}</span>
+                    <span class="agent-title">${config.title}</span>
+                `;
+                container.appendChild(div);
+            }
+        }
+
+        function updateStatus(connected) {
+            isConnected = connected;
+            const indicator = document.getElementById('statusIndicator');
+            const btn = document.getElementById('sendBtn');
+
+            if (connected) {
+                indicator.classList.add('connected');
+                btn.disabled = false;
+            } else {
+                indicator.classList.remove('connected');
+                btn.disabled = true;
+            }
+        }
+
+        function connectWebSocket() {
+            console.log('Conectando WebSocket...');
+
+            try {
+                ws = new WebSocket('ws://' + window.location.host + '/ws/team');
+
+                ws.onopen = function() {
+                    console.log('WebSocket conectado!');
+                    reconnectAttempts = 0;
+                    updateStatus(true);
+                };
+
+                ws.onmessage = function(event) {
+                    console.log('Mensaje recibido:', event.data);
+                    try {
+                        const data = JSON.parse(event.data);
+
+                        // Remover mensaje de "Procesando..."
+                        const lastMsg = document.querySelector('.chat-area .message:last-child');
+                        if (lastMsg && lastMsg.querySelector('.bubble').textContent.includes('Procesando')) {
+                            lastMsg.remove();
+                        }
+
+                        addMessage(data.agent, data.emoji, data.response, 'agent');
+
+                        if (data.files && data.files.length > 0) {
+                            updateFileList(data.files);
+                        }
+                    } catch (e) {
+                        console.error('Error parsing message:', e);
+                    }
+                };
+
+                ws.onerror = function(error) {
+                    console.error('WebSocket error:', error);
+                    updateStatus(false);
+                };
+
+                ws.onclose = function() {
+                    console.log('WebSocket cerrado');
+                    updateStatus(false);
+
+                    if (reconnectAttempts < 5) {
+                        reconnectAttempts++;
+                        console.log('Reconectando en 2s... (intento ' + reconnectAttempts + ')');
+                        setTimeout(connectWebSocket, 2000);
+                    }
+                };
+            } catch (e) {
+                console.error('Error creating WebSocket:', e);
+                updateStatus(false);
+            }
+        }
+
+        function selectAgent(role) {
+            selectedAgent = role;
+            document.querySelectorAll('.agent-card').forEach(function(card) {
+                card.classList.remove('selected');
+            });
+            document.querySelector('[data-role="' + role + '"]').classList.add('selected');
+            console.log('Agente seleccionado:', role);
+        }
+
+        function addMessage(name, emoji, content, type) {
+            const chatArea = document.getElementById('chatArea');
+            const div = document.createElement('div');
+            div.className = 'message ' + type;
+
+            // Formatear código
+            content = content.replace(/```(\w+)?\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>');
+            content = content.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+            content = content.replace(/\n/g, '<br>');
+
+            if (type === 'agent') {
+                div.innerHTML = '<div class="agent-info">' + emoji + ' ' + name + '</div><div class="bubble">' + content + '</div>';
+            } else {
+                div.innerHTML = '<div class="bubble">' + content + '</div>';
+            }
+
+            chatArea.appendChild(div);
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const message = input.value.trim();
+
+            if (!message) {
+                console.log('Mensaje vacío');
+                return;
+            }
+
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                addMessage('Sistema', '⚠️', 'WebSocket no conectado. Reconectando...', 'agent');
+                connectWebSocket();
+                return;
+            }
+
+            const agent = AGENTS[selectedAgent];
+            addMessage('Tú', '👤', message, 'user');
+            input.value = '';
+
+            const projectName = document.getElementById('projectName').value || 'mi_proyecto';
+
+            // Mostrar indicador de carga
+            addMessage(agent.name, agent.emoji, '<span class="loading">Procesando...</span>', 'agent');
+
+            const payload = {
+                agent: selectedAgent,
+                message: message,
+                project: projectName
+            };
+
+            console.log('Enviando:', payload);
+            ws.send(JSON.stringify(payload));
+        }
+
+        function updateFileList(files) {
+            const list = document.getElementById('fileList');
+            list.innerHTML = files.map(function(f) {
+                return '<li class="file-item">📄 ' + f + '</li>';
+            }).join('');
+        }
+
+        function startProject() {
+            document.getElementById('messageInput').value = 'Quiero crear una landing page moderna con React y Tailwind CSS. Debe tener: Hero section, Features, Testimonials, Pricing, Footer.';
+            sendMessage();
+        }
+
+        function askArchitect() {
+            selectAgent('architect');
+            document.getElementById('messageInput').value = 'Diseña la estructura del proyecto con las carpetas y archivos necesarios.';
+            sendMessage();
+        }
+
+        function askFrontend() {
+            selectAgent('frontend');
+            document.getElementById('messageInput').value = 'Crea los componentes React con Tailwind CSS para la landing page.';
+            sendMessage();
+        }
+
+        function askBackend() {
+            selectAgent('backend');
+            document.getElementById('messageInput').value = 'Crea una API básica con FastAPI para el formulario de contacto.';
+            sendMessage();
+        }
+
+        function runAllAgents() {
+            const tasks = [
+                { agent: 'pmo', message: 'Planifica el proyecto de landing page' },
+                { agent: 'architect', message: 'Diseña la arquitectura' },
+                { agent: 'frontend', message: 'Crea los componentes React' }
+            ];
+
+            let i = 0;
+            function nextTask() {
+                if (i < tasks.length) {
+                    selectAgent(tasks[i].agent);
+                    document.getElementById('messageInput').value = tasks[i].message;
+                    sendMessage();
+                    i++;
+                    setTimeout(nextTask, 10000);
+                }
+            }
+            nextTask();
+        }
+
+        // Event listeners
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendMessage();
+            }
+        });
+
+        // Inicializar
+        initAgents();
+        connectWebSocket();
+    </script>
+</body>
+</html>

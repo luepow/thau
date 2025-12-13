@@ -98,10 +98,40 @@ data/memory/*.db
 thau_merged_model/
 data/checkpoints/full_training/
 data/checkpoints/specialized_training/
+data/checkpoints/thau-7b/
+data/checkpoints/thau-7b-corrupted*/
+data/checkpoints/incremental/
+data/checkpoints/*/checkpoint-*/
 llama.cpp/
+export/
 
-# Generated images (too large)
+# Model files (too large for git)
+data/models/*.gguf
+data/models/thau-7b-merged/
+data/models/*.bin
+
+# Generated content (too large)
 data/generated_images/*.png
+data/generated_images/*.json
+data/tts_output/
+data/audio/
+data/animations/
+data/cache/
+data/memory_cache/
+
+# Training data (generated)
+data/datasets/*.jsonl
+data/datasets/books/
 
 # Backup directories
 data/self_questioning/backup_*/
+
+# Old/experimental modules (not maintained)
+thau_age_3_hf/
+thau_audio/
+thau_vision/
+thau_reasoning/
+thau_self_learning/
+thau_trainer/
+ollama_publish/
+*.jpeg

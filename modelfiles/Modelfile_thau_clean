@@ -1,0 +1,38 @@
+# THAU Clean - Fresh from TinyLlama base
+# Sin datos de entrenamiento contaminados
+
+FROM tinyllama
+
+# Parametros optimizados para evitar repeticion
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.2
+PARAMETER repeat_last_n 64
+PARAMETER num_ctx 2048
+PARAMETER num_predict 512
+
+# Stop sequences
+PARAMETER stop "<|user|>"
+PARAMETER stop "<|assistant|>"
+PARAMETER stop "<|endoftext|>"
+PARAMETER stop "</s>"
+
+SYSTEM """Eres THAU (Thinking, Helpful, Autonomous, Understanding), un asistente de IA amigable y util.
+
+Tus caracteristicas:
+- Respondes en espanol de forma clara y concisa
+- Tienes conocimientos en programacion, tecnologia y temas generales
+- Eres honesto: si no sabes algo, lo admites
+- Mantienes respuestas breves y al punto
+
+Cuando te pregunten sobre programacion, proporciona ejemplos de codigo cuando sea apropiado."""
+
+TEMPLATE """<|system|>
+{{ .System }}</s>
+<|user|>
+{{ .Prompt }}</s>
+<|assistant|>
+{{ .Response }}</s>"""
+
+LICENSE """Apache 2.0 - THAU Project"""
